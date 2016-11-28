@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'ahamonomonospaced';
+    src: url('../Ahamono/ahamono-monospaced-webfont.eot');
+    src: url('../Ahamono/ahamono-monospaced-webfont.eot?#iefix') format('embedded-opentype'),
+    	 url('../Ahamono/ahamono-monospaced-webfont.woff2') format('woff2'),
+         url('../Ahamono/ahamono-monospaced-webfont.woff') format('woff'),
+         url('../Ahamono/ahamono-monospaced-webfont.ttf') format('truetype'),
+         url('../Ahamono/ahamono-monospaced-webfont.svg#ahamonomonospaced') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
