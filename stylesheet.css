@@ -388,20 +388,20 @@ h1.nowplaying:after {
 }
 
 
-
-        /* EMAIL */
+       /* EMAIL */
 
 .email {
   position: absolute;
   display: block;
   top: 38px;
-  right: 15.25px;
+/*   WAS 15.25px */
+  right: 35.25px;
 }
 
 
 .email img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 
