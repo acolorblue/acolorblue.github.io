@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Gloria-Hallelujah';
+    src: url('../gloriahallelujah/gloria-hallelujah-webfont.eot');
+    src: url('../gloriahallelujah/gloria-hallelujah-webfont.eot?#iefix') format('embedded-opentype'),
+    	 url('../gloriahallelujah/gloria-hallelujah-webfont.woff2') format('woff2'),
+         url('../gloriahallelujah/gloria-hallelujah-webfont.woff') format('woff'),
+         url('../gloriahallelujah/gloria-hallelujah-webfont.ttf') format('truetype'),
+         url('../gloriahallelujah/gloria-hallelujah-webfont.svg#Gloria-Hallelujah') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
