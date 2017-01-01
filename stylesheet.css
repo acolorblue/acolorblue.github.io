@@ -561,7 +561,7 @@ h1.nowplaying:after {
 }
 .gameboy .screen-area .label .subtitle {
   display: inline;
-  font-family: 'Gloria-Hallelujah', cursive;
+  font-family: 'Gloria-Hallelujah';
   font-weight: bold;
   font-size: 22px;
   letter-spacing: -1px;
