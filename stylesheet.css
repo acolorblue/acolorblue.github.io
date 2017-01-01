@@ -3,12 +3,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 ::-webkit-scrollbar {
     width: 0px;/* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
   display: none;
 }
+
 
 body {
   background: #000;
@@ -436,8 +436,8 @@ h1.nowplaying:after {
   border-radius: 20px;
   padding: 20px;
 /*   WAS #4f50db */
-  background-color: #4f50db;
-  box-shadow: 0px -5px 0px #0d0e51, 0px 5px 0px #3d38b5;
+  background-color: white;
+  box-shadow: 0px -5px 0px #b5b7b9, 0px 5px 0px #b5b7b9;
   font-family: sans-serif;
   -webkit-user-select: none;
   cursor: default;
@@ -465,9 +465,10 @@ h1.nowplaying:after {
   width: calc(100% - 10px);
   height: 50px;
   border-radius: 50%;
-  background-color: #4f50db;
-  box-shadow: 0px 5px 0px #3d38b5;
-  border-bottom: 2px solid #9998eb;
+/*   WAS #4f50db */
+  background-color: white;
+  box-shadow: 0px 5px 0px #b5b7b9;
+      border-bottom: 2px solid #ccc;
 }
 .gameboy .screen-area {
   position: relative;
@@ -593,18 +594,17 @@ h1.nowplaying:after {
   color: #317aaf;
 }
 .gameboy .nintendo {
-  padding: 0px 5px;
-/*   82px */
-  width: 100px;
-  color: #3436bf;
-  font-weight: bold;
-  text-align: center;
-  margin: 0 auto;
-  border: 2px solid #3436bf;
-  border-radius: 11px;
-  margin-top: 30px;
-  text-shadow: 0px -2px 1px #6b67ed;
-  box-shadow: 0px -2px 1px #6b67ed;
+padding: 0px 5px;
+    width: 100px;
+    color: #b3b5b7;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #b5b7b9;
+    border-radius: 11px;
+    margin-top: 30px;
+    text-shadow: 0px -2px 1px #c6c8c9;
+    box-shadow: 0px -2px 1px #b5b7b9;
 }
 .gameboy .controls {
 /*   was flex */
@@ -769,8 +769,8 @@ h1.nowplaying:after {
 }
 .gameboy .start-select .select, .gameboy .start-select .start {
   display: inline-block;
-  color: #6b67ed;
-  text-shadow: 0px -1px 0px #3436bf;
+  color: #b5b7b9;
+  text-shadow: 0px -1px 0px #999;
   letter-spacing: -1px;
   width: 60px;
   font-size: 16px;
@@ -778,18 +778,18 @@ h1.nowplaying:after {
   margin-top: 60px;
 }
 .gameboy .start-select .select::before, .gameboy .start-select .start::before {
-  content: '';
-  display: block;
-  margin: 0 auto;
-  width: 30px;
-  height: 10px;
-  margin-bottom: 5px;
-  border-radius: 40%;
-  background: linear-gradient(to bottom, #0b0a1c 0%, #0b0a1c 30%, #62636c 70%, #62636c 100%);
-  background-repeat: no-repeat;
-  border: 2px solid #0b0a1c;
-  box-shadow: 0px -2px 1px #8482e9;
-  cursor: pointer;
+      content: '';
+    display: block;
+    margin: 0 auto;
+    width: 30px;
+    height: 10px;
+    margin-bottom: 5px;
+    border-radius: 40%;
+    background: linear-gradient(to bottom, #0b0a1c 0%, #0b0a1c 30%, #62636c 70%, #62636c 100%);
+    background-repeat: no-repeat;
+    border: 2px solid #0b0a1c;
+    box-shadow: 0px -2px 1px #ccc;
+    cursor: pointer;
 } 
 .gameboy .start-select .select:active::before, .gameboy .start-select .start:active::before {
   background: linear-gradient(to bottom, #0b0a1c 0%, #0b0a1c 50%, #62636c 100%);
@@ -820,8 +820,8 @@ h1.nowplaying:after {
   box-shadow: 0px 0px 2px #7c7be0 inset;
 }
 .gameboy .speaker .dot.closed {
-  background: linear-gradient(to bottom, #6664e5 0%, #2d3590 100%);
-  box-shadow: 0px 0px 2px #7c7be0 inset;
+  background: linear-gradient(to bottom, #666 0%, #666 100%);
+  box-shadow: 0px 0px 2px #555 inset;
 }
 
 * {
