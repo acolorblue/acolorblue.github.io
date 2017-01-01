@@ -11,7 +11,8 @@
 
 
 body {
-  background: #000;
+/*   #e0e0e0 */
+  background: #e0e0e0;
   padding: 0px 0;
   font-family: "ahamonomonospaced", "Courier New";
   font-size: 14px;
@@ -123,69 +124,62 @@ body {
 }
 
 .sign-wrap {
-  display: inline-block;
-  /*HOW CLOSE IT TOUCHES TOP OF PAGE*/
-  margin-top: -4px;
-  /*WAS 20PX, 13px*/
-  padding: 11px;
-  border-radius: 28px;
-  background-color: #141414;
-  /* WAS b-s: 0px 50px 45px -15px*/ 
-  box-shadow: 0px 25px 22.5px -7.5px rgba(0, 0, 0, 0.2), 0px 10px 5px -2.5px rgba(0, 0, 0, 0.2), 0px 2.5px 10px 0px rgba(0, 0, 0, 0.2), 0px 5px 15px rgba(0, 0, 0, 0.3) inset;
-  border: 4px solid #1f1f1f;
-  border-top: 4px solid black;
-  border-bottom: 4px solid #292929;
+    display: inline-block;
+    margin-top: -4px;
+    padding: 11px;
+    border-radius: 28px;
+    background-color: #888;
+    box-shadow: 0px 25px 22.5px -7.5px rgba(0, 0, 0, 0.2), 0px 10px 5px -2.5px rgba(0, 0, 0, 0.2), 0px 2.5px 10px 0px rgba(0, 0, 0, 0.2), 0px 5px 15px rgba(0, 0, 0, 0.3) inset;
+    border: 4px solid #f5f8fa;
+    border-top: 4px solid #f5f8fa;
+    border-bottom: 4px solid #f5f8fa;
 }
 
 .sign {
-  display: inline-block;
-  /*Space between text and neon light, was 20px by 60px, 10px by 40px, 8px by 40px*/
-  padding: 6px 40px;
-  border-radius: 20px;
-  /*BLUR AROUND NEON, WAS .75px, 0.55*/
-  -webkit-filter: blur(0.40px);
-  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.7), 0px 0px 0px 5px red, 0px 0px 0px 3px red inset, 0px 0px 60px rgba(255, 0, 0, 0.5), 0px 0px 60px rgba(255, 0, 0, 0.5) inset;
+display: inline-block;
+    padding: 6px 40px;
+    border-radius: 20px;
+    -webkit-filter: blur(0.40px);
+    box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.7), 0px 0px 0px 5px #bfbfc0, 0px 0px 0px 3px white inset, 0px 0px 60px #e1e8ed, 0px 0px 60px #f5f8fa inset;
 }
 
 h1.nowplaying {
-  font-family: hello denver;
-  /*WAS 3.5VW, 2.5VW*/
-  font-size: 2.7vw;
-  line-height: 0px;
-  font-weight: 800;
-  letter-spacing: 2vw;
-  /*COLOR WAS Transparent*/
-  color: #FFF;
-  -webkit-text-stroke-width: 6px;
-  -webkit-text-stroke-color: #2b2b2b;
-  position: relative;
-  text-transform: uppercase;
-  text-shadow: 0px 10px 3px rgba(0, 0, 0, 0.2);
+    font-family: hello denver;
+    font-size: 2.7vw;
+    line-height: 0px;
+    font-weight: 800;
+    letter-spacing: 2vw;
+    color: #FFF;
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: #2b2b2b;
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 0px 10px 3px rgba(0, 0, 0, 0.2);
 }
 h1.nowplaying:before {
-  content: "Now playing";
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: rgba(43, 44, 45, 0.1);
-  text-shadow: 0px 0px 60px rgba(255, 51, 51, 0.7);
-  -webkit-text-stroke-width: 6px;
-  -webkit-text-stroke-color: red;
-  -webkit-animation: flicker 20s linear infinite;
-  -moz-animation: flicker 20s linear infinite;
-  animation: flicker 20s linear infinite;
+    content: "Now playing";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgba(43, 44, 45, 0.1);
+    text-shadow: 0px 0px 60px #e1e8ed;
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: #b5b7b9;
+    -webkit-animation: flicker 20s linear infinite;
+    -moz-animation: flicker 20s linear infinite;
+    animation: flicker 20s linear infinite;
 }
 h1.nowplaying:after {
-  content: "Now Playing";
-  position: absolute;
-  top: 0;
-  left: 0;
-  color: transparent;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgba(255, 255, 255, 0.8);
-  -webkit-animation: flicker 20s linear infinite;
-  -moz-animation: flicker 20s linear infinite;
-  animation: flicker 20s linear infinite;
+    content: "Now Playing";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.8);
+    -webkit-animation: flicker 20s linear infinite;
+    -moz-animation: flicker 20s linear infinite;
+    animation: flicker 20s linear infinite;
 }
 
 @-webkit-keyframes flicker {
@@ -859,7 +853,7 @@ padding: 0px 5px;
 .bodyiphone {
   width: 100%;
   font-family: ahamonomonospaced;
-  font-size: 0px;
+/*   font-size: 0px; */
   height: 780px;
   margin: -100px -100px -0px -0px;
   padding: 0;
@@ -887,14 +881,13 @@ padding: 0px 5px;
 
 
 .iphonebodyFrame {
-  width: 423px;
-  height: 877px;
-  padding: 6px;
-  background: #d9dbdc;
-  border-radius: 56px;
-
-  -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2);
-  box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2);
+    width: 435px;
+    height: 887px;
+    padding: 6px;
+    background: #d9dbdc;
+    border-radius: 56px;
+    -webkit-box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 3px 0 rgba(0, 0, 0, 0.2);
 }
 
 
@@ -942,13 +935,13 @@ padding: 0px 5px;
 
 
 .iphonesleepBtn {
-  width: 4px;
-  height: 66px;
-  background: #d9dbdc;
-  position: relative;
-  top: 190px;
-  right: -429px;
-  border-radius: 0 2px 2px 0;
+    width: 4px;
+    height: 66px;
+    background: #d9dbdc;
+    position: relative;
+    top: 190px;
+    right: -423px;
+    border-radius: 0 2px 2px 0;
 }
 
 
@@ -1027,15 +1020,14 @@ padding: 0px 5px;
 
 
 
-.iphone6 iframe {
+/* .iphone6 iframe {
   width: 100%;
-/*   WAS 848px */
   height: 780px !important;
   background-color: transparent;
   border: 0px none transparent;
   padding: 0px;
   overflow: hidden;
-}
+} */
 
 
 
