@@ -961,7 +961,7 @@ padding: 0px 5px;
   font-family: ahamonomonospaced;
 /*   font-size: 0px; */
   height: 780px;
-/*   margin: -100px -100px -0px -0px; */
+   margin: -100px -100px -0px -0px; 
   padding: 10px;
   perspective: 1000px;
   -webkit-perspective: 950px;
