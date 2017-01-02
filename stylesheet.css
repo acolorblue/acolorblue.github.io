@@ -609,17 +609,17 @@ h1.nowplaying:after {
   color: #317aaf;
 }
 .gameboy .nintendo {
-padding: 0px 5px;
-    width: 100px;
-    color: #b3b5b7;
-    font-weight: bold;
-    text-align: center;
-    margin: 0 auto;
-    border: 2px solid #b5b7b9;
-    border-radius: 11px;
-    margin-top: 30px;
-    text-shadow: 0px -2px 1px #c6c8c9;
-    box-shadow: 0px -2px 1px #b5b7b9;
+  padding: 0px 5px;
+  width: 100px;
+  color: #b3b5b7;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #b5b7b9;
+  border-radius: 11px;
+  margin-top: 30px;
+  text-shadow: 0px -2px 1px #e1e8ed;
+  box-shadow: 0px -2px 1px #f5f8fa;
 }
 .gameboy .controls {
 /*   was flex */
