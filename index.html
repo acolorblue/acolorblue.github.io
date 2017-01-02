@@ -61,7 +61,13 @@
   </head>
   
   <body>
-
+	<div id="load_screen">
+     <div id="loading">
+       <div id="op" class="text">
+     With Love, ACOLORBLUE...
+       </div>
+     </div>
+   	</div>
    
    
    
@@ -402,6 +408,11 @@
     
 <script type="text/javascript">
 	
+window.addEventListener("load", function(){
+  var load_screen = document.getElementById("load_screen");
+  document.body.removeChild(load_screen);
+})
+
 
 
    // MUSIC PLAYER GAMEBOY SCRIPT
