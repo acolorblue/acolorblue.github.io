@@ -960,7 +960,8 @@ padding: 0px 5px;
   width: 100%;
   font-family: ahamonomonospaced;
 /*   font-size: 0px; */
-  height: 780px;
+  /*height: 780px;*/
+  height: 100%;
    /*margin: -100px -100px -0px -0px; */
    margin: 5px;
   padding: 10px;
