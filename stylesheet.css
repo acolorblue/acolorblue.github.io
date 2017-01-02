@@ -1,17 +1,117 @@
+div#load_screen {
+  background: #fff;
+  opacity: 1;
+  position: fixed;
+  z-index: 10;
+/*   top: 0;
+  left: 0; */
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: table;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+div#load_screen > div#loading {
+  color: #fff;
+  width: 100%;
+  height: 100%;
+/*   margin: 0; */
+  font-famly: ahamonomonospaced;
+  font-size: 15px;
+}
+
+.typing-indicator {
+  background-color: #E6E7ED;
+  width: auto;
+  border-radius: 50px;
+  padding: 20px;
+  display: table;
+  margin: 0 auto;
+  position: relative;
+  -webkit-animation: 2s bulge infinite ease-out;
+          animation: 2s bulge infinite ease-out;
+}
+.typing-indicator::before, .typing-indicator::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: -2px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #E6E7ED;
+}
+.typing-indicator::after {
+  height: 10px;
+  width: 10px;
+  left: -10px;
+  bottom: -10px;
+}
+.typing-indicator span {
+  height: 15px;
+  width: 15px;
+  float: left;
+  margin: 0 1px;
+  background-color: #9E9EA1;
+  display: block;
+  border-radius: 50%;
+  opacity: 0.4;
+}
+.typing-indicator span:nth-of-type(1) {
+  -webkit-animation: 1s blink infinite 0.3333s;
+          animation: 1s blink infinite 0.3333s;
+}
+.typing-indicator span:nth-of-type(2) {
+  -webkit-animation: 1s blink infinite 0.6666s;
+          animation: 1s blink infinite 0.6666s;
+}
+.typing-indicator span:nth-of-type(3) {
+  -webkit-animation: 1s blink infinite 0.9999s;
+          animation: 1s blink infinite 0.9999s;
+}
+
+@-webkit-keyframes blink {
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes bulge {
+  50% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+@keyframes bulge {
+  50% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+}
+
+
+
 @mixin font-smoothing {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 ::-webkit-scrollbar {
-    width: 0px;/* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
+   width: 0px;/* remove scrollbar space */
+   background: transparent;  /* optional: just make scrollbar invisible */
   display: none;
 }
 
 
 body {
-/*   #e0e0e0 */
   background: #e0e0e0;
   padding: 0px 0;
   font-family: "ahamonomonospaced", "Courier New";
@@ -21,28 +121,11 @@ body {
   letter-spacing: 2px;
 }
 
-div#load_screen {
-  background: #000;
-  opacity: 1;
-  position: fixed;
-  z-index: 10;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
 
-div#load_screen > div#loading {
-  color: #FFF;
-  width: 120px;
-  height: 24px;
-  margin: 300px auto;
-  font-famly: ahamonomonospaced;
-  font-size: 15px;
-}
+
+
+
+
 
        /* WIND PAPER */
 
@@ -133,7 +216,7 @@ div#load_screen > div#loading {
        /* NEON SIGN */
 
 .neonbody {
-  font-family: 'sans-serif';
+  font-family: 'sans-serif', Arial;
   text-align: center;
   /* WAS #141414*/
   background-color: inherit;
@@ -165,7 +248,7 @@ display: inline-block;
 }
 
 h1.nowplaying {
-    font-family: hello denver;
+    font-family: hello denver, arial;
     font-size: 2.7vw;
     line-height: 0px;
     font-weight: 800;
@@ -409,7 +492,8 @@ h1.nowplaying:after {
 }
 
 
-       /* EMAIL */
+
+        /* EMAIL */
 
 .email {
   position: absolute;
@@ -609,17 +693,17 @@ h1.nowplaying:after {
   color: #317aaf;
 }
 .gameboy .nintendo {
-  padding: 0px 5px;
-  width: 100px;
-  color: #b3b5b7;
-  font-weight: bold;
-  text-align: center;
-  margin: 0 auto;
-  border: 2px solid #b5b7b9;
-  border-radius: 11px;
-  margin-top: 30px;
-  text-shadow: 0px -2px 1px #e1e8ed;
-  box-shadow: 0px -2px 1px #f5f8fa;
+padding: 0px 5px;
+    width: 100px;
+    color: #b3b5b7;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    border: 2px solid #b5b7b9;
+    border-radius: 11px;
+    margin-top: 30px;
+    text-shadow: 0px -2px 1px #e1e8ed;
+    box-shadow: 0px -2px 1px #f5f8fa;
 }
 .gameboy .controls {
 /*   was flex */
@@ -876,8 +960,8 @@ h1.nowplaying:after {
   font-family: ahamonomonospaced;
 /*   font-size: 0px; */
   height: 780px;
-  margin: -100px -100px -0px -0px;
-  padding: 0;
+/*   margin: -100px -100px -0px -0px; */
+  padding: 10px;
   perspective: 1000px;
   -webkit-perspective: 950px;
   overflow: hidden;
