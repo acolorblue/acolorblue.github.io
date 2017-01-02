@@ -663,6 +663,7 @@ h1.nowplaying:after {
   display: inline;
   font-weight: bold;
   font-style: italic;
+  letter-spacing: -1.4px;
 }
 .gameboy .screen-area .label .subtitle {
   display: inline;
