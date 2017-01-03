@@ -1049,7 +1049,7 @@ padding: 0px 5px;
 .iphonesleepBtn {
     width: 4px;
     height: 66px;
-    background: #d9dbdc;
+    background: #fff;
     position: relative;
     top: 190px;
     right: -423px;
@@ -1066,7 +1066,7 @@ padding: 0px 5px;
   width: 4px;
   -webkit-border-radius: 2px 0px 0px 2px;
   border-radius: 2px 0px 0px 2px;
-  background: #d9dbdc;
+  background: #fff;
   position: relative;
 }
 
