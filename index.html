@@ -439,7 +439,10 @@ ga('send', 'pageview');
 
 
 
-// LOADING
+
+
+
+
 window.addEventListener("load", function(){
   var load_screen = document.getElementById("load_screen");
   document.body.removeChild(load_screen);
@@ -477,38 +480,20 @@ window.addEventListener("load", function(){
 // IFRAME SCRIPT
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     // is mobile..
-  $("iframe").css('margin-top',-3880);
+  $("#Movie1").css('margin-top',-3880);
 }
 
+var MarginFirefox = function(){
+  if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
+        if (navigator.appVersion.indexOf("Mac")!=-1){
+      $('#Movie1').css('margin-top', -3875+SelectMovie*194);
+    }else{
+   
+ $('#Movie1').css('margin-top', -3870+SelectMovie*194);
+    }
 
-$(document).ready(function() {
-  //$("iframe").hide();
-  var arrMovieLink = [
-    "https://player.vimeo.com/video/71952791",
-    "https://player.vimeo.com/video/116498390",
-    "https://player.vimeo.com/video/95995610",
-    "https://player.vimeo.com/video/144973061",
-    "https://player.vimeo.com/video/95995610",
-    "https://player.vimeo.com/video/71622131",
-    "https://player.vimeo.com/video/46545428"
-  ];
-
-  var funcBack = function() {
-    $('iframe').hide();
-  }
-
-  var funcSelect = function() {
-    var intIndex = $('select').jqxDropDownList('selectedIndex');
-    $("iframe").setAttribute('src', arrMovieLink[intIndex]);
-
-    document.getElementByTagName("iframe").show();
-  }
-
-  //$("button").Click(funcBack());
-});
-
-
-
+}
+}
 
 
 
@@ -540,161 +525,201 @@ var back = function(){
 
 
 var Select1 = function(){
-      $frame.attr('src','https://player.vimeo.com/video/146995844');
+  SelectMovie = 1;
+     MarginFirefox(); $frame.attr('src','https://player.vimeo.com/video/146995844');
   $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 1;
+  
 }
 var Select10 = function(){
+  SelectMovie = 10;
+   MarginFirefox();
   $frame.attr('src', 'https://player.vimeo.com/video/187772116');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 10;
+  
 }
 
 var Select3 = function(){
+  SelectMovie = 3;
+  MarginFirefox();
    $frame.attr('src', 'https://player.vimeo.com/video/58150375');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 3;
+  
 }
 
 var Select4 = function(){
+  SelectMovie = 4;
+   MarginFirefox();
         $frame.attr('src', 'https://player.vimeo.com/video/114584766');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 4;
+  
 }
 
 var Select5 = function(){
+   SelectMovie = 5;
+   MarginFirefox();
     $frame.attr('src', 'https://player.vimeo.com/video/58646255');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 5;
+ 
 }
 
 var Select6 = function(){
+  SelectMovie = 6;
+   MarginFirefox();
 $frame.attr('src', 'https://player.vimeo.com/video/116498390');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 6;
+  
 }
 
-var Select7 = function(){$frame.attr('src', 'https://player.vimeo.com/video/106216724');
+var Select7 = function(){
+   SelectMovie = 7;
+   MarginFirefox();
+  $frame.attr('src', 'https://player.vimeo.com/video/106216724');
    $("#Movie1").show();
                          isPlaying =true;
     led.style.background = "red";
-                         SelectMovie = 7;
+                        
 }
 
 var Select8 = function(){
+  SelectMovie = 8;
+   MarginFirefox();
      $frame.attr('src', 'https://player.vimeo.com/video/151703085');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 8;
+  
 }
 
 var Select9 = function(){
+   SelectMovie = 9;
+   MarginFirefox();
          $frame.attr('src', 'https://player.vimeo.com/video/151075796');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 9;
+ 
 }
 
 var Select2 = function(){
+  SelectMovie = 2;
+   MarginFirefox();
              $frame.attr('src', 'https://player.vimeo.com/video/156881088');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 2;
+  
 }
 
 var Select11 = function(){
+  SelectMovie = 11;
+   MarginFirefox();
      $frame.attr('src', 'https://player.vimeo.com/video/184928333');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 11;
+  
 }
 
 var Select12 = function(){
+  SelectMovie = 12;
+   MarginFirefox();
      $frame.attr('src', 'https://player.vimeo.com/video/138627894');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 12;
+  
 }
 
 var Select13 = function(){
+  SelectMovie = 13;
+   MarginFirefox();
      $frame.attr('src', 'https://player.vimeo.com/video/90049558');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 13;
+  
 }
 
 var Select14 = function(){
+  SelectMovie = 14;
+   MarginFirefox();
          $frame.attr('src', 'https://player.vimeo.com/video/180608332');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 14;
+  
 }
 
 var Select15 = function(){
+  SelectMovie = 15;
+   MarginFirefox();
      $frame.attr('src', 'https://player.vimeo.com/video/101953926');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 15;
+  
 }
 
 var Select16 = function(){
+  SelectMovie = 16;
+   MarginFirefox();
      $frame.attr('src', 'https://player.vimeo.com/video/98310094');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 16;
+  
 }
 
 var Select17 = function(){
+  SelectMovie = 17;
+   MarginFirefox();
   $frame.attr('src', 'https://player.vimeo.com/video/156343856');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 17;
+  
 }
 
  var Select18 = function(){
+   SelectMovie = 18;
+    MarginFirefox();
   $frame.attr('src', 'https://player.vimeo.com/video/154915431');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 18;
+  
 }
 
 var Select19 = function(){
+  SelectMovie = 19;
+   MarginFirefox();
   $frame.attr('src', 'https://player.vimeo.com/video/158884611');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 19;
+  
 } 
 
 var Select20 = function(){
+  SelectMovie = 0;
+   MarginFirefox();
   $frame.attr('src', 'https://www.youtube.com/embed/4fLKcHu-LJo');
    $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
-  SelectMovie = 0;
+  
   
 }
 
@@ -822,28 +847,6 @@ var Scrolling = function(intSelect){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // RIGHT CLICK
 
 
@@ -874,32 +877,23 @@ else if (document.all&&!document.getElementById){
 document.onmousedown=clickIE4;
 }
 
-document.oncontextmenu=new Function("alert(message);return false")
+document.oncontextmenu=new Function("alert(message);return false");
 
-
-
-
-
-// //rescalling script
-// function setGameboySize() {
-//   var windowHeight = window.innerHeight;
-//   var gameboy = document.querySelector("body");
-
-//   var calculateZoom = windowHeight / (gameboy.clientHeight + 65);
-//   gameboy.style.transform = "scale(" + calculateZoom + ")";
-
+// if (document.layers){
+// document.captureEvents(Event.MOUSEDOWN);
+// document.onmousedown=clickNS4;
+// }
+// else if (document.all&&!document.getElementById){
+// document.onmousedown=clickIE4;
 // }
 
-// window.addEventListener("load", setGameboySize);
-// window.addEventListener("resize", setGameboySize);
+// document.oncontextmenu=new Function("alert(message);return false")
 
-// function startUp() {
-//   var redled = document.querySelector(".battery");
 
-//   window.addEventListener("load", function() {
-//     redled.style.opacity = "1";
-//   });
-// }
+
+
+
+
 
 
 
