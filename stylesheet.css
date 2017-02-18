@@ -961,6 +961,46 @@ padding: 0px 5px;
 
 
 
+/* BUTTON */
+button.jpg {
+  cursor: pointer;
+  position: absolute;
+  margin: 220px -3px 0px 1px;
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  font-family: ahamonomonospaced, 'Open Sans', sans-serif;
+  color: #fff;
+  text-shadow: 1px 1px #333;
+  outline: 0;
+  right: 0;
+}
+button.jpg:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+button.jpg span {
+  color: #FFF;
+  font-size: 14px;
+  text-shadow: 0 0 8px #333;
+}
+
+button.jpg img {
+  border: 3px #FFF solid;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+
+
+
+
         /* IPHONE */
 
 .bodyiphone {
