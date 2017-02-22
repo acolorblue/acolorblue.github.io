@@ -41,13 +41,15 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
 <!-- FONTS -->
-<link rel="stylesheet" href="fonts/ahamonomonospaced/stylesheet.css" type="text/css"/>
+<link rel="stylesheet" href="http://acolorblue.co/fonts/ahamonomonospaced/stylesheet.css" type="text/css"/>
 
 <link rel="stylesheet" href="fonts/Gloria-Hallelujah/stylesheet.css" type="text/css"/>
 
 <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="http://cbwconline.com/Fonts/Hello Denver/stylesheet.css" type="text/css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
 
 
 
@@ -57,7 +59,20 @@
 <link rel="stylesheet" href="stylesheet.css" type="text/css" />  
     
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    
+ 
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+
+
+<script src="https://cdn.firebase.com/js/client/2.2.1/firebase.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.0/moment.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.1.0/js/md5.js"></script>
+
     
 
     
@@ -65,7 +80,7 @@
   </head>
   
   <body>
-  <!-- LOADING -->
+   <!-- LOADING -->
    <div id="load_screen">
      <div id="loading">       
        <div class="typing-indicator">
@@ -116,7 +131,6 @@
 </div>
         
 
-
 <button class="jpg">
   <a href="http://acolorblue.co/spencermcmullen" target="_blank">
   <img src="https://raw.githubusercontent.com/acolorblue/spencermcmullen/master/Screen%20Shot%202017-01-29%20at%2010.18.20%20PM.png" width="78" height="45" title="3D Art Gallery">
@@ -125,9 +139,8 @@
   <br>
   <span>3D Art Gallery</span>
 </button>  
-
-
-
+  
+  
         <!-- EMAIL -->
 <a class="email" href="mailto:info@acolorblue.co"> 
 <img src="https://cdn4.iconfinder.com/data/icons/ios7-line/512/Open_mail.png">
@@ -154,71 +167,16 @@
     
       <div class="display" id="mainCanvas">
       
-<!-- GOOD KID MAD CITY -->  
-<img onclick="Select20()" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/20%20GKMC/Cartridge%20+%20GKMC.png?raw=true" width="210" height="190">
+<!--         MISREADING MY MADNESS -->
+<img onclick="Select1()" id ="1" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2017%20Short%20Films/1%20-%20The%20Landing%20%7C%202013,%20Josh%20Tanner/Cartridge%20-%20The%20Landing.jpg?raw=true" width="210" height="190">
       
-<!-- ARRET PIPI -->
-<img onclick = "Select1()" id ="1" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/1%20Arret%20Pipi/Cartridge%20+%20Arret%20Pipi%20+%20Title.png?raw=true" width="210" height="190"/>
-    
-<!-- BANDITO -->
-<img onclick = "Select2()" id ="2" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/2%20Bandito/Cartridge%20+%20Bandito.png?raw=true" width="210" height="190"> 
 
-<!-- VOICE OVER -->
-<img onclick="Select3()" id ="3" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/3%20Voice%20Over/Cartridge%20+%20Voice%20Over.png?raw=true" width="210" height="190">
-  
-<!-- UNLEADED -->
-<img onclick="Select4()" id ="4" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/4%20Unleaded/Cartridge%20+%20Unleaded.png?raw=true" width="210" height="190">  
-  
-<!-- JONAH -->
-<img onclick="Select5()" id ="5" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/5%20JONAH/Cartridge%20+%20JONAH.png?raw=true" width="210" height="190">  
-  
-<!-- HE TOOK HIS SKIN OFF FOR ME -->
-<img onclick="Select6()" id ="6" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/6%20He%20Took%20His%20Skin%20Off%20For%20Me/Cartridge%20+%20HTHSOFM.png?raw=true" width="210" height="190"> 
-  
-<!-- KOSMONAUTA -->
-<img onclick="Select7()" id ="7" src="https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/2016%20Films%20Covers/7%20Kosmonauta/Cartridge%20%2B%20Kosmonauta.png" width="210" height="190">   
-  
-<!-- THE JOHN -->
-<img onclick="Select8()" id ="8" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/8%20The%20John/Cartridge%20+%20The%20John.png?raw=true" width="210" height="190">
-      
-<!-- THE IRRATIONAL FEAR OF NOTHING -->
-<img onclick="Select9()" id ="9" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/9%20The%20Irrational%20Fear%20Of%20Nothing/Cartridge%20+%20TIFON%202.png?raw=true" width="210" height="190">
-  
-<!-- INGRID SILVA -->
-<img onclick="Select10()" id ="10" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/10%20Ingrid%20Silva/Cartridge%20+%20Ingrid%20silva.png?raw=true" width="210" height="190">
-  
-<!-- MISREADING MY MADNESS -->
-<img onclick="Select11()" id ="11" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/11%20Misreading%20MY%20Madness/Cartridge%20+%20MRM.png?raw=true" width="210" height="190"/>
-  
-<!-- ALAGOAS - 1981 -->
-<img onclick="Select12()" id ="12" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/12%20Alagoas%20-%201981/Cartridge%20+%20Alagoas%201981.png?raw=true" width="210" height="190">
- 
-<!-- PROSPECT -->  
-<img onclick="Select13()" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/13%20Prospect/Cartridge%20+%20Prospect%20.png?raw=true" width ="210" height="190">
-  
-<!-- PRIMA DONNA -->
-<img onclick="Select14()" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/14%20Prima%20Donna/Cartridge%20+%20Prima%20Donna.png?raw=true" width="210" height="190">
-
-<!-- A PIECE OF THE BOTTOM -->
-<img onclick="Select15()" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/15%20A%20Piece%20Of%20The%20Bottom/Cartridge%20+%20A%20Piece%20Of%20The%20Bottom%20W%20Boy.png?raw=true" width="210" height="190">
-      
-<!-- CYPRESS -->
-<img onclick="Select16()" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/16%20Cypress/Cartridge%20+%20Cypress.png?raw=true" width="210" height="190">
-      
-<!-- LOST FACE --> 
-<img onclick="Select17()" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/17%20Lost%20Face/Cartridge%20+%20Lost%20Face.png?raw=true" width="210" height="190">
-      
-<!-- UNKNOWN ERROR -->
-<img onclick="Select18()" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/18%20Unknown%20Error/Cartridge%20+%20Unknown%20Error%202.png?raw=true" width="210" height="190">
-      
-<!-- F WORD -->
-<img onclick="Select19()" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2016%20Films%20Covers/19%20F%20Word/Cartridge%20+%20F%20Word.png?raw=true" width="210" height="190">
  
       
  
 
      <!-- 210 193 -->
-  <iframe id = "Movie1" src="" width="212" height="194" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe id = "Movie1" src="https://player.vimeo.com/video/113841869" width="212" height="194" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
        
             
     </div>
@@ -412,14 +370,173 @@
           
               <div class="iphonescreen">
         
+                
+                
+                
             
-            <div class="iphonescreenContent">
+            <div class="page-container">
+
+
+    <div class="iphone-screen">
+      <div class="border">
+        <div class="imessage">
+          <div class="screen">
+
+
+            <div class="status-bar">
+
+              <img src="https://github.com/acolorblue/gallery/blob/master/images/iPhone%20Comments/Status%20Bar%20-%20Official%201.png?raw=true">
+
+            </div>
+
+<!-- <input id="name" type="text" name="fullname" class="name" placeholder="@" value="@"> -->
+            
+            <!-- NAVIGATION -->
+            <nav class="name-bar page-nav">
+
+
+  
+              <ul class="name-bar-button page-nav-list cf">
+                <li class="page-nav-item active firstbutton" data-pagetarget="1"><i class="fa fa-angle-left"></i><span onclick="">Comments</span></li>
+
+
+                <li class="name"><input id="name" type="text" name="fullname" class="name" value="@" placeholder="@"><br></li>
+                
+<!-- <li class="name">
+
+
+<form action="demo_form.asp" method='post'>
+<input id="name" id="page-content-2" type="text" name="fullname" class="name page-content-container page-content" placeholder="@" value="@">
+</form> 
+
+      </li> --> 
+
+
+                <li class="page-nav-item secondbutton" data-pagetarget="2" style="float:right;"><span onclick="">Timeline</span></li>
+              </ul>
+
+
+            </nav>
+
+            
+            
+            
+
+            <!-- Each Page -->
+            <div class="page-content-container">
+
+
+              <!-- 1ST PAGE -->
+              <div id="page-content-1" class="page-content active">
+
+
+                <form id="comment" method='post' class="chat">
+                  <span></span><!--  SPINNER -->
+                  <div class="message-screen messages comments" id="adobewordpress" onclick="">
+                    
+                    
+
+        <div class="singlemessage">
+
+
+          <div class="timestamp"><span><b>Today</b> 11:39 AM</span></div>
+          
+          <div class="sender-text">
+            
+<!--             <input id="name" type="text" name="fullname" class="name" value="@" placeholder="@"><br> -->
+            
+            <p>To comment, type your @ name at the top and comment at the bottom.</p>
+
+            <date><b class="handlename">@acolorblue</b> 02/20/2017  9:38 PM</date>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="input-bar">
+
+        <i class="fa fa-camera"></i>
+
+        <input type="text" id="message" placeholder="Comment..." name="comment" value=""></input>
+
+        <input type="submit" value="Send" class="input-bar-button" id="send">
+
+      </div>
+
+      <!-- COMMENT SECTION -->
+      <div class="comments"></div>
+
+    </form>
+
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+
+                    <!--                     <div id="old-delivered" class="delivered"><span>Delivered</span></div> -->
+
+                 
+
+
+                  <!-- BOTTOM BAR -->
+                  <!--       <div class="input-bar">
+
+
+        <i class="fa fa-camera"></i>
+
+
+        <input name="comment" id="input-text" value="" type="text" placeholder="Comment..."></input>
+
+        <input type="submit" value="Send" class="input-bar-button" id="send">
+       </div> -->
+                  <!-- END OF FIRST PAGE -->
+<!--                 </div> -->
+              </div>
+
+
+              <!-- 2ND PAGE -->
+              <div id="page-content-2" class="page-content timeline">
+
+
+      
+
+     <div class="iphonescreenContent">
             
             <a class="twitter-timeline" href="https://twitter.com/acolorblue" data-widget-id="683973071238107140">Tweets by @acolorblue</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>       
             
             </div>
+
+
+      
+
+      
+
+
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
            
+                
+                
+                
+                
+                
+                
               </div>
           
           
@@ -467,20 +584,13 @@ window.addEventListener("load", function(){
 
 
 
+
+
+
 // $("button").draggable({
 //   scroll: false,
 //   cancel: false
 // });
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -511,7 +621,7 @@ var MarginFirefox = function(){
       $('#Movie1').css('margin-top', -3875+SelectMovie*194);
     }else{
    
- $('#Movie1').css('margin-top', -3870+SelectMovie*194);
+ $('#Movie1').css('margin-top', -3893+SelectMovie*194);
     }
 
 }
@@ -535,7 +645,6 @@ var $frame = $('iframe#Movie1');
 var vidsrc = $frame.attr('src');
 
 var back = function(){ 
-  $frame.attr('src','');
   $("iframe").hide();
   isPlaying = false;
   led.style.background = "white";
@@ -543,207 +652,13 @@ var back = function(){
 
 
 
-
-
-
 var Select1 = function(){
-  SelectMovie = 1;
-     MarginFirefox(); $frame.attr('src','https://player.vimeo.com/video/146995844');
   $("#Movie1").show();
   isPlaying =true;
     led.style.background = "red";
   
 }
-var Select10 = function(){
-  SelectMovie = 10;
-   MarginFirefox();
-  $frame.attr('src', 'https://player.vimeo.com/video/187772116');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
 
-var Select3 = function(){
-  SelectMovie = 3;
-  MarginFirefox();
-   $frame.attr('src', 'https://player.vimeo.com/video/58150375');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
-var Select4 = function(){
-  SelectMovie = 4;
-   MarginFirefox();
-        $frame.attr('src', 'https://player.vimeo.com/video/114584766');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
-var Select5 = function(){
-   SelectMovie = 5;
-   MarginFirefox();
-    $frame.attr('src', 'https://player.vimeo.com/video/58646255');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
- 
-}
-
-var Select6 = function(){
-  SelectMovie = 6;
-   MarginFirefox();
-$frame.attr('src', 'https://player.vimeo.com/video/116498390');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
-var Select7 = function(){
-   SelectMovie = 7;
-   MarginFirefox();
-  $frame.attr('src', 'https://player.vimeo.com/video/106216724');
-   $("#Movie1").show();
-                         isPlaying =true;
-    led.style.background = "red";
-                        
-}
-
-var Select8 = function(){
-  SelectMovie = 8;
-   MarginFirefox();
-     $frame.attr('src', 'https://player.vimeo.com/video/151703085');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
-var Select9 = function(){
-   SelectMovie = 9;
-   MarginFirefox();
-         $frame.attr('src', 'https://player.vimeo.com/video/151075796');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
- 
-}
-
-var Select2 = function(){
-  SelectMovie = 2;
-   MarginFirefox();
-             $frame.attr('src', 'https://player.vimeo.com/video/156881088');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
-var Select11 = function(){
-  SelectMovie = 11;
-   MarginFirefox();
-     $frame.attr('src', 'https://player.vimeo.com/video/184928333');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
-var Select12 = function(){
-  SelectMovie = 12;
-   MarginFirefox();
-     $frame.attr('src', 'https://player.vimeo.com/video/138627894');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
-var Select13 = function(){
-  SelectMovie = 13;
-   MarginFirefox();
-     $frame.attr('src', 'https://player.vimeo.com/video/90049558');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
-var Select14 = function(){
-  SelectMovie = 14;
-   MarginFirefox();
-         $frame.attr('src', 'https://player.vimeo.com/video/180608332');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
-var Select15 = function(){
-  SelectMovie = 15;
-   MarginFirefox();
-     $frame.attr('src', 'https://player.vimeo.com/video/101953926');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
-var Select16 = function(){
-  SelectMovie = 16;
-   MarginFirefox();
-     $frame.attr('src', 'https://player.vimeo.com/video/98310094');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
-var Select17 = function(){
-  SelectMovie = 17;
-   MarginFirefox();
-  $frame.attr('src', 'https://player.vimeo.com/video/156343856');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
- var Select18 = function(){
-   SelectMovie = 18;
-    MarginFirefox();
-  $frame.attr('src', 'https://player.vimeo.com/video/154915431');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-}
-
-var Select19 = function(){
-  SelectMovie = 19;
-   MarginFirefox();
-  $frame.attr('src', 'https://player.vimeo.com/video/158884611');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-} 
-
-var Select20 = function(){
-  SelectMovie = 0;
-   MarginFirefox();
-  $frame.attr('src', 'https://www.youtube.com/embed/4fLKcHu-LJo');
-   $("#Movie1").show();
-  isPlaying =true;
-    led.style.background = "red";
-  
-  
-}
 
 /* var down = function(){
   if(($(#lbMovie).prop('selectrdIndex') == -1){
@@ -768,12 +683,12 @@ var Select18 = function(){
 
 //carrousel script
 var led = document.querySelector(".led");
-var SelectMovie = 0;
+var SelectMovie = 1;
 var isPlaying = false;
 
-var down =  function(){
-  if(SelectMovie == 19)
-    SelectMovie = 19;
+/*var down =  function(){
+  if(SelectMovie == 1)
+    SelectMovie = 1;
   else
   SelectMovie++;
 
@@ -782,56 +697,56 @@ var down =  function(){
 }
 
 var up = function(){
-  if(SelectMovie == 0)
-    SelectMovie = 0;
+  if(SelectMovie == 1)
+    SelectMovie = 1;
   else
   SelectMovie--;
   
    Scrolling(194);
 }
-
+*/
 var aClick = function(){
   if(!isPlaying){
-  if(SelectMovie == 0)
-    Select20();
-  else if(SelectMovie == 1)
-    Select1();
-  else if(SelectMovie == 2)
-    Select2();
-  else if(SelectMovie == 3)
-    Select3();
-  else if(SelectMovie == 4)
-    Select4();
-  else if(SelectMovie == 5)
-    Select5();
-  else if(SelectMovie == 6)
-    Select6();
-  else if(SelectMovie == 7)
-    Select7();
-  else if(SelectMovie == 8)
-    Select8();
-  else if(SelectMovie == 9)
-    Select9();
-  else if(SelectMovie == 10)
-    Select10();
-  else if(SelectMovie == 11)
-    Select11();
-  else if(SelectMovie == 12)
-    Select12();
-  else if(SelectMovie == 13)
-    Select13();
-  else if(SelectMovie == 14)
-    Select14();
-  else if(SelectMovie == 15)
-    Select15();
-  else if(SelectMovie == 16)
-    Select16();
-  else if(SelectMovie == 17)
-    Select17();
-  else if(SelectMovie == 18)
-    Select18();
-  else if(SelectMovie == 19)
-     Select19();
+  Select1();
+    
+  // else if(SelectMovie == 1)
+  //   Select1();
+  // else if(SelectMovie == 2)
+  //   Select2();
+  // else if(SelectMovie == 3)
+  //   Select3();
+  // else if(SelectMovie == 4)
+  //   Select4();
+  // else if(SelectMovie == 5)
+  //   Select5();
+  // else if(SelectMovie == 6)
+  //   Select6();
+  // else if(SelectMovie == 7)
+  //   Select7();
+  // else if(SelectMovie == 8)
+  //   Select8();
+  // else if(SelectMovie == 9)
+  //   Select9();
+  // else if(SelectMovie == 10)
+  //   Select10();
+  // else if(SelectMovie == 11)
+  //   Select11();
+  // else if(SelectMovie == 12)
+  //   Select12();
+  // else if(SelectMovie == 13)
+  //   Select13();
+  // else if(SelectMovie == 14)
+  //   Select14();
+  // else if(SelectMovie == 15)
+  //   Select15();
+  // else if(SelectMovie == 16)
+  //   Select16();
+  // else if(SelectMovie == 17)
+  //   Select17();
+  // else if(SelectMovie == 18)
+  //   Select18();
+  // else if(SelectMovie == 19)
+  //    Select19();
     
     isPlaying =true;
     led.style.background = "red";
@@ -840,7 +755,6 @@ var aClick = function(){
 
 
 var back = function(){ 
- $frame.attr('src','');
  $("#Movie1").hide();
  isPlaying = false;
  led.style.background = "white";
@@ -910,6 +824,212 @@ document.oncontextmenu=new Function("alert(message);return false");
 // }
 
 // document.oncontextmenu=new Function("alert(message);return false")
+
+
+
+
+
+// //rescalling script
+// function setGameboySize() {
+//   var windowHeight = window.innerHeight;
+//   var gameboy = document.querySelector("body");
+
+//   var calculateZoom = windowHeight / (gameboy.clientHeight + 65);
+//   gameboy.style.transform = "scale(" + calculateZoom + ")";
+
+// }
+
+// window.addEventListener("load", setGameboySize);
+// window.addEventListener("resize", setGameboySize);
+
+// function startUp() {
+//   var redled = document.querySelector(".battery");
+
+//   window.addEventListener("load", function() {
+//     redled.style.opacity = "1";
+//   });
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Original CODE
+
+$(function() {
+  var ref = new Firebase("https://homepage-film-commenting.firebaseio.com/");
+
+ var deliver = function() {
+  $(".delivered").remove();
+
+    $('.delivered').addClass('old');
+    $('.message-screen.comments').append('<div class="delivered"><span>Delivered</span></div>');
+  };
+  
+  function scrollDown() {
+  var focusBottom = document.getElementById("adobewordpress");
+  focusBottom.scrollTop = focusBottom.scrollHeight;
+}
+  
+  function formatAMPM(date) {
+  var hours = date.getHours();
+  var minutes = date.getMinutes();
+  var ampm = hours >= 12 ? 'PM' : 'AM';
+  hours = hours % 12;
+  hours = hours ? hours : 12; // the hour '0' should be '12'
+  minutes = minutes < 10 ? '0'+minutes : minutes;
+  var strTime = hours + ':' + minutes + ' ' + ampm;
+  return strTime;
+}
+
+  
+    ref.on("child_added", function(snapshot) {
+      var newPost = snapshot.val();
+      $(".message-screen.comments").append('<div class="singlemessage"> <div class="sender-text"><p>' +newPost.message +'<date><b class="handlename">' + newPost.name +'</b>'+" " + newPost.postedAt + '</date></div></div>');
+        scrollDown();
+    });
+
+    $("#comment").submit(function() {
+      if($("#name").val()&&$("#message").val()){
+        
+      var d = new Date();
+    var clock = formatAMPM(d);
+    var month = d.getMonth() + 1;
+    var day = d.getDate();
+    var currentDate =
+      (('' + month).length < 2 ? '0' : '') + month + '/' +
+      (('' + day).length < 2 ? '0' : '') + day + '/' +
+
+      d.getFullYear() + '&nbsp;&nbsp;' + clock;
+   
+ /* var currentDate = new Date().toLocaleString('en-US',options); 
+  */  
+        
+        
+      ref.push().set({
+        name: $("#name").val(),
+        message: $("#message").val(),
+        postedAt: currentDate
+      });
+        
+        deliver();
+        scrollDown();
+         setTimeout(function() {
+      $('form.chat > span').addClass('spinner');
+    }, 100);
+
+    setTimeout(function() {
+      $('form.chat > span').removeClass('spinner');
+    }, 2000);
+      }
+      $("input[type=text], textarea").val("");
+      return false;
+    });
+  
+});
+
+function slugify(text) {
+  return text.toString().toLowerCase().trim()
+    .replace(/&/g, '-and-')
+    .replace(/[\s\W-]+/g, '-')
+    .replace(/[^a-zA-Z0-9-_]+/g,'');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// PAGE SWITCH
+// Selectors
+var $navItem = $('.page-nav-item');
+
+// Functionality
+$navItem.on('click', function navigate(e){
+  var $this = $(e.currentTarget);
+  var $activeTarget = $('.page-nav-item.active');
+  var $page = $('.page-content');
+  var thisNav = $this.data('pagetarget');
+  var $thisPage = $('#page-content-'+thisNav);
+  var activeIndex = $navItem.index($activeTarget);
+  var targetIndex = $navItem.index($this);
+  
+  if( $this.hasClass('active') ){
+    return;
+  }
+  
+  $navItem.removeClass('active');
+  
+  if( targetIndex < activeIndex ){
+    $thisPage.addClass('transition-to').css('right', '100%');
+
+    TweenLite.to($thisPage, .5, {'right':0, onComplete: function() {
+
+      $page.removeClass('active');
+      $thisPage.removeClass('transition-to').addClass('active');
+
+    }});
+  } else {
+    $thisPage.addClass('transition-to').css('left', '100%');
+
+    TweenLite.to($thisPage, .5, {'left':0, onComplete: function() {
+
+      $page.removeClass('active');
+      $thisPage.removeClass('transition-to').addClass('active');
+
+    }});
+  } 
+
+  $this
+    .addClass('active')
+    .append('<div class="blue-splash"></div>');
+  
+  TweenLite.to($this.find('.blue-splash'), .3, {scale:"50", opacity:0});
+});
 
 
 
