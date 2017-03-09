@@ -1,4 +1,7 @@
-
+html {
+  -ms-overflow-style: none; 
+  overflow: auto;
+}
 
 
 .typing-indicator {
