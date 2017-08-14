@@ -41,13 +41,13 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
 <!-- FONTS -->
-<link rel="stylesheet" href="http://acolorblue.co/fonts/ahamonomonospaced/stylesheet.css" type="text/css"/>
+<link rel="stylesheet" href="https://acolorblue.co/fonts/ahamonomonospaced/stylesheet.css" type="text/css"/>
 
-<link rel="stylesheet" href="fonts/Gloria-Hallelujah/stylesheet.css" type="text/css"/>
+<link rel="stylesheet" href="https://acolorblue.co/fonts/Gloria-Hallelujah/stylesheet.css" type="text/css"/>
 
 <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 
-<link rel="stylesheet" href="http://cbwconline.com/Fonts/Hello Denver/stylesheet.css" type="text/css" />
+<link rel="stylesheet" href="https://cbwconline.com/Fonts/Hello%20Denver/stylesheet.css" type="text/css" />
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css">
 
@@ -167,7 +167,7 @@
     
       <div class="display" id="mainCanvas">
       
-<!--         MISREADING MY MADNESS -->
+
 <img onclick="Select1()" id ="1" src="https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/2017%20Short%20Films/1%20-%20The%20Landing%20%7C%202013,%20Josh%20Tanner/Cartridge%20-%20The%20Landing.jpg?raw=true" width="210" height="190">
       
 
@@ -389,7 +389,7 @@
 
             </div>
 
-<!-- <input id="name" type="text" name="fullname" class="name" placeholder="@" value="@"> -->
+
             
             <!-- NAVIGATION -->
             <nav class="name-bar page-nav">
@@ -402,14 +402,7 @@
 
                 <li class="name"><input id="name" type="text" name="fullname" class="name" value="@" placeholder="@"><br></li>
                 
-<!-- <li class="name">
 
-
-<form action="demo_form.asp" method='post'>
-<input id="name" id="page-content-2" type="text" name="fullname" class="name page-content-container page-content" placeholder="@" value="@">
-</form> 
-
-      </li> --> 
 
 
                 <li class="page-nav-item secondbutton" data-pagetarget="2" style="float:right;"><span onclick="">Timeline</span></li>
@@ -443,7 +436,7 @@
           
           <div class="sender-text">
             
-<!--             <input id="name" type="text" name="fullname" class="name" value="@" placeholder="@"><br> -->
+
             
             <p>To comment, type your @ name at the top and comment at the bottom.</p>
 
@@ -479,24 +472,7 @@
                     
 
 
-                    <!--                     <div id="old-delivered" class="delivered"><span>Delivered</span></div> -->
-
-                 
-
-
-                  <!-- BOTTOM BAR -->
-                  <!--       <div class="input-bar">
-
-
-        <i class="fa fa-camera"></i>
-
-
-        <input name="comment" id="input-text" value="" type="text" placeholder="Comment..."></input>
-
-        <input type="submit" value="Send" class="input-bar-button" id="send">
-       </div> -->
-                  <!-- END OF FIRST PAGE -->
-<!--                 </div> -->
+                    
               </div>
 
 
@@ -580,17 +556,6 @@ window.addEventListener("load", function(){
 
 
 
-
-
-
-
-
-
-
-// $("button").draggable({
-//   scroll: false,
-//   cancel: false
-// });
 
 
 
@@ -686,67 +651,12 @@ var led = document.querySelector(".led");
 var SelectMovie = 1;
 var isPlaying = false;
 
-/*var down =  function(){
-  if(SelectMovie == 1)
-    SelectMovie = 1;
-  else
-  SelectMovie++;
 
-  Scrolling(194);
-  
-}
-
-var up = function(){
-  if(SelectMovie == 1)
-    SelectMovie = 1;
-  else
-  SelectMovie--;
-  
-   Scrolling(194);
-}
-*/
 var aClick = function(){
   if(!isPlaying){
   Select1();
     
-  // else if(SelectMovie == 1)
-  //   Select1();
-  // else if(SelectMovie == 2)
-  //   Select2();
-  // else if(SelectMovie == 3)
-  //   Select3();
-  // else if(SelectMovie == 4)
-  //   Select4();
-  // else if(SelectMovie == 5)
-  //   Select5();
-  // else if(SelectMovie == 6)
-  //   Select6();
-  // else if(SelectMovie == 7)
-  //   Select7();
-  // else if(SelectMovie == 8)
-  //   Select8();
-  // else if(SelectMovie == 9)
-  //   Select9();
-  // else if(SelectMovie == 10)
-  //   Select10();
-  // else if(SelectMovie == 11)
-  //   Select11();
-  // else if(SelectMovie == 12)
-  //   Select12();
-  // else if(SelectMovie == 13)
-  //   Select13();
-  // else if(SelectMovie == 14)
-  //   Select14();
-  // else if(SelectMovie == 15)
-  //   Select15();
-  // else if(SelectMovie == 16)
-  //   Select16();
-  // else if(SelectMovie == 17)
-  //   Select17();
-  // else if(SelectMovie == 18)
-  //   Select18();
-  // else if(SelectMovie == 19)
-  //    Select19();
+
     
     isPlaying =true;
     led.style.background = "red";
@@ -772,7 +682,6 @@ var back = function(){
 
 
 
-/* Scrolling */
 
 var Scrolling = function(intSelect){
   var strID = intSelect.toString();
@@ -783,7 +692,6 @@ var Scrolling = function(intSelect){
 
 
 
-// RIGHT CLICK
 
 
 var message="¯|_(ツ)_|¯";
@@ -815,40 +723,6 @@ document.onmousedown=clickIE4;
 
 document.oncontextmenu=new Function("alert(message);return false");
 
-// if (document.layers){
-// document.captureEvents(Event.MOUSEDOWN);
-// document.onmousedown=clickNS4;
-// }
-// else if (document.all&&!document.getElementById){
-// document.onmousedown=clickIE4;
-// }
-
-// document.oncontextmenu=new Function("alert(message);return false")
-
-
-
-
-
-// //rescalling script
-// function setGameboySize() {
-//   var windowHeight = window.innerHeight;
-//   var gameboy = document.querySelector("body");
-
-//   var calculateZoom = windowHeight / (gameboy.clientHeight + 65);
-//   gameboy.style.transform = "scale(" + calculateZoom + ")";
-
-// }
-
-// window.addEventListener("load", setGameboySize);
-// window.addEventListener("resize", setGameboySize);
-
-// function startUp() {
-//   var redled = document.querySelector(".battery");
-
-//   window.addEventListener("load", function() {
-//     redled.style.opacity = "1";
-//   });
-// }
 
 
 
@@ -871,9 +745,6 @@ document.oncontextmenu=new Function("alert(message);return false");
 
 
 
-
-
-// Original CODE
 
 $(function() {
   var ref = new Firebase("https://homepage-film-commenting.firebaseio.com/");
@@ -984,8 +855,7 @@ function slugify(text) {
 
 
 
-// PAGE SWITCH
-// Selectors
+
 var $navItem = $('.page-nav-item');
 
 // Functionality
