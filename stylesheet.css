@@ -1001,7 +1001,7 @@ button.jpg img {
 }
 
 /* BUTTON */
-button.jpg.2016shortfilms {
+button.2016shortfilms {
   cursor: pointer;
   position: absolute;
   margin: 120px -3px 0px 1px;
@@ -1014,6 +1014,19 @@ button.jpg.2016shortfilms {
   text-shadow: 1px 1px #333;
   outline: 0;
   right: 0;
+}
+
+button.2016shortfilms:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+button.2016shortfilms span {
+  color: #FFF;
+  font-size: 14px;
+  text-shadow: 0 0 8px #333;
+}
+
+button.2016shortfilms img {
+  border: 3px #FFF solid;
 }
 
 
