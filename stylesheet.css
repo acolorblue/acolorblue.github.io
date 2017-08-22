@@ -1001,7 +1001,7 @@ button.jpg img {
 }
 
 /* BUTTON */
-button.secondbutton {
+button.jpg.secondbutton {
   cursor: pointer;
   position: absolute;
   margin: 120px -3px 0px 1px;
@@ -1016,16 +1016,16 @@ button.secondbutton {
   right: 0;
 }
 
-button.secondbutton:hover {
+button.jpg.secondbutton:hover {
   background: rgba(255, 255, 255, 0.4);
 }
-button.secondbutton span {
+button.jpg.secondbutton span {
   color: #FFF;
   font-size: 14px;
   text-shadow: 0 0 8px #333;
 }
 
-button.secondbutton img {
+button.jpg.secondbutton img {
   border: 3px #FFF solid;
 }
 
