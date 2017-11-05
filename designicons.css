@@ -43,3 +43,11 @@ button.tumblr {
   background-color: #35465c;
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Tumblr%20White%20-%201.png);
 }
+
+button.upload-media {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Camera%20Icons/Camera%20-%20Grey%201.png);
+}
+
+button.app-store {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/App%20Store%20Icons/App%20Store%20Icon%20-%20Grey%201.png);
+}
