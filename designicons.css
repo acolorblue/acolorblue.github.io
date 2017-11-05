@@ -4,7 +4,8 @@ button.icons {
   background-size: 12px;
 }
 
-button[:before=true] {
+button.instagram:before,
+button.email:before {
    content: '';
    position: absolute;
    top: 0;
@@ -14,6 +15,7 @@ button[:before=true] {
    opacity: 1;
    background-position: center;
    background-repeat: no-repeat;
+   background-size: 12px;
 }
 
 button.twitter {
@@ -27,7 +29,6 @@ button.instagram {
 
 button.instagram:before {
    background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Instagram.png);
-   background-size: 12px;
 }
 
 button.email {
@@ -36,7 +37,6 @@ button.email {
 
 button.email:before {
    background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Email%20-%20White%201.png);
-   background-size: 12px;
 }
 
 button.tumblr {
