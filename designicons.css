@@ -27,11 +27,22 @@ button.instagram:before {
    background-size: 12px;
 }
 
-
 button.email {
-/*   background: -webkit-linear-gradient(top, #1a51f0 0%, #03e4fe 100%); */
-  background-color: #0baff9;
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Email%20-%20White%201.png);
+  background: -webkit-linear-gradient(top, #1a51f0 0%, #03e4fe 100%);
+}
+
+button.email:before {
+   content: '';
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   opacity: 1;
+   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Email%20-%20White%201.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 12px;
 }
 
 button.tumblr {
