@@ -46,32 +46,10 @@ button.tumblr {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Tumblr%20White%20-%201.png);
 }
 
-/* button.upload-media {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Camera%20Icons/Camera%20-%20Grey%201.png);
-} */
-
-/* button.upload-media {
-  background:#a8a8a8;
-  background: white;
-}
-
-button.upload-media:before {
-  background: #a8a8a8;
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Camera%20Icons/Camera%20-%20White%202.png);
-} */
-
-button.upload-media {
-  background: white;
-}
-
 button.upload-media:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Camera%20Icons/Camera%20-%20White%202.png);
   background-size: cover;
   background-color: #a8a8a8;
-}
-
-button.app-store {
-  background: white;
 }
 
 button.app-store:before {
