@@ -85,23 +85,6 @@ button.app-store:before {
   border-radius: 50%;
 }
 
-/* .input-bar button.right-arrow {  
-  width: 18px;
-  top: 0;
-  bottom: 0;
-  border-radius: 4px;
-  visibility: hidden;
-  position: absolute;
-  transform: translate(42px) scale(0.5);
-  opacity: 0;
-}
-
-button.right-arrow:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%201.png);
-  background-size: cover;
-  border-radius: inherit;
-} */
-
 .input-bar button.right-arrow {  
   width: 24px;
   background: #a8a8a8;
@@ -119,9 +102,7 @@ button.right-arrow:before {
 button.right-arrow:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%202.png);
   background-size: 5.8px;
-/*   border-radius: inherit; */
 }
-
 
 .input-bar button.message-send {
   width: 18px;
