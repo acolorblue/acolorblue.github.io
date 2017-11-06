@@ -5,7 +5,8 @@ button.icons {
 }
 
 button.instagram:before,
-button.email:before {
+button.email:before,
+button.upload-media:before {
    content: '';
    position: absolute;
    top: 0;
@@ -50,6 +51,11 @@ button.tumblr {
 
 button.upload-media {
   background:#a8a8a8;
+  background: white;
+}
+
+button.upload-media:before {
+  background: #a8a8a8;
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Camera%20Icons/Camera%20-%20White%202.png);
 }
 
