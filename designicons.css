@@ -15,6 +15,7 @@ button.artist-profile-image {
 button.artist-profile-image:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Anonymous%20User/iMessage%20Unknown%20User%20Icon.png);
   background-size: cover;
+  border-radius: inherit;
 }
 
 button.artist-profile-image:before,
