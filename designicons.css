@@ -81,7 +81,7 @@ button.app-store:before {
   border-radius: 50%;
 }
 
-button.message-send {
+.input-bar button.message-send {
   width: 18px;
   position: absolute;
   border-radius: 50%;
