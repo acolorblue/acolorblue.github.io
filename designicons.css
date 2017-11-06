@@ -104,6 +104,8 @@ button.right-arrow:before {
   top: 0;
   bottom: 0;
   border-radius: 4px;
+  margin-left: 7px;
+  margin-right: 7px;
   visibility: hidden;
   position: absolute;
   transform: translate(42px) scale(0.5);
