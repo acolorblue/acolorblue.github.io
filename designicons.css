@@ -6,7 +6,8 @@ button.icons {
 
 button.instagram:before,
 button.email:before,
-button.upload-media:before {
+button.upload-media:before,
+button.app-store:before {
    content: '';
    position: absolute;
    top: 0;
