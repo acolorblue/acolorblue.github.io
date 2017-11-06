@@ -17,7 +17,6 @@ button.app-store:before {
    opacity: 1;
    background-position: center;
    background-repeat: no-repeat;
-   background-size: 12px;
 }
 
 button.twitter {
@@ -47,18 +46,18 @@ button.tumblr {
 }
 
 button.upload-media:before {
+  background-color: #a8a8a8;
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Camera%20Icons/Camera%20-%20White%202.png);
   background-size: cover;
-  background-color: #a8a8a8;
 }
 
 button.app-store:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/App%20Store%20Icons/App%20Store%20Icon%20-%20White%202.png);
-  background-size: 10.6px;
   background-color: #a8a8a8;
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/App%20Store%20Icons/App%20Store%20Icon%20-%20White%202.png);
   border-radius: 50%;
 }
 
 button.message-send {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Send%20Icon/Send%20Icon%20-%20Blue%201.png);
+  background-size: contain;
 }
