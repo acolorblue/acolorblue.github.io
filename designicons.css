@@ -17,6 +17,7 @@ button.artist-profile-image:before {
   background-size: cover;
 }
 
+button.artist-profile-image:before,
 button.instagram:before,
 button.email:before,
 button.upload-media:before,
