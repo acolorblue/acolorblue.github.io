@@ -58,3 +58,7 @@ button.app-store:before {
   background-color: #a8a8a8;
   border-radius: 50%;
 }
+
+button.message-send {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Send%20Icon/Send%20Icon%20-%20Blue%201.png);
+}
