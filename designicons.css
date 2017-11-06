@@ -112,7 +112,7 @@ button.right-arrow:before {
 
 button.right-arrow:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%202.png);
-/*   background-size: cover; */
+  background-size: 6px;
 /*   border-radius: inherit; */
 }
 
