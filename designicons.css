@@ -81,7 +81,7 @@ button.app-store:before {
   border-radius: 50%;
 }
 
-button.right-arrow {  
+.input-bar button.right-arrow {  
   width: 18px;
   top: 0;
   bottom: 0;
