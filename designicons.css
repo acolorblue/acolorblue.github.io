@@ -95,6 +95,7 @@ button.right-arrow {
 button.right-arrow:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%201.png);
   background-size: cover;
+  border-radius: inherit;
 }
 
 
