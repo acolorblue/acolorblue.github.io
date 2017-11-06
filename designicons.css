@@ -1,4 +1,14 @@
 button.icons {
+}
+
+button.icons:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 12px;
@@ -18,24 +28,11 @@ button.artist-profile-image:before {
   border-radius: inherit;
 }
 
-button.artist-profile-image:before,
-button.instagram:before,
-button.email:before,
-button.upload-media:before,
-button.app-store:before {
-   content: '';
-   position: absolute;
-   top: 0;
-   right: 0;
-   bottom: 0;
-   left: 0;
-   opacity: 1;
-   background-position: center;
-   background-repeat: no-repeat;
-}
-
 button.twitter {
   background-color: #00C3F3;
+}
+
+button.twitter:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Twitter%20-%20White%201.png);
 }
 
@@ -57,7 +54,11 @@ button.email:before {
 
 button.tumblr {
   background-color: #35465c;
+}
+
+button.tumblr:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Tumblr%20White%20-%201.png);
+  background-size: auto 12.5px;
 }
 
 button.upload-media:before {
@@ -73,6 +74,14 @@ button.app-store:before {
 }
 
 button.message-send {
+  width: 18px;
+  position: absolute;
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+}
+
+button.message-send:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Send%20Icon/Send%20Icon%20-%20Blue%201.png);
   background-size: contain;
 }
