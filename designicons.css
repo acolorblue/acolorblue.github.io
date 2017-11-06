@@ -4,6 +4,19 @@ button.icons {
   background-size: 12px;
 }
 
+button.artist-profile-image {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+}
+
+button.artist-profile-image:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Anonymous%20User/iMessage%20Unknown%20User%20-%201.png);
+  background-size: cover;
+}
+
 button.instagram:before,
 button.email:before,
 button.upload-media:before,
