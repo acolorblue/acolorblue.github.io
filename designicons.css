@@ -70,5 +70,11 @@ button.upload-media:before {
 }
 
 button.app-store {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/App%20Store%20Icons/App%20Store%20Icon%20-%20Grey%201.png);
+  background: white;
+}
+
+button.app-store {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/App%20Store%20Icons/App%20Store%20Icon%20-%20White%202.png);
+  background-size: 12px;
+  background-color: #a8a8a8;
 }
