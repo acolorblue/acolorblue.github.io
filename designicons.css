@@ -80,15 +80,15 @@ button.upload-media:before {
 }
 
 button.app-store {
-  width: 19px;
-  border-radius: 50%;
+  width: 23px;
+  border-radius: 45%;
   background: #a8a8a8;
 }
 
 button.app-store:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/App%20Store%20Icons/App%20Store%20Icon%20-%20White%202.png);
   border-radius: 50%;
-  background-size: 10.6px;
+  background-size: 12.6px;
 }
 
 .input-bar button.right-arrow {  
