@@ -27,6 +27,8 @@ button.icons:before {
 }
 
 
+
+/* SOCIAL ICONS */
 button.twitter {
   background: #00C3F3;
 }
@@ -57,4 +59,16 @@ button.tumblr {
 
 button.tumblr:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Tumblr%20White%20-%201.png);
+}
+
+
+/* INPUT BAR */
+button.message-send {
+  background-color: #0070eb;
+  border-radius: 50%;
+}
+
+button.message-send:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Send%20Icon/Send%20Arrow%20-%20White%201.png);
+
 }
