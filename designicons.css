@@ -74,7 +74,6 @@ button.tumblr:before {
 }
 
 button.upload-media:before {
-  background-color: #a8a8a8;
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Camera%20Icons/Camera%20-%20White%202.png);
   background-size: cover;
   background-size: 26px 18px;
