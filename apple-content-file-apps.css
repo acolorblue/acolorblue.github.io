@@ -1,3 +1,9 @@
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  display: none;
+}
+
 .apple-app {
   font-family: helvetica, "ahamonomonospaced";
   background: #f9f8f7;
