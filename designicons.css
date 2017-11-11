@@ -23,6 +23,7 @@ button.icons:before {
   opacity: 1;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 65%;
   background-size: 12px;
 }
 
@@ -70,5 +71,20 @@ button.message-send {
 
 button.message-send:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Send%20Icon/Send%20Arrow%20-%20White%201.png);
+}
 
+
+
+/* APPLE MEDIA FILES CONTROLS */
+.amf-controls button.close:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Black%201.png);
+}
+
+.amf-controls button.minimize:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Minimize%20Icon/Minimize%20-%20Black%201.png);
+  background-size: 85%;
+}
+
+.amf-controls button.full-screen:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Full%20Screen%20Icon/Full%20Screen%20-%20Black%201.png);
 }
