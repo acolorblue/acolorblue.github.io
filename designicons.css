@@ -76,16 +76,16 @@ button.message-send:before {
 
 
 /* APPLE MEDIA FILES CONTROLS */
-.amf-controls button:before {
+button:before {
   background-size: 65%;
 }
 
-.amf-controls button.close {
+button.close {
   background: #ff5c5c;
   border-color: #e33e41;
 }
 
-.amf-controls button.close:before {
+button.close:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Black%201.png);
 }
 
@@ -99,11 +99,11 @@ button.message-send:before {
   background-size: 85%;
 }
 
-.amf-controls button.full-screen {
+button.full-screen {
   background: #00ca56;
   border-color: #14ae46;
 }
 
-.amf-controls button.full-screen:before {
+button.full-screen:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Full%20Screen%20Icon/Full%20Screen%20-%20Black%201.png);
 }
