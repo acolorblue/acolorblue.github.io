@@ -89,12 +89,12 @@ button.close:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Black%201.png);
 }
 
-.amf-controls button.minimize {
+button.minimize {
   background: #ffbd4c;
   border-color: #e09e3e;
 }
 
-.amf-controls button.minimize:before {
+button.minimize:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Minimize%20Icon/Minimize%20-%20Black%201.png);
   background-size: 85%;
 }
