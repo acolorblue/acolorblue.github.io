@@ -13,7 +13,7 @@ button:active {
   opacity: .4;
 }
 
-button.icons:before {
+.icons:before {
   content: '';
   position: absolute;
   margin: auto;
