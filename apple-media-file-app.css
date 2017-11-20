@@ -46,6 +46,15 @@
   margin: auto;
 }
 
+.amf-title-text-container {
+    width: fit-content;
+    color: #474747;
+    overflow: hidden;
+    position: relative;
+    margin: auto 8px;
+    display: inline-flex;
+}
+
 .amf-controls-container {
   width: 61.047px;
   height: fit-content;
