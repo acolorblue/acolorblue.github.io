@@ -92,6 +92,7 @@ button.amf-controls.close-grey {
 
 button.amf-controls.close-grey:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/…%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Grey%203.png);
+  background-size: 6.58px;
 }
 
 button.amf-controls.minimize {
