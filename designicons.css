@@ -76,30 +76,39 @@ button.message-send:before {
 
 
 /* APPLE MEDIA FILES CONTROLS */
-button.close {
+button.amf-controls.close {
   background: #ff5c5c;
   border-color: #e33e41;
 }
 
-button.close:before {
+button.amf-controls.close:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Black%201.png);
 }
 
-button.minimize {
+button.amf-controls.close-grey {
+  background: #acabac;
+  border-color: none;
+}
+
+button.amf-controls.close-grey:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/…%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Grey%203.png);
+}
+
+button.amf-controls.minimize {
   background: #ffbd4c;
   border-color: #e09e3e;
 }
 
-button.minimize:before {
+button.amf-controls.minimize:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Minimize%20Icon/Minimize%20-%20Black%201.png);
   background-size: 8.5px;
 }
 
-button.full-screen {
+button.amf-controls.full-screen {
   background: #00ca56;
   border-color: #14ae46;
 }
 
-button.full-screen:before {
+button.amf-controls.full-screen:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Full%20Screen%20Icon/Full%20Screen%20-%20Black%201.png);
 }
