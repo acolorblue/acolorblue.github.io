@@ -87,7 +87,7 @@ button.amf-controls.close:before {
 
 button.amf-controls.close-grey {
   background: #acabac;
-  border-color: none;
+  border: none;
 }
 
 button.amf-controls.close-grey:before {
