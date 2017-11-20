@@ -162,6 +162,27 @@ button.amf-controls:before {
   color: #000;
 }
 
+.zoom-and-share-container {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  left: 5.484px;
+  bottom: 5.281px;
+  display: inline-flex;
+}
+
+.zoom-buttons-container {
+  display: inline-flex;
+}
+
+.zoom-buttons-container button {
+  width: 37px;
+}
+
+.zoom-buttons-container button.zoom-in {
+  left: -1px;
+}
+
 .zoom-buttons-container button:before {
   background-size: 13.5px;
 }
