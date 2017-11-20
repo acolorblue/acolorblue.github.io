@@ -1,1 +1,263 @@
+.apple-media-file-app {
+  font: 500 12.4px/normal sans-serif, helvetica, 'ahamonomonospaced';
+  letter-spacing: 0.1px;
+  background: #f6f5f6;
+  box-shadow: 0px 0px 5px #c7c6c6;
+  border: 1px solid #cbcbcb;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 4px;
+  position: absolute;
+  top: 16vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  box-sizing: border-box;
+  transition: all 100ms ease-in-out;
+  transform: translate(0, 0) scale(1);
+}
 
+.amf-transition {
+  transform: translate(-100%, -0%) scale(0.002);
+}
+
+.full-screen-transition {
+  width: 1170.3px !important;
+}
+
+.amf-header {
+  background: linear-gradient(#e5e5e5, #d3d3d3);
+  border-bottom: 1px solid #aaaaaa;
+  border-radius: 4px 4px 0 0;
+  width: -webkit-fill-available;
+  min-height: 20.3px;
+  position: relative;
+}
+
+.amf-header-top-bar {
+  width: 98.598%;
+  height: 14px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  margin: auto;
+}
+
+.amf-controls {
+  width: 61.047px;
+  height: 14px;
+  position: absolute;
+  margin: auto;
+  display: inline-flex;
+  left: 0;
+}
+
+.amf-controls button {
+  position: relative;
+  margin: auto;
+  border-radius: 100%;
+  width: 12.125px;
+  height: 12.125px;
+  border: 1px solid;
+}
+
+.amf-controls button:before {
+  background-size: 6.58px;
+  opacity: 0;
+}
+
+.amf-controls:hover button:before {
+  opacity: 0.6;
+}
+
+button.close {
+  background: #ff5c5c;
+  border-color: #e33e41;
+}
+
+button.close:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Black%201.png);
+}
+
+button.minimize {
+  background: #ffbd4c;
+  border-color: #e09e3e;
+}
+
+button.minimize:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Minimize%20Icon/Minimize%20-%20Black%201.png);
+  background-size: 8.5px;
+}
+
+button.full-screen {
+  background: #00ca56;
+  border-color: #14ae46;
+}
+
+button.full-screen:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Full%20Screen%20Icon/Full%20Screen%20-%20Black%201.png);
+}
+
+ 
+.header-content-info {
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  overflow: hidden;
+}
+
+.header-content-info p {
+  white-space: nowrap;
+  margin: auto;
+  width: fit-content;
+}
+
+.header-content-info p.text-overflow {
+  margin-right: 50%;
+  animation: scroll-left 13s linear infinite;
+}
+
+@keyframes scroll-left {
+  0%, 31%, 100% { 
+    transform: translateX(0%); 
+    opacity: 1; 
+  }
+ 
+  65.5% {
+    transform: translateX(-100%);  
+    opacity: 1; 
+  }
+  
+  65.6% {
+    transform: translateX(-100%);  
+    opacity: 0; 
+  }
+  
+  65.6000001% {
+    transform: translateX(50%);
+    opacity: 0;   
+  }
+  
+  65.6000002% {
+    transform: translateX(50%);
+    opacity: 1;   
+  }
+  
+}
+
+
+.amf-title-entire-container {
+  max-width: 62%;
+  width: fit-content;
+  display: flex;
+  right: 0;
+  left: 0;
+}
+
+.amf-grey-function-buttons {
+  width: fit-content;
+  height: 23px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: linear-gradient(#fcfcfc, #f1f1f1);
+  position: relative;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  padding: 2px 8px;
+  color: #000;
+}
+
+.share-container {
+  position: relative;
+  margin-left: 4px;
+}
+
+button.amf-share {
+  width: 36px;
+  height: 23px;
+}
+
+button.amf-share:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Share%20Icon/Share%20-%20Old%20-%201.png);
+  background-size: 11.5px 15.6px;
+}
+
+.share-dropdown-menu {
+  width: fit-content;
+  height: fit-content;
+  background: #fff;
+  border-radius: 5px;
+  margin: auto;
+  position: absolute;
+  left: 0; 
+  right: 0;
+  top: auto;
+  padding: 8px;
+  box-shadow: 0px 0px 6px #adadad;
+  z-index: 9999;
+  transform: translate(0px, -45%) scale(0.002);
+  transition: all 100ms ease-in-out;
+}
+
+.share-dropdown-menu.show {
+  transform: scale(1);
+}
+
+.share-dropdown-menu:before {
+  content: "";
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 5px solid white;
+  z-index: 1;
+  display: block;
+  position: absolute;
+  width: fit-content;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: -5px;
+  width: fit-content;
+}
+
+.share-dropdown-menu button {
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  margin-top: 5.2px;
+  display: block;
+  position: relative;
+}
+
+.share-dropdown-menu button:first-child {
+   margin-top: 0;
+}
+
+.share-dropdown-menu button.tumblr:before {
+   background-size: 8px auto;
+}
+
+.amf-content-container {
+  min-height: 299.65px;
+  min-width: 265px;
+  max-height: 632.750px;
+  max-width: 1170.3px;
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
+}
+
+.amf-content {
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  display: block;
+  margin: auto;
+}
