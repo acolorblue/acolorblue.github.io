@@ -112,3 +112,13 @@ button.amf-controls.full-screen {
 button.amf-controls.full-screen:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Full%20Screen%20Icon/Full%20Screen%20-%20Black%201.png);
 }
+
+
+/* ZOOM */
+button.zoom-out:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Zoom/Rounded%20Edge/Rounded%20%26%20Thick/Zoom%20Out%20-%20Rounded%20Thick%20-%201.png);
+}
+
+button.zoom-in:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Zoom/Rounded%20Edge/Rounded%20%26%20Thick/Zoom%20In%20-%20Rounded%20Thick%20-%201.png);
+}
