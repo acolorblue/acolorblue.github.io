@@ -143,6 +143,10 @@ button.amf-controls:before {
   color: #000;
 }
 
+.zoom-buttons-container button:before {
+  background-size: 13.5px;
+}
+
 .share-container {
   position: relative;
   margin-left: 4px;
