@@ -48,11 +48,13 @@
 
 .amf-controls-container {
   width: 61.047px;
-  height: 14px;
+  height: fit-content;
   position: absolute;
   margin: auto;
   display: inline-flex;
   left: 0;
+  top: 0;
+  bottom: 0;
 }
 
 button.amf-controls {
