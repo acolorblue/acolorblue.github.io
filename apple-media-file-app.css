@@ -169,7 +169,6 @@ button.amf-controls:before {
     transform: translateX(50%);
     opacity: 1;   
   }
-  
 }
 
 .amf-title-entire-container {
@@ -206,16 +205,19 @@ button.amf-controls:before {
 }
 
 .image-app .amf-title-text-container {
-  color: #474747;
   margin: auto 8px;
-}
-
-.image-preview-app .amf-title-text-container {
-  color: #747374;
 }
 
 .image-preview-app .instagram-share .amf-title-text-container {
   margin: auto;
+}
+
+.image-app p.amf-title {
+  color: #474747;
+}
+
+.image-preview-app p.amf-title {
+  color: #747374;
 }
 
 .amf-title-entire-container.icons:after {
