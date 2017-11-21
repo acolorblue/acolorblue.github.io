@@ -83,6 +83,7 @@
 .image-preview-app .amf-header.instagram-share .amf-header-top-bar {
   top: 0;
   bottom: 0;
+  display: flex;
 }
 
 .amf-controls-container {
@@ -182,8 +183,8 @@ button.amf-controls:before {
 }
 
 .image-preview-app .instagram-share .amf-title-entire-container {
-  right: 130px;
-  left: auto;
+  position: relative;
+  margin-right: 5%;
 }
 
 .amf-title-entire-container.icons:before {
@@ -256,6 +257,10 @@ button.amf-controls:before {
   height: 20px;
   float: right;
   margin-right: 4px;
+}
+
+.image-preview-app .instagram-share .amf-grey-function-buttons {
+  margin-left: 0px;
 }
 
 .zoom-and-share-container {
