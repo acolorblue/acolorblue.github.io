@@ -138,6 +138,11 @@ button.amf-controls:before {
   animation: scroll-left 13s linear infinite;
 }
 
+.image-preview-app .instagram-share .header-content-info p.text-overflow {
+  margin-right: 0;
+  animation: unset;
+}
+
 @keyframes scroll-left {
   0%, 31%, 100% { 
     transform: translateX(0%); 
