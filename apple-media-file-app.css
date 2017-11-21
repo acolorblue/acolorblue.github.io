@@ -203,6 +203,10 @@ button.amf-controls:before {
   color: #747374;
 }
 
+.image-preview-app .instagram-share .amf-title-text-container {
+  margin: auto;
+}
+
 .amf-title-entire-container.icons:after {
   content: '';
   position: relative;
