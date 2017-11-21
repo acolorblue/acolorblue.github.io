@@ -2,7 +2,7 @@
   display: none;
 }
 
-* {
+[class*='apple-media-file-app'] {
   box-sizing: border-box;
 }
 
