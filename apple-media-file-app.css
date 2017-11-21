@@ -131,6 +131,16 @@ button.amf-controls:before {
   left: 0;
 }
 
+.amf-title-entire-container.icons:before {
+  min-width: 9px;
+  height: 12.8px;
+  position: relative;
+  background-size: cover;
+  box-shadow: 0px 0px 1px #7e7e7e;
+  border-radius: 0px 6px 0px 0px;
+  right: auto;
+}
+
 .amf-title-text-container {
   width: fit-content;
   color: #474747;
@@ -138,6 +148,20 @@ button.amf-controls:before {
   position: relative;
   margin: auto 8px;
   display: inline-flex;
+}
+
+.amf-title-entire-container.icons:after {
+  content: '';
+  position: relative;
+  min-width: 9px;
+  height: 6px;
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/Image%20App%20Specifics/Arrow%20-%20Thick%20-%20Grey%20-%202.png);
+  background-size: 8px;
+  background-repeat: no-repeat;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  cursor: pointer;
 }
 
 .amf-content-credits-container {
