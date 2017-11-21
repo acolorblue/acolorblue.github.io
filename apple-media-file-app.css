@@ -6,7 +6,7 @@
   border: 1px solid #cbcbcb;
   width: fit-content;
   height: fit-content;
-  border-radius: 4px;
+  border-radius: 6px;
   position: absolute;
   top: 16vh;
   right: 0;
@@ -28,7 +28,7 @@
 .amf-header {
   background: linear-gradient(#e5e5e5, #d3d3d3);
   border-bottom: 1px solid #aaaaaa;
-  border-radius: 4px 4px 0 0;
+  border-radius: 6px 6px 0 0;
   width: -webkit-fill-available;
   min-height: 20.3px;
   position: relative;
