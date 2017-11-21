@@ -2,6 +2,10 @@
   display: none;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .apple-media-file-app {
   font: 500 12.4px/normal sans-serif, helvetica, 'ahamonomonospaced';
   letter-spacing: 0.1px;
