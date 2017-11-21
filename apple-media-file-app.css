@@ -80,6 +80,11 @@
   height: 20px;
 }
 
+.image-preview-app .amf-header.instagram-share .amf-header-top-bar {
+  top: 0;
+  bottom: 0;
+}
+
 .amf-controls-container {
   width: 61.047px;
   height: fit-content;
