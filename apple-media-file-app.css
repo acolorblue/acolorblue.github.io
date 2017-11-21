@@ -176,6 +176,11 @@ button.amf-controls:before {
   left: 0;
 }
 
+.image-preview-app .instagram-share .amf-title-entire-container {
+  right: 130px;
+  left: auto;
+}
+
 .amf-title-entire-container.icons:before {
   min-width: 9px;
   height: 12.8px;
