@@ -166,7 +166,6 @@ button.amf-controls:before {
   
 }
 
-
 .amf-title-entire-container {
   max-width: 62%;
   width: fit-content;
@@ -175,10 +174,6 @@ button.amf-controls:before {
   right: 0;
   bottom: 0;
   left: 0;
-}
-
-.image-preview-app .amf-title-entire-container {
-  color: #747374;
 }
 
 .amf-title-entire-container.icons:before {
@@ -193,11 +188,19 @@ button.amf-controls:before {
 
 .amf-title-text-container {
   width: fit-content;
-  color: #474747;
   overflow: hidden;
   position: relative;
-  margin: auto 8px;
+  margin: auto;
   display: inline-flex;
+}
+
+.image-app .amf-title-text-container {
+  color: #474747;
+  margin: auto 8px;
+}
+
+.image-preview-app .amf-title-text-container {
+  color: #747374;
 }
 
 .amf-title-entire-container.icons:after {
