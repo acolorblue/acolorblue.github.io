@@ -13,7 +13,6 @@
   bottom: 0;
   left: 0;
   margin: auto;
-  box-sizing: border-box;
   transition: all 100ms ease-in-out;
   transform: translate(0, 0) scale(1);
 }
