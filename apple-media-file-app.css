@@ -298,3 +298,8 @@ button.amf-share:before {
   display: block;
   margin: auto;
 }
+
+.amf-content.image {
+  width: auto;
+  user-select: none;
+}
