@@ -38,6 +38,20 @@
   height: 54px;
 }
 
+.image-preview-app .amf-header {
+  background: #f6f5f6;
+  border-bottom: none;
+  height: 35px;
+}
+
+.image-preview-app .amf-header.instagram-share {
+  max-width: 77%;
+  bottom: 0;
+  right: 0; 
+  box-shadow: 0px 0px 5px #c7c6c6;
+  position: absolute;
+}
+
 .amf-header-top-bar {
   width: 98.598%;
   height: 14px;
@@ -54,6 +68,10 @@
   bottom: auto;
 }
 
+.image-preview-app .amf-header-top-bar {
+  height: 20px;
+}
+
 .amf-controls-container {
   width: 61.047px;
   height: fit-content;
@@ -63,6 +81,11 @@
   left: 0;
   top: 0;
   bottom: 0;
+}
+
+.image-preview-app .amf-controls-container {
+  width: fit-content;
+  left: 8px;
 }
 
 button.amf-controls {
@@ -141,6 +164,10 @@ button.amf-controls:before {
   left: 0;
 }
 
+.image-preview-app .amf-title-entire-container {
+  color: #747374;
+}
+
 .amf-title-entire-container.icons:before {
   min-width: 9px;
   height: 12.8px;
@@ -193,6 +220,12 @@ button.amf-controls:before {
   bottom: 0;
   padding: 2px 8px;
   color: #000;
+}
+
+.image-preview-app .amf-grey-function-buttons {
+  height: 20px;
+  float: right;
+  margin-right: 4px;
 }
 
 .zoom-and-share-container {
@@ -310,6 +343,14 @@ button.amf-share:before {
   min-width: 549px;
 }
 
+.image-preview-app .amf-content-container {
+  height: 632.750px;
+  min-width: 537.5px;
+  border: 2.5px solid #f6f5f6;
+  border-radius: 4px;
+  overflow: unset;
+}
+
 .amf-content {
   width: -webkit-fill-available;
   height: -webkit-fill-available;
@@ -317,25 +358,29 @@ button.amf-share:before {
   margin: auto;
 }
 
-.image-app.full-screen-transition .amf-content {
-  width: -webkit-fill-available;
-  height: auto;
+.amf-content.image {
+  width: auto;
+  user-select: none;
 }
 
-.image-app .amf-content.zoom-x1 {
+.amf-content.zoom-x1 {
   width: 200%;
   height: auto;
   cursor: move;
 }
 
-.image-app .amf-content.zoom-x2 {
+.amf-content.zoom-x2 {
   width: 400%;
   height: auto;
   cursor: move;
 }
 
+.image-app.full-screen-transition .amf-content {
+  width: -webkit-fill-available;
+  height: auto;
+}
 
-.amf-content.image {
-  width: auto;
-  user-select: none;
+.image-preview-app .amf-content {
+  border: 1px solid #cbcbcb;
+  border-radius: inherit;
 }
