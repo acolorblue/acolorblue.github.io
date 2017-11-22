@@ -59,9 +59,14 @@
   position: absolute;
   font: 500 12.4px/normal sans-serif, helvetica, 'ahamonomonospaced';
   letter-spacing: 0.1px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
 }
 
-.image-preview-app .amf-header.share-pop-up.instagram {
+.image-preview-app .amf-header.share-pop-up.instagram-in-header {
   max-width: 77%;
   bottom: 0;
   right: 0; 
@@ -91,7 +96,7 @@
   display: flex;
 }
 
-.image-preview-app .share-pop-up.instagram .amf-header-top-bar {
+.image-preview-app .share-pop-up.instagram-in-header .amf-header-top-bar {
   top: 0;
   bottom: 0;
   
