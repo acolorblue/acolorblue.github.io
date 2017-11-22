@@ -197,7 +197,7 @@ button.amf-controls:before {
   left: 0;
 }
 
-.image-preview-app .share-pop-up .amf-title-entire-container {
+.image-preview-app .share-pop-up.instagram-in-header .amf-title-entire-container {
   position: relative;
   margin-right: 5%;
 }
