@@ -92,14 +92,10 @@
   height: 20px;
 }
 
-.image-preview-app .share-pop-up .amf-header-top-bar {
-  display: flex;
-}
-
 .image-preview-app .share-pop-up.instagram-in-header .amf-header-top-bar {
   top: 0;
   bottom: 0;
-  
+  display: flex;
 }
 
 .amf-controls-container {
@@ -277,7 +273,7 @@ p.amf-title {
   margin-right: 4px;
 }
 
-.image-preview-app .share-pop-up .amf-grey-function-buttons {
+.image-preview-app .share-pop-up.instagram-in-header .amf-grey-function-buttons {
   margin-left: 0px;
 }
 
