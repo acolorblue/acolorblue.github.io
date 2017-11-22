@@ -57,6 +57,8 @@
   box-shadow: 0px 0px 5px #c7c6c6;
   border-radius: 5px;
   position: absolute;
+  font: 500 12.4px/normal sans-serif, helvetica, 'ahamonomonospaced';
+  letter-spacing: 0.1px;
 }
 
 .image-preview-app .amf-header.share-pop-up.instagram {
