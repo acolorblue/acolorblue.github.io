@@ -454,5 +454,5 @@ button.amf-share:before {
 
 .image-preview-app .amf-content {
   border: 1px solid #cbcbcb;
-  border-radius: inherit;
+  border-radius: 2px;
 }
