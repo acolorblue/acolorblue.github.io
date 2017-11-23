@@ -134,6 +134,7 @@ button.zoom-in:before {
 }
 
 
+
 /* SHARE */
 button.amf-share:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Share%20Icon/Share%20-%20Old%20-%201.png);
@@ -149,4 +150,16 @@ button.user-avi {
 
 button.user-avi:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Anonymous%20User/Anonymous%20User%20-%20White%20Only%202.png);
+}
+
+
+/* COMMENTING SYSTEM ICONS */
+button.reply.right-arrow:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Reply/Reply%20-%20Grey%20-%20Left%20to%20Right%201.png);
+  background-size: contain;
+}
+
+button.reply.left-arrow:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Reply/Reply%20-%20Grey%201.png);
+  background-size: contain;
 }
