@@ -153,9 +153,14 @@ button.user-avi:before {
 }
 
 
+
 /* COMMENTING SYSTEM ICONS */
-button.dropdown:before {
+button.three-dots-horizontal:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Dropdown%20Icon/Dropdown%20Icon%20-%20Grey%201.png);
+}
+
+button.right-arrow:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%202.png);
 }
 
 button.reply.right-arrow:before {
