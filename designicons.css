@@ -175,6 +175,10 @@ button.expand-bottom:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Bottom%20-%201.png);
 }
 
+button.expand-bottom.grey:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Bottom%20-%20Grey%20-%201.png);
+}
+
 button.expand-left:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Left%20-%201.png);
 }
