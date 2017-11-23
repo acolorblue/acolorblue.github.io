@@ -171,12 +171,12 @@ button.expand-right:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Right%20-%201.png);
 }
 
-button.expand-bottom:before {
+button.expand-bottom.white:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Bottom%20-%201.png);
 }
 
 button.expand-bottom.grey:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Bottom%20-%20Grey%20-%201.png);
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Bottom%20-%20Grey%20-%202.png);
 }
 
 button.expand-left:before {
