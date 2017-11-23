@@ -190,3 +190,19 @@ button.reply.left-arrow:before {
 button.like:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Like/Like%20-%20Grey%201.png);
 }
+
+button.follow:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Follow/Follow%20-%20Grey%20-%201.png);
+}
+
+button.un-follow:before {
+  background-image: url();
+}
+
+button-mute:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Mute/Mute%20-%20Grey%20-%201.png);
+}
+
+button-trash-can:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Delete/Delete%20-%20Grey%20-%202.png);
+}
