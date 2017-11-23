@@ -199,10 +199,10 @@ button.un-follow:before {
   background-image: url();
 }
 
-button-mute:before {
+button.mute:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Mute/Mute%20-%20Grey%20-%201.png);
 }
 
-button-trash-can:before {
+button.delete:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Delete/Delete%20-%20Grey%20-%202.png);
 }
