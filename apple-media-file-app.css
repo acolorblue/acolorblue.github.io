@@ -318,7 +318,7 @@ button.amf-share:before {
   background-size: 11.5px 15.6px;
 }
 
-.share-dropdown-menu {
+.dropdown-menu {
   width: fit-content;
   height: fit-content;
   background: #fff;
@@ -335,15 +335,15 @@ button.amf-share:before {
   transition: all 100ms ease-in-out;
 }
 
-.image-app .share-dropdown-menu {
+.image-app .dropdown-menu {
   margin-top: 6px;
 }
 
-.share-dropdown-menu.show {
+.dropdown-menu.show {
   transform: scale(1);
 }
 
-.share-dropdown-menu:before {
+.dropdown-menu:before {
   content: "";
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
@@ -359,7 +359,7 @@ button.amf-share:before {
   width: fit-content;
 }
 
-.share-dropdown-menu button {
+.dropdown-menu button {
   width: 18px;
   height: 18px;
   border-radius: 5px;
@@ -373,11 +373,11 @@ button.amf-share:before {
   position: relative;
 }
 
-.share-dropdown-menu button:first-child {
+.dropdown-menu button:first-child {
    margin-top: 0;
 }
 
-.share-dropdown-menu button.tumblr:before {
+.dropdown-menu button.tumblr:before {
    background-size: 8px auto;
 }
 
