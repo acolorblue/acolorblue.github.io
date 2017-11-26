@@ -293,7 +293,8 @@ p.amf-title {
   display: inline-flex;
 }
 
-.zoom-buttons-container button {
+button.zoom-in,
+button.zoom-out {
   width: 37px;
 }
 
@@ -301,7 +302,8 @@ p.amf-title {
   left: -1px;
 }
 
-.zoom-buttons-container button:before {
+button.zoom-in:before,
+button.zoom-out:before {
   background-size: 13.5px;
 }
 
