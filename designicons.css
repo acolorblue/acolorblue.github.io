@@ -125,11 +125,6 @@ button.amf-controls.full-screen:before {
 
 
 /* ZOOM */
-button.zoom-out:before,
-button.zoom-in:before {
-  background-size: 13.5px;
-}
-
 button.zoom-out:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Zoom/Rounded%20Edge/Rounded%20%26%20Thick/Zoom%20Out%20-%20Rounded%20Thick%20-%201.png);
 }
