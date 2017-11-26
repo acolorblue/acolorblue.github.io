@@ -62,6 +62,14 @@ button.tumblr:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Tumblr%20White%20-%201.png);
 }
 
+button.gifs {
+  background-color: #fa0244;
+}
+
+button.gifs:before {
+  background-image: url();
+}
+
 
 /* INPUT BAR */
 button.message-send {
