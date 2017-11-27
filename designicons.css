@@ -66,10 +66,6 @@ button.gifs {
   background-color: #fa0244;
 }
 
-button.gifs:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Search/Search%20White%20-%20Gif%20-%203.png);
-}
-
 
 /* INPUT BAR */
 button.message-send {
