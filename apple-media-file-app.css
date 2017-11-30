@@ -404,6 +404,10 @@ button.amf-share:before {
   overflow: unset;
 }
 
+.image-preview-app.gif-app .amf-content-container {
+  min-height: unset;
+}
+
 .amf-content {
   width: -webkit-fill-available;
   height: -webkit-fill-available;
@@ -414,6 +418,11 @@ button.amf-share:before {
 .amf-content.image {
   width: auto;
   user-select: none;
+}
+
+.image-preview-app.gif-app .amf-content.image { 
+  height: auto;
+  width: -webkit-fill-available;
 }
 
 .amf-content.zoom-x1 {
