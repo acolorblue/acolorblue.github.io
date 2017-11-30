@@ -406,6 +406,7 @@ button.amf-share:before {
 
 .image-preview-app.gif-app .amf-content-container {
   min-height: unset;
+  overflow: scroll;
 }
 
 .amf-content {
