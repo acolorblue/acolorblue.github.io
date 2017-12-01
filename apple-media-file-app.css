@@ -22,11 +22,11 @@
   left: 0;
   margin: auto;
   transition: all 100ms ease-in-out;
-  transform: translate(0, 0) scale(1);
+  transform: scale(1);
 }
 
 .amf-transition {
-  transform: translate(-100%, -0%) scale(0.002);
+  transform: scale(0.002);
 }
 
 .full-screen-transition {
