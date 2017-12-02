@@ -30,11 +30,11 @@ button:active {
 
 
 /* SOCIAL ICONS */
-button.twitter {
+.twitter {
   background: #00C3F3;
 }
 
-button.twitter:before {
+.twitter:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Twitter%20-%20White%201.png);
 }
 
