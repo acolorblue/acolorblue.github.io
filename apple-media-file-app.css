@@ -121,8 +121,10 @@ button.amf-controls {
   position: relative;
   margin: auto;
   border-radius: 100%;
-  width: 12.125px;
-  height: 12.125px;
+/*   width: 12.125px;
+  height: 12.125px; */
+  width: 12px;
+  height: 12px;
   border: 1px solid;
 }
 
