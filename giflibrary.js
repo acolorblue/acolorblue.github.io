@@ -1,4 +1,6 @@
-var gifs_link_library = {
+var gif_root_link = 'https://media2.giphy.com/media/',
+    gif_file_type = '/giphy.gif',
+    gif_links_library = {
     'black': [
             '9uoYC7cjcU6w8',          '3o7btV5GAWaGkwjTrO',
             'r1fDuPIcs18d2',          'd3mlE7uhX8KFgEmY',
