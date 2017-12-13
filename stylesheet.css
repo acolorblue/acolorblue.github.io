@@ -915,6 +915,7 @@ padding: 0px 5px;
   justify-content: space-between;
   flex-wrap: wrap;
   z-index: 100;
+  z-index: 1;
   transform: skewY(-10deg);
 }
 .gameboy .speaker .dot {
