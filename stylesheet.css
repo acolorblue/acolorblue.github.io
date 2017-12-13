@@ -656,6 +656,7 @@ h1.nowplaying:after {
 }
 .gameboy .screen-area .display {
   background-color: #929d97;
+  background-color: black;
   height: 190px;
   width: 210px;
   border-radius: 3px;
