@@ -665,7 +665,8 @@ h1.nowplaying:after {
   cursor: pointer;
 }
 
-#player { 
+#player,
+.player { 
   background: black;
 }
   
