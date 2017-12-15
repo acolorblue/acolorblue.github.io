@@ -27,6 +27,13 @@ button:active {
   background-size: 12px;
 }
 
+.icons.relative:before {
+  width: inherit;
+  height: inherit;
+  display: inline-block;
+  position: relative;
+}
+
 
 
 /* SOCIAL ICONS */
