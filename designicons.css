@@ -221,3 +221,33 @@ button.mute:before {
 button.delete:before {
   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Delete/Delete%20-%20Grey%20-%202.png);
 }
+
+
+
+
+/* TWITTER EMBED ICONS */
+.twitter .dm:before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Direct%20Messages.png);
+}
+
+.twitter .location:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Location%20-%20Grey%20-%205.png");
+}
+
+.twitter .bio-link:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Link/Link%20-%20Thick%20-%20Grey%20-%201.png");
+}
+
+.twitter .reply:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Reply/Reply%20-%201.png");
+}
+
+.twitter .retweets-count:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Retweet/Retweet%20-%20Grey%20-%205.png");
+}
+
+.twitter .likes-count:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Like/Like%20-%20Grey%20-%202.png");
+}
+
+
