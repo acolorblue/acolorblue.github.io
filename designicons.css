@@ -117,6 +117,10 @@ button:active {
 
 
 /* EXPAND ICONS */
+.expand-left-blue.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20Left%20-%20Blue%201.png");
+}
+
 .expand-right.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Right%20-%201.png");
 }
