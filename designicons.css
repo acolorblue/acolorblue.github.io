@@ -36,13 +36,14 @@ button:active {
 
 
 
-/* SOCIAL ICONS */
+
+/* SOCIAL MEDIA LOGO ICONS */
 .twitter.icons {
   background: #00C3F3;
 }
 
 .twitter.icons:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Twitter%20-%20White%201.png);
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Twitter%20-%20White%201.png");
 }
 
 .instagram.icons {
@@ -50,204 +51,230 @@ button:active {
 }
 
 .instagram.icons:before {
-   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Instagram.png);
+   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Instagram.png");
 }
 
-button.email {
+.email.icons {
   background: -webkit-linear-gradient(top, #1a51f0 0%, #03e4fe 100%);
 }
 
-button.email:before {
-   background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Email%20-%20White%201.png);
+.email.icons:before {
+   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Email%20-%20White%201.png");
 }
 
-.tumblr {
+.tumblr.icons {
   background-color: #35465c;
 }
 
-.tumblr:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Tumblr%20White%20-%201.png);
-}
-
-button.gifs {
-  background-color: #fa0244;
-}
-
-
-/* INPUT BAR */
-button.message-send {
-  background-color: #0070eb;
-  border-radius: 50%;
-}
-
-button.message-send:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Send%20Icon/Send%20Arrow%20-%20White%201.png);
+.tumblr.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Tumblr%20White%20-%201.png");
 }
 
 
 
-/* APPLE MEDIA FILES CONTROLS */
-button.amf-controls.close {
-  background: #ff5c5c;
-  border-color: #e33e41;
-}
 
-button.amf-controls.close:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Black%201.png);
-}
-
-button.amf-controls.close-grey {
-  background: #acabac;
-  border: none;
-}
-
-button.amf-controls.close-grey:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Grey%203.png);
-  opacity: 1;
-}
-
-button.amf-controls.minimize {
-  background: #ffbd4c;
-  border-color: #e09e3e;
-}
-
-button.amf-controls.minimize:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Minimize%20Icon/Minimize%20-%20Black%201.png);
-  background-size: 8.5px;
-}
-
-button.amf-controls.full-screen {
-  background: #00ca56;
-  border-color: #14ae46;
-}
-
-button.amf-controls.full-screen:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Full%20Screen%20Icon/Full%20Screen%20-%20Black%201.png);
-}
-
-/* AMF TITLE ICONS */
-.image-app .amf-title-entire-container.icons:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/Image%20App%20Specifics/Image%20App%20Icon%20-%201.png);
-}
-
-.image-app .amf-title-entire-container.icons:after {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/Image%20App%20Specifics/Arrow%20-%20Thick%20-%20Grey%20-%202.png);
-}
-
-
-/* ZOOM */
-button.zoom-out:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Zoom/Rounded%20Edge/Rounded%20%26%20Thick/Zoom%20Out%20-%20Rounded%20Thick%20-%201.png);
-}
-
-button.zoom-in:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Zoom/Rounded%20Edge/Rounded%20%26%20Thick/Zoom%20In%20-%20Rounded%20Thick%20-%201.png);
-}
-
-
-
-/* SHARE */
-button.amf-share:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Share%20Icon/Share%20-%20Old%20-%201.png);
-}
-
-
-
-/* USER PROFILE ICONS */
+/* USER AVI ICONS */
 .avi.icons {
   background: linear-gradient(#a4aaba, #888b92);
   border-radius: 50%;
 }
 
 .avi.icons:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Anonymous%20User/Anonymous%20User%20-%20White%20Only%202.png);
-}
-
-
-
-/* COMMENTING SYSTEM ICONS */
-button.three-dots-horizontal:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Dropdown%20Icon/Dropdown%20Icon%20-%20Grey%201.png);
-}
-
-button.right-arrow:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%202.png);
-}
-
-button.expand-top:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Top%20-%201.png);
-}
-
-button.expand-right:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Right%20-%201.png);
-}
-
-button.expand-bottom.white:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Bottom%20-%201.png);
-}
-
-button.expand-bottom.grey:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Bottom%20-%20Grey%20-%202.png);
-}
-
-button.expand-left:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Left%20-%201.png);
-}
-
-button.reply.right-arrow:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Reply/Reply%20-%20Grey%20-%20Left%20to%20Right%201.png);
-}
-
-button.reply.left-arrow:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Reply/Reply%20-%20Grey%201.png);
-}
-
-button.like:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Like/Like%20-%20Grey%201.png);
-}
-
-button.follow:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Follow/Follow%20-%20Grey%20-%201.png);
-}
-
-button.un-follow:before {
-  background-image: url();
-}
-
-button.mute:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Mute/Mute%20-%20Grey%20-%201.png);
-}
-
-button.delete:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Delete/Delete%20-%20Grey%20-%202.png);
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Anonymous%20User/Anonymous%20User%20-%20White%20Only%202.png");
 }
 
 
 
 
-/* TWITTER EMBED ICONS */
-.twitter .dm:before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Direct%20Messages.png);
+/* INPUT BAR ICONS */
+.upload-media.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Camera%20Icons/Camera%20-%20White%202.png");
 }
 
-.twitter .location:before {
+.app-store.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/App%20Store%20Icons/App%20Store%20Icon%20-%20White%202.png");
+  background-size: 12.6px;
+}
+
+.expand-right.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%202.png");
+}
+
+.send-message.icons {
+  background-color: #0070eb;
+  border-radius: 50%;
+}
+
+.send-message.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Send%20Icon/Send%20Arrow%20-%20White%201.png");
+}
+
+.gifs.icons {
+  background-color: #fa0244;
+}
+
+
+
+
+/* EXPAND ICONS */
+.expand-right.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Right%20-%201.png");
+}
+
+.expand-embed-window.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Expand%20Buttons/Expand%20-%20Content%20Window%206.png");
+}
+
+
+
+
+/* SEARCH INPUT ICON */
+.search-icon {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Search/Search%20-%20Grey%20-%202.png);
+}
+
+
+
+
+/* APPLE MEDIA FILE CONTROLS ICONS */
+.amf-controls.close.icons {
+  background: #ff5c5c;
+  border-color: #e33e41;
+}
+
+.amf-controls.close.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Black%201.png");
+}
+
+.amf-controls.close-grey.icons {
+  background: #acabac;
+  border: none;
+}
+
+.amf-controls.close-grey.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Grey%203.png");
+  opacity: 1;
+}
+
+.amf-controls.minimize.icons {
+  background: #ffbd4c;
+  border-color: #e09e3e;
+}
+
+.amf-controls.minimize.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Minimize%20Icon/Minimize%20-%20Black%201.png");
+  background-size: 8.5px;
+}
+
+.amf-controls.full-screen.icons {
+  background: #00ca56;
+  border-color: #14ae46;
+}
+
+.amf-controls.full-screen.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Full%20Screen%20Icon/Full%20Screen%20-%20Black%201.png");
+}
+
+
+
+
+/* APPLE MEDIA FILE - ICONS IN TITLE */
+.image-app .amf-title-entire-container.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/Image%20App%20Specifics/Image%20App%20Icon%20-%201.png");
+}
+
+.image-app .amf-title-entire-container.icons:after {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/Image%20App%20Specifics/Arrow%20-%20Thick%20-%20Grey%20-%202.png");
+}
+
+
+
+
+/* APPLE MEDIA FILE - ZOOM ICONS */
+.zoom-out.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Zoom/Rounded%20Edge/Rounded%20%26%20Thick/Zoom%20Out%20-%20Rounded%20Thick%20-%201.png");
+}
+
+.zoom-in.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Zoom/Rounded%20Edge/Rounded%20%26%20Thick/Zoom%20In%20-%20Rounded%20Thick%20-%201.png");
+}
+
+
+
+
+/* APPLE MEDIA FILE - SHARE ICON */
+.amf-share.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Share%20Icon/Share%20-%20Old%20-%201.png");
+}
+
+
+
+
+/* SINGLE COMMENT FUNCTIONALITY ICONS */
+.text-bubble-functions.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Heart/Heart%20-%20CDG%20-%20Eyes%20-%20Grey%20-%201.png");
+}
+
+.text-bubble-functions.liked.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Heart/Heart%20-%20CDG%20-%20Eyes%20-%20Red%20-%201.png") !important;
+}
+
+.heart.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Heart/Heart%20-%20CDG%20-%20Eyes%20-%20Grey%20-%201.png");
+}
+
+.liked .heart.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Heart/Heart%20-%20CDG%20-%20Red%20-%20Eyes%20-%206.png") !important;
+}
+
+.reply-right.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Reply/Reply%20-%20Grey%20-%20Left%20to%20Right%202.png");
+}
+
+.reply-left.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Reply/Reply%20-%20Grey%20-%20Right%20to%20Left%202.png");
+}
+
+.follow.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Follow/Follow%20-%20Grey%20-%203.png");
+}
+
+.un-follow.icons:before {
+  background-image: url("");
+}
+
+.mute.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Mute/Mute%20-%20Grey%20-%202.png");
+}
+
+.delete.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Delete/Trash%20Can%20-%20Grey%202.png");
+}
+
+
+
+
+/* TWITTER EMBED PROFILE ICONS */
+.twitter .dm.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Direct%20Messages.png");
+}
+
+.twitter .location.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Location%20-%20Grey%20-%205.png");
 }
 
-.twitter .bio-link:before {
+.twitter .bio-link.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Link/Link%20-%20Thick%20-%20Grey%20-%201.png");
 }
 
-.twitter .reply:before {
+.twitter .reply.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Reply/Reply%20-%201.png");
 }
 
-.twitter .retweets-count:before {
+.twitter .retweets-count.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Retweet/Retweet%20-%20Grey%20-%205.png");
 }
 
-.twitter .likes-count:before {
+.twitter .likes-count.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Like/Like%20-%20Grey%20-%202.png");
 }
-
-
