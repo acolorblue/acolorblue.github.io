@@ -54,7 +54,7 @@ button:active {
    background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Instagram.png");
 }
 
-.email {
+.email.icons {
   background: -webkit-linear-gradient(top, #1a51f0 0%, #03e4fe 100%);
 }
 
