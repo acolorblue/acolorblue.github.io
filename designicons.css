@@ -28,8 +28,8 @@ button:active {
 }
 
 .icons.relative:before {
-  width: inherit;
-  height: inherit;
+/*   width: inherit;
+  height: inherit; */
   display: inline-block;
   position: relative;
 }
