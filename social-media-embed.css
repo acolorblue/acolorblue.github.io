@@ -1,3 +1,11 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+* img {
+  object-fit: cover;
+}
+
 .social-media-embed-container * {
   transition: unset;
   box-sizing: border-box;
