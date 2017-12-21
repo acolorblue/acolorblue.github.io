@@ -259,6 +259,14 @@ button:active {
 
 
 /* TWITTER EMBED PROFILE ICONS */
+.twitter-embed .loader {
+  background: #00C3F3;
+}
+
+.twitter-embed .loader:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Twitter%20-%20White%201.png");
+}
+
 .twitter-embed .dm.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Direct%20Messages.png");
 }
@@ -281,4 +289,28 @@ button:active {
 
 .twitter-embed .likes-count.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Like/Like%20-%20Grey%20-%202.png");
+}
+
+
+
+
+/* INSTAGRAM EMBED PROFILE ICONS */
+.instagram-embed .loader {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 0 -25%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 100% 0, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 100% 100%, #d9317a, rgba(0, 0, 0, 0)), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+
+.instagram-embed .loader:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Instagram.png");
+}
+
+
+
+
+/* TUMBLR EMBED PROFILE ICONS */
+.tumblr-embed .loader {
+  background: #35465c;
+}
+
+.tumblr-embed .loader:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Tumblr%20White%20-%201.png");
 }
