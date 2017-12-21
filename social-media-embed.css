@@ -1,1 +1,119 @@
+.social-media-embed-container * {
+  transition: unset;
+  box-sizing: border-box;
+}
 
+.social-media-embed-container {
+  width: 267px;
+  height: 520px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.show-social-media-embed .social-media-embed-container {
+  height: 100%;
+}
+
+.social-media-embed-container .loader {
+  width: -webkit-fill-available;
+  height: 100%;
+  position: absolute;
+  overflow: scroll;
+  z-index: 2;
+}
+
+
+
+
+/* LOGO PAGE LOADERS */
+.twitter-embed .loader:before {
+  background-size: 270px;
+  transform: scale(0.15);
+}
+
+.twitter-embed .loader.animation:before {
+  opacity: 1;
+  animation: twitter-embed-loader 3.5s ease-in-out infinite;
+} 
+
+@keyframes twitter-embed-loader {
+  0%, 50% {
+    opacity: 1; 
+    transform: scale(0.15);
+  }
+
+  70% {
+    opacity: 1;
+    transform: scale(0.13);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(25);
+  }
+} 
+
+
+.instagram-embed .loader:before {
+  background-size: 40px;
+}
+
+.instagram-embed .loader.animation:after {
+  content: '';
+  width: 60px;
+  height: 2px;
+  background: rgba(255,255,255,0.5);
+  border-radius: 4px;
+  position: absolute;
+  margin: auto;
+  top: 60px;
+  bottom: 0;
+  left: 103px;
+  animation: instagram-embed-loader 3s linear;
+} 
+
+@keyframes instagram-embed-loader {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 60px;
+  }
+} 
+
+
+.tumblr-embed .loader:before {
+  background-size: 270px;
+  transform: scale(0.15);
+}
+
+.tumblr-embed .loader.animation:before {
+  opacity: 1;
+  animation: tumblr-embed-loader 3.5s ease-in-out infinite;
+} 
+
+@keyframes tumblr-embed-loader {
+  0%, 50% {
+    opacity: 1; 
+    transform: scale(0.15);
+  }
+
+  70% {
+    opacity: 1;
+    transform: scale(0.13);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(25);
+  }
+} 
