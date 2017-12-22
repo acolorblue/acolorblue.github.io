@@ -71,7 +71,7 @@
 } 
 
 
-.instagram-embed .loader:before {
+/* .instagram-embed .loader:before {
   background-size: 40px;
 }
 
@@ -96,7 +96,7 @@
   100% {
     width: 60px;
   }
-} 
+}  */
 
 
 .tumblr-embed .loader:before {
