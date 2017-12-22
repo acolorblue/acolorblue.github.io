@@ -6,12 +6,12 @@
   object-fit: cover;
 }
 
-.social-media-embed-container * {
+.social-media-embed * {
   transition: unset;
   box-sizing: border-box;
 }
 
-.social-media-embed-container {
+.social-media-embed {
   width: 267px;
   height: 520px;
   position: relative;
@@ -27,11 +27,11 @@
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.show-social-media-embed .social-media-embed-container {
+.show-social-media-embed .social-media-embed {
   height: 100%;
 }
 
-.social-media-embed-container .loader {
+.social-media-embed .loader {
   width: -webkit-fill-available;
   height: 100%;
   position: absolute;
@@ -125,3 +125,90 @@
     transform: scale(25);
   }
 } 
+
+
+
+
+/* BEGINNNING OF PROFILE CONTAINERS */
+.social-media-embed .profile-container {
+  width: -webkit-fill-available;
+  height: 100%;
+  position: relative;
+  overflow: scroll;
+}
+
+.twitter-embed .profile-container {
+  background: #1b2836;
+}
+
+
+/* HEADER CONTAINER */
+.social-media-embed .header-container {
+  width: -webkit-fill-available;
+}
+
+.twitter-embed .header-container {
+  height: 247px;
+}
+
+
+/* HEADER IMAGE */
+.social-media-embed .header-image {
+  width: 100%;
+  background-size: cover;
+}
+
+.twitter-embed .header-image {
+  height: 90px;
+  background-color: rgb(208, 208, 208);
+  background-image: url("https://acolorblueserver.com/commenting/logo-background.jpg");
+}
+
+
+/* HEADER CONTENT */
+.social-media-embed .header-content {
+  width: -webkit-fill-available;
+  position: relative;
+}
+
+.twitter-embed .header-content {
+  height: 158px;
+  padding: 0px 10px;
+}
+
+
+/* ALL AVI'S */
+.social-media-embed button.avi {
+  border-radius: 50%;
+  position: relative;
+}
+
+.social-media-embed button.avi img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+.social-media-embed button.avi:active,
+.social-media-embed button.avi img:hover {
+  opacity: 0.9;
+}
+
+.social-media-embed button.avi img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+
+/* HEADER CONTAINER AVI */
+.twitter-embed .header-content button.avi {
+  width: 64px;
+  height: 64px;
+  margin: -26px 0px 0px;
+}
+
+.twitter-embed .header-content button.avi img {
+  border: 2px solid #1b2836;
+  background-color: #d8d8d8;
+}
