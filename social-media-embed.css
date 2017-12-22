@@ -250,24 +250,3 @@
 
 
 /* RELATION TO USER BUTTON */
-.twitter-embed button.relation-to-user {
-  width: 72.47px;
-  height: 24px;
-  margin: 0 0 0 8px;
-  padding: 6px 12px;
-  border: 1px solid #1DA1F2;
-  border-radius: 12px;
-  font-size: 11px;
-  color: white;
-}
-
-.twitter-embed button.relation-to-user:before {
-  line-height: 10px;
-  display: block;
-}
-
-.twitter-embed button.relation-to-user:active {
-  opacity: unset;
-  box-shadow: 0 0 0 2px #1b2836, 0 0 0 4px #1DA1F2;
-  transition: box-shadow .15s ease-in-out;
-}
