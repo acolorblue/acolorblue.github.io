@@ -80,62 +80,6 @@
 } 
 
 
-/* .instagram-embed .loader:before {
-  background-size: 40px;
-}
-
-.instagram-embed .loader.animation:after {
-  content: '';
-  width: 60px;
-  height: 2px;
-  background: rgba(255,255,255,0.5);
-  border-radius: 4px;
-  position: absolute;
-  margin: auto;
-  top: 60px;
-  bottom: 0;
-  left: 103px;
-  animation: instagram-embed-loader 3s linear;
-} 
-
-@keyframes instagram-embed-loader {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 60px;
-  }
-}  */
-
-
-.tumblr-embed .loader:before {
-  background-size: 270px;
-  transform: scale(0.15);
-}
-
-.tumblr-embed .loader.animation:before {
-  opacity: 1;
-  animation: tumblr-embed-loader 3.5s ease-in-out infinite;
-} 
-
-@keyframes tumblr-embed-loader {
-  0%, 50% {
-    opacity: 1; 
-    transform: scale(0.15);
-  }
-
-  70% {
-    opacity: 1;
-    transform: scale(0.13);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(25);
-  }
-} 
-
-
 
 
 /* BEGINNNING OF PROFILE CONTAINERS */
@@ -156,9 +100,7 @@
   width: -webkit-fill-available;
 }
 
-.twitter-embed .header-container {
-  height: 247px;
-}
+
 
 
 /* HEADER IMAGE */
@@ -167,11 +109,7 @@
   background-size: cover;
 }
 
-.twitter-embed .header-image {
-  height: 90px;
-  background-color: rgb(208, 208, 208);
-  background-image: url("https://acolorblueserver.com/commenting/logo-background.jpg");
-}
+
 
 
 /* HEADER CONTENT */
@@ -180,10 +118,6 @@
   position: relative;
 }
 
-.twitter-embed .header-content {
-  height: 158px;
-  padding: 0px 10px;
-}
 
 
 /* ALL AVI'S */
@@ -217,10 +151,6 @@
   margin: -26px 0px 0px;
 }
 
-.twitter-embed .header-content button.avi img {
-  border: 2px solid #1b2836;
-  background-color: #d8d8d8;
-}
 
 
 
@@ -236,26 +166,12 @@
   float: right;
 }
 
-.twitter-embed .right-function-buttons {
-  margin-top: 8px;
-}
-
 
 /* DM BUTTON */
 .social-media-embed button.dm {
   position: relative;
 }
 
-.twitter-embed button.dm {
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  border: 1px solid #1b95e0;
-}
-
-.twitter-embed button.dm:before {
-  background-size: 12px;
-}
 
 
 /* RELATION TO USER BUTTON */
