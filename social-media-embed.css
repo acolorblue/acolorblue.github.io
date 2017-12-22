@@ -212,3 +212,62 @@
   border: 2px solid #1b2836;
   background-color: #d8d8d8;
 }
+
+
+
+
+/* RIGHT FUNCTIONS BUTTONS */
+.social-media-embed .right-function-buttons {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  margin: auto;
+  margin-right: 0;
+  display: flex;
+  float: right;
+}
+
+.twitter-embed .right-function-buttons {
+  margin-top: 8px;
+}
+
+
+/* DM BUTTON */
+.social-media-embed button.dm {
+  position: relative;
+}
+
+.twitter-embed button.dm {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #1b95e0;
+}
+
+.twitter-embed button.dm:before {
+  background-size: 12px;
+}
+
+
+/* RELATION TO USER BUTTON */
+.twitter-embed button.relation-to-user {
+  width: 72.47px;
+  height: 24px;
+  margin: 0 0 0 8px;
+  padding: 6px 12px;
+  border: 1px solid #1DA1F2;
+  border-radius: 12px;
+  font-size: 11px;
+  color: white;
+}
+
+.twitter-embed button.relation-to-user:before {
+  line-height: 10px;
+  display: block;
+}
+
+.twitter-embed button.relation-to-user:active {
+  opacity: unset;
+  box-shadow: 0 0 0 2px #1b2836, 0 0 0 4px #1DA1F2;
+  transition: box-shadow .15s ease-in-out;
+}
