@@ -6,6 +6,15 @@
   object-fit: cover;
 }
 
+.ab-mid {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:  0;
+}
+
 .social-media-embed * {
   transition: unset;
   box-sizing: border-box;
