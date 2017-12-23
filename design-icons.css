@@ -314,3 +314,8 @@ button:active {
 .tumblr-embed .loader:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Tumblr%20White%20-%201.png");
 }
+
+.twitter-embed .video.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Video%20Play/Play%20-%20Icon%20-%202.png");
+}
+
