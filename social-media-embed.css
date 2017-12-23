@@ -1,6 +1,7 @@
 .social-media-embed * {
 /*   transition: unset; */
   box-sizing: border-box;
+  user-select: none;
 }
 
 .social-media-embed {
