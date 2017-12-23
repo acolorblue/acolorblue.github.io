@@ -79,6 +79,8 @@
 }
 
 
+
+
 /* HEADER CONTAINER */
 .social-media-embed .header-container {
   width: -webkit-fill-available;
@@ -100,6 +102,10 @@
 .social-media-embed .header-content {
   width: -webkit-fill-available;
   position: relative;
+}
+
+span.user-handle:before {
+  content: "@";
 }
 
 
