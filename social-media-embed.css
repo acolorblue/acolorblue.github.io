@@ -1,20 +1,3 @@
-::-webkit-scrollbar {
-  display: none;
-}
-
-* img {
-  object-fit: cover;
-}
-
-.ab-mid {
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left:  0;
-}
-
 .social-media-embed * {
   transition: unset;
   box-sizing: border-box;
@@ -144,8 +127,9 @@
 }
 
 
-/* HEADER CONTAINER AVI */
 
+
+/* HEADER CONTAINER AVI */
 
 
 
@@ -163,6 +147,8 @@
 }
 
 
+
+
 /* DM BUTTON */
 .social-media-embed button.dm {
   position: relative;
@@ -170,4 +156,47 @@
 
 
 
+
 /* RELATION TO USER BUTTON */
+
+
+
+
+
+/* SEE MORE OF USER */
+a.see-more {
+  width: -webkit-fill-available;
+  height: 40px;
+  display: block;
+  position: relative;
+  text-decoration: none;
+  padding: 14px 0;
+  text-align: center;
+  color: white;
+  font-size: 11.6px;
+}
+
+.twitter-embed a.see-more {
+  background: #00C3F3;
+} 
+
+.instagram-embed a.see-more {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 0 -25%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 100% 0, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 100% 100%, #d9317a, rgba(0, 0, 0, 0)), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+} 
+
+.tumblr-embed a.see-more {
+  background: #35465c;
+} 
+
+a.see-more span {
+  display: inline-block;
+  height: 12px;
+}
+
+a.see-more span:before {
+  width: 12px;
+  height: 12px;
+  margin: 0px 0px 0px 5px;
+  background-size: contain;
+  float: right;
+}
