@@ -1,0 +1,97 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+* img {
+  object-fit: cover;
+}
+
+.ab-mid {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left:  0;
+}
+
+
+
+
+/* IOS PROMPT */
+.ios-prompt, .ios-prompt * {
+  box-sizing: border-box;
+}
+
+.ios-prompt {
+  width: -webkit-fill-available;
+  height: 0px;
+  padding: 0px;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: 9999;
+  transition: all 100ms ease-in-out;
+}
+
+.ios-prompt.show {
+  height: 78px;
+  padding: 6px;
+}
+
+.ios-prompt.show.unfollow {
+  height: 109.3px;
+}
+
+.ios-prompt.show:before {
+  content: "";
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  display: block;
+  position: fixed;
+  background: rgba(0, 0, 0, .3);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.ios-prompt-parent-transform {
+  transform: translate(0);
+}
+
+.ios-prompt button {
+  width: -webkit-fill-available;
+  height: 31px;
+  padding: 8px 0px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, .95);
+  margin: auto;
+  display: block;
+}
+
+button.user-to-unfollow {
+  border-radius: 4px 4px 0 0;
+  border-bottom: 0.3px solid #cecece;
+  font-size: 10.5px;
+  letter-spacing: .5px;
+  color: #b7b6b6;
+  opacity: unset;
+}
+
+button.ios-confirm-action {
+  color: red;
+}
+
+.unfollow button.ios-confirm-action {
+  border-radius: 0px 0px 4px 4px;
+}
+
+button.ios-cancel {
+  margin-top: 4px;
+  font-weight: 600;
+  color: #54a1ff;
+}
+
+button.ios-cancel:before {
+  content: "Cancel";
+}
