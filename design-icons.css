@@ -279,6 +279,10 @@ button:active {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Link/Link%20-%20Thick%20-%20Grey%20-%201.png");
 }
 
+.twitter-embed .video.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Video%20Play/Play%20-%20Icon%20-%202.png");
+}
+
 .twitter-embed .reply.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Reply/Reply%20-%201.png");
 }
@@ -290,6 +294,10 @@ button:active {
 .twitter-embed .likes-count.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Like/Like%20-%20Grey%20-%202.png");
 }
+
+.twitter-embed a.see-more span:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Twitter%20-%20White%201.png");
+} 
 
 
 
@@ -303,6 +311,10 @@ button:active {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Instagram.png");
 }
 
+.instagram-embed a.see-more span:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Instagram.png");
+} 
+
 
 
 
@@ -315,7 +327,6 @@ button:active {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Tumblr%20White%20-%201.png");
 }
 
-.twitter-embed .video.icons:before {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Video%20Play/Play%20-%20Icon%20-%202.png");
-}
-
+.tumblr-embed a.see-more span:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Tumblr%20White%20-%201.png");
+} 
