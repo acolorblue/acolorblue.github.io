@@ -2,11 +2,6 @@
   display: none;
 }
 
-:before, 
-:after {
-  content: "";
-}
-
 * img {
   object-fit: cover;
 }
