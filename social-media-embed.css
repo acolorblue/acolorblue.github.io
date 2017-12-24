@@ -143,7 +143,8 @@ span.user-handle:before {
 
 
 /* DISPLAY NAME */
-.twitter-embed .verified span.display-name:after {
+.twitter-embed .verified span.display-name:after,
+.twitter-embed .private span.display-name:after{
   content: "";
   background-size: contain;
   background-position: center;
