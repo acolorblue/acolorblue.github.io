@@ -142,6 +142,20 @@ span.user-handle:before {
 
 
 
+/* DISPLAY NAME */
+.twitter-embed .verified span.display-name:after {
+  content: "";
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  margin: auto 0px auto 2.2px;
+}
+
+
+
+
 /* RIGHT FUNCTIONS BUTTONS */
 .social-media-embed .right-function-buttons {
   width: fit-content;
