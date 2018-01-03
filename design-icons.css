@@ -300,6 +300,10 @@ button:active {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Private/Private%20-%20White%20-%201.png");
 }
 
+.twitter-embed .verified.private .display-name:after {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Verified%20%2B%20Private/Verified%20%2B%20Private%20-%201.png");
+}
+
 .twitter-embed .dm.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Direct%20Messages.png");
 }
