@@ -144,7 +144,7 @@ span.user-handle:before {
 
 /* DISPLAY NAME */
 .twitter-embed .verified span.display-name:after,
-.twitter-embed .private span.display-name:after{
+.twitter-embed .private span.display-name:after {
   content: "";
   background-size: contain;
   background-position: center;
@@ -152,6 +152,10 @@ span.user-handle:before {
   position: relative;
   display: inline-block;
   margin: auto 0px auto 2.2px;
+}
+
+.twitter-embed .verified.private span.display-name:after {
+  background-size: cover;
 }
 
 
