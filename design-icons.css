@@ -324,7 +324,7 @@ button:active {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Reply/Reply%20-%201.png");
 }
 
-.twitter-embed .retweets-count.icons:before {
+.twitter-embed .retweets.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Retweet/Retweet%20-%20Grey%20-%205.png");
 }
 
