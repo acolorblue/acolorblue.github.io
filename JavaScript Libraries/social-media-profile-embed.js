@@ -1,7 +1,3 @@
-
-
-
-
 // SOCIAL MEDIA EMBED LIBRARY
 function socialMediaProfileLibrary(user_info) {
   var profile_container = document.createElement('div');
