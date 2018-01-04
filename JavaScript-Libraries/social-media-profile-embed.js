@@ -101,7 +101,7 @@ function socialMediaProfileLibrary(user_info) {
     
     var following_span = document.createElement('span');
         following_span.className = 'following-amount';
-        following_span.textContent = socialMediaInfoNumberConverter(user_info.following);
+        following_span.textContent = largeNumbersConverter(user_info.following);
         following_button.appendChild(following_span);
         following_button.textContent += ' Following';
 
@@ -110,7 +110,7 @@ function socialMediaProfileLibrary(user_info) {
     
     var followers_span = document.createElement('span');
         followers_span.className = 'followers-amount';
-        followers_span.textContent = socialMediaInfoNumberConverter(user_info.followers);
+        followers_span.textContent = largeNumbersConverter(user_info.followers);
         followers_button.appendChild(followers_span);
         followers_button.textContent += ' Followers';
 
@@ -366,12 +366,12 @@ function socialMediaProfileLibrary(user_info) {
 
       var post_reposts = document.createElement('span');
           post_reposts.className = 'retweets-count icons relative';
-          post_reposts.textContent = socialMediaInfoNumberConverter(post_info_pull.retweet_count);
+          post_reposts.textContent = largeNumbersConverter(post_info_pull.retweet_count);
           post_functions.appendChild(post_reposts);
 
       var post_likes = document.createElement('span');
           post_likes.className = 'likes-count icons relative';
-          post_likes.textContent = socialMediaInfoNumberConverter(post_info_pull.favorite_count);
+          post_likes.textContent = largeNumbersConverter(post_info_pull.favorite_count);
           post_functions.appendChild(post_likes);
 
       user_content_container.appendChild(user_single_post_container);
@@ -450,7 +450,7 @@ function socialMediaProfileLibrary(user_info) {
 
       var following_span = document.createElement('span');
           following_span.className = 'following-amount';
-          following_span.textContent = socialMediaInfoNumberConverter(user_info.following);
+          following_span.textContent = largeNumbersConverter(user_info.following);
           following_button.textContent += ' Following';
           following_button.appendChild(following_span);
 
@@ -459,7 +459,7 @@ function socialMediaProfileLibrary(user_info) {
 
       var followers_span = document.createElement('span');
           followers_span.className = 'followers-amount';
-          followers_span.textContent = socialMediaInfoNumberConverter(user_info.followers);
+          followers_span.textContent = largeNumbersConverter(user_info.followers);
           followers_button.textContent += ' Followers';
           followers_button.appendChild(followers_span);
 
@@ -940,7 +940,7 @@ function socialMediaProfileLibrary(user_info) {
 
         var post_note = document.createElement('span');
             post_note.className = 'notes-count relative';
-            post_note.textContent = socialMediaInfoNumberConverter(post_info_pull.note_count);
+            post_note.textContent = largeNumbersConverter(post_info_pull.note_count);
             post_functions.appendChild(post_note);
 
         var post_replies = document.createElement('span');
