@@ -76,12 +76,12 @@
 }
 
 .user-to-unfollow {
-  border-radius: 4px 4px 0 0;
-  border-bottom: 0.3px solid #cecece;
   font-size: 10.5px;
   letter-spacing: .5px;
+  text-align: center;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 0.3px solid #cecece;
   color: #b7b6b6;
-  opacity: unset;
 }
 
 button.ios-confirm-action {
