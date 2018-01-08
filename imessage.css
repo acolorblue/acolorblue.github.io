@@ -65,7 +65,7 @@
   transform: translate(0);
 }
 
-.ios-prompt button {
+.ios-prompt * {
   width: -webkit-fill-available;
   height: 31px;
   padding: 8px 0px;
@@ -75,7 +75,7 @@
   display: block;
 }
 
-button.user-to-unfollow {
+.user-to-unfollow {
   border-radius: 4px 4px 0 0;
   border-bottom: 0.3px solid #cecece;
   font-size: 10.5px;
