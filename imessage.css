@@ -35,13 +35,19 @@
 }
 
 .ios-prompt.show {
-  height: 78px;
   padding: 6px;
 }
 
-.ios-prompt.show.unfollow {
+.ios-prompt.show.delete,
+.ios-prompt.show.sign-out {
+  height: 78px;
+}
+
+.ios-prompt.show.unfollow,
+.ios-prompt.show.cancel-follow-request {
   height: 109.3px;
 }
+
 
 .ios-prompt.show:before {
   content: "";
