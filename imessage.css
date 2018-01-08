@@ -82,7 +82,8 @@ button.ios-confirm-action {
   color: red;
 }
 
-.unfollow button.ios-confirm-action {
+.unfollow button.ios-confirm-action,
+.pending button.ios-confirm-action {
   border-radius: 0px 0px 4px 4px;
 }
 
