@@ -89,7 +89,7 @@ button.ios-confirm-action {
 }
 
 .unfollow button.ios-confirm-action,
-.pending-on-twitter button.ios-confirm-action {
+.cancel-follow-request button.ios-confirm-action {
   border-radius: 0px 0px 4px 4px;
 }
 
