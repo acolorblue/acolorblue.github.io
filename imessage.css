@@ -18,6 +18,58 @@
 
 
 
+/* LOGIN PAGE */
+.login-page * {
+  box-sizing: border-box;
+}
+
+.login-page {
+  width: 100%;
+  height: -webkit-fill-available;
+  position: fixed;
+  display: block;
+  background: #fff;
+  z-index: 9999;
+}
+
+.login-container {
+  width: 260px;
+  height: 70px;
+  border: 1px solid black;
+  border-radius: 45px;
+  padding: 8px;
+  display: flex;
+}
+
+.login-container .sign-in {
+  width: fit-content;
+  color: black;
+  position: absolute;
+  margin: auto;
+  font-family: "San Francisco", sans-serif;
+  font-size: 30px;
+  top: -50px;
+  left: 0;
+  right: 0;
+}
+
+.login-container button {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  margin: auto;
+  position: relative;
+  display: block;
+  background: black;
+}
+
+.login-container button:before {
+  background-size: 16px;
+}
+
+
+
+
 /* IOS PROMPT */
 .ios-prompt, .ios-prompt * {
   box-sizing: border-box;
