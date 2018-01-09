@@ -37,14 +37,6 @@ button:active {
 
 
 
-/* ARROWS */
-.arrow-bottom-small-grey.icons:before {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/Image%20App%20Specifics/Arrow%20-%20Thick%20-%20Grey%20-%202.png");
-}
-
-
-
-
 /* SOCIAL MEDIA LOGO ICONS */
 .twitter {
   background: #00C3F3;
@@ -318,6 +310,10 @@ button:active {
 
 .twitter-embed .personal-link.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Link/Link%20-%20Thick%20-%20Grey%20-%201.png");
+}
+
+.twitter-embed .post-info.icons:after {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/Image%20App%20Specifics/Arrow%20-%20Thick%20-%20Grey%20-%202.png");
 }
 
 .twitter-embed .video.icons:before {
