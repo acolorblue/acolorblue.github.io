@@ -37,6 +37,14 @@ button:active {
 
 
 
+/* ARROWS */
+.arrow-bottom-small-grey.icons:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/Image%20App%20Specifics/Arrow%20-%20Thick%20-%20Grey%20-%202.png");
+}
+
+
+
+
 /* SOCIAL MEDIA LOGO ICONS */
 .twitter {
   background: #00C3F3;
@@ -228,10 +236,6 @@ button:active {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Zoom/Rounded%20Edge/Rounded%20%26%20Thick/Zoom%20In%20-%20Rounded%20Thick%20-%201.png");
 }
 
-
-
-
-/* APPLE MEDIA FILE - SHARE ICON */
 .amf-share.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Share%20Icon/Share%20-%20Old%20-%201.png");
 }
