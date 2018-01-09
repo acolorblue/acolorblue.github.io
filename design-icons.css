@@ -279,7 +279,14 @@ button:active {
 
 
 
-/* TWITTER EMBED PROFILE ICONS */
+/* TWITTER EMBED ICONS */
+.twitter-embed :after {
+  display: inline-block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .twitter-embed .loader {
   background: #00C3F3;
 }
