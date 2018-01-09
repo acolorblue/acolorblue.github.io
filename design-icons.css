@@ -281,8 +281,6 @@ button:active {
 
 /* TWITTER EMBED ICONS */
 .twitter-embed :after {
-  display: inline-block;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
