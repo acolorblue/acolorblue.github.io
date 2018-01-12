@@ -5,18 +5,25 @@
 
 .social-media-embed {
   width: 267px;
-  height: 520px;
-  position: relative;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
+  font-family: "San Francisco", sans-serif;
+  overflow: hidden;
+}
+
+.stand-alone .social-media-embed {
+  height: 520px;
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   margin: auto;
-  font-family: "San Francisco", sans-serif;
+}
+
+.iphone .social-media-embed {
+  height: 0;
+  position: relative;
 }
 
 .show-social-media-embed .social-media-embed {
@@ -31,6 +38,9 @@
   z-index: 2;
 }
 
+.stand-alone .social-media-embed .loader {
+  display: none;
+}
 
 
 
