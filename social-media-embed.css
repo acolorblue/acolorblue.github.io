@@ -199,17 +199,6 @@ span.user-handle:before {
 
 
 /* SEE MORE OF USER */
-a.see-more {
-  width: -webkit-fill-available;
-  height: 40px;
-  display: block;
-  position: relative;
-  padding: 14px 0;
-  text-align: center;
-  color: white;
-  font-size: 11.6px;
-}
-
 .twitter-embed a.see-more {
   background: #00C3F3;
 } 
@@ -221,16 +210,3 @@ a.see-more {
 .tumblr-embed a.see-more {
   background: #35465c;
 } 
-
-a.see-more span {
-  display: inline-block;
-  height: 12px;
-}
-
-a.see-more span:before {
-  width: 12px;
-  height: 12px;
-  margin: 0px 0px 0px 5px;
-  background-size: contain;
-  float: right;
-}
