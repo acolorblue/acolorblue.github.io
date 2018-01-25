@@ -79,6 +79,10 @@
   overflow: scroll;
 }
 
+.social-media-embed a {
+  text-decoration: none;
+}
+
 .twitter-embed .profile-container {
   background: #1b2836;
 }
