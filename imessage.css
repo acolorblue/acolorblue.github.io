@@ -70,6 +70,32 @@
 
 
 
+/* USER AVI IN COMMENTS */
+button.avi.in-comments {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  margin: auto;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: hidden;
+}
+
+button.avi.in-comments:before {
+  background-size: 14.304px auto;
+  bottom: -3.48px;
+}
+
+button.avi.in-comments img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+
+
+
 /* IOS PROMPT */
 .ios-prompt, .ios-prompt * {
   box-sizing: border-box;
