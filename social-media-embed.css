@@ -152,8 +152,8 @@ span.user-handle:before {
 
 
 /* DISPLAY NAME */
-.twitter-embed span.display-name.verified:after
-.twitter-embed .private .header-container span.display-name:after {
+.twitter-embed .display-name.verified:after,
+.twitter-embed .private .header-container .display-name:after {
   content: "";
   background-size: contain;
   background-position: center;
@@ -163,7 +163,7 @@ span.user-handle:before {
   margin: auto 0px auto 2.2px;
 }
 
-.twitter-embed .verified.private .header-container span.display-name:after {
+.twitter-embed .verified.private .header-container .display-name:after {
   background-size: cover;
 }
 
