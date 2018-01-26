@@ -152,8 +152,8 @@ span.user-handle:before {
 
 
 /* DISPLAY NAME */
-.twitter-embed .verified .header-container span.display-name:after,
-.twitter-embed .verified .user-profile-content span.display-name:after,
+.twitter-embed .header-container span.display-name.verified:after,
+.twitter-embed .user-profile-content span.display-name.verified:after,
 .twitter-embed .private .header-container span.display-name:after {
   content: "";
   background-size: contain;
