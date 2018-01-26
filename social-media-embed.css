@@ -152,8 +152,9 @@ span.user-handle:before {
 
 
 /* DISPLAY NAME */
-.twitter-embed .verified .header-user-info span.display-name:after,
-.twitter-embed .private .header-user-info span.display-name:after {
+.twitter-embed .verified .header-container span.display-name:after,
+.twitter-embed .verified .user-profile-content span.display-name:after,
+.twitter-embed .private .header-container span.display-name:after {
   content: "";
   background-size: contain;
   background-position: center;
@@ -164,7 +165,7 @@ span.user-handle:before {
   margin: auto 0px 0px 2.2px;
 }
 
-.twitter-embed .verified.private .header-user-info span.display-name:after {
+.twitter-embed .verified.private .header-container span.display-name:after {
   background-size: cover;
 }
 
