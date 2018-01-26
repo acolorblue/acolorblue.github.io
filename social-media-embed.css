@@ -125,6 +125,7 @@ span.user-handle:before {
   height: 12px;
   margin: 0px 0px -1px 5px;
   position: relative;
+  display: inline-block;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
