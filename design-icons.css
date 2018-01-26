@@ -293,10 +293,9 @@ button:active {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Twitter%20-%20White%201.png");
 }
 
-/* .twitter-embed .verified .header-container .display-name:after,
-.twitter-embed .verified .user-profile-content .display-name:after {
+.twitter-embed .display-name.verified:after {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Verified/Verified%20-%20White%20-%201.png");
-} */
+}
 
 .twitter-embed .private .header-user-info .display-name:after {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Private/Private%20-%20White%20-%201.png");
