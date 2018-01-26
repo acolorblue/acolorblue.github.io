@@ -140,21 +140,6 @@ span.user-handle:before {
   background: #1b2836;
 }
 
-.twitter-embed .display-name.verified:after,
-.twitter-embed .private .header-container .display-name:after {
-  content: "";
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  display: inline-block;
-  margin: auto 0px auto 2.2px;
-}
-
-.twitter-embed .verified.private .header-container .display-name:after {
-  background-size: cover;
-}
-
 .twitter-embed a.see-more {
   background: #00C3F3;
 } 
