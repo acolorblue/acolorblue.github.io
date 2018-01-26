@@ -297,12 +297,7 @@ button:active {
 
 
 
-/* TWITTER EMBED ICONS */
-.twitter-embed :after {
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
+/* ALL TWITTER EMBED ICONS */
 .twitter-embed .loader {
   background: #00C3F3;
 }
