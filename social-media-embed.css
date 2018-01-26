@@ -100,6 +100,37 @@ span.user-handle:before {
 }
 
 
+.social-media-embed a.see-more {
+  width: -webkit-fill-available;
+  height: 40px;
+  font-size: 11.6px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.social-media-embed a.see-more span {
+  line-height: 16.57px;
+  margin: auto;
+}
+
+.social-media-embed a.see-more span:before {
+  content: "See more of";
+  font-weight: normal;
+}
+
+.social-media-embed a.see-more span:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  margin: 0px 0px -1px 5px;
+  position: relative;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
 
 
 /* ALL TWITTER EMBED */
