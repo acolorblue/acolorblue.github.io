@@ -1,3 +1,4 @@
+/* UNIVERSAL STYLES ON ALL SOCIAL MEDIA EMBED */
 .social-media-embed * {
   box-sizing: border-box;
   user-select: none;
@@ -26,7 +27,7 @@
   position: relative;
 }
 
-.show-social-media-embed .social-media-embed {
+.iphone .show-social-media-embed .social-media-embed {
   height: 100%;
 }
 
@@ -38,9 +39,76 @@
   z-index: 2;
 }
 
+.social-media-embed .profile-container {
+  width: -webkit-fill-available;
+  height: 100%;
+  position: relative;
+  overflow: scroll;
+}
+
+.social-media-embed a {
+  text-decoration: none;
+}
+
+.social-media-embed .header-container {
+  width: -webkit-fill-available;
+}
+
+.social-media-embed .header-image {
+  width: 100%;
+  background-size: cover;
+}
+
+.social-media-embed .header-content {
+  width: -webkit-fill-available;
+  position: relative;
+}
+
+span.user-handle:before {
+  content: "@";
+}
+
+.social-media-embed button.avi {
+  border-radius: 50%;
+  position: relative;
+}
+
+.social-media-embed button.avi img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+.social-media-embed button.avi:active,
+.social-media-embed button.avi img:hover {
+  opacity: 0.9;
+}
+
+.social-media-embed button.avi img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+.social-media-embed .right-function-buttons {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  margin: auto;
+  margin-right: 0;
+  display: flex;
+  float: right;
+}
 
 
-/* LOGO PAGE LOADERS */
+.social-media-embed button.dm {
+  position: relative;
+}
+
+
+
+
+/* ALL TWITTER EMBED */
 .twitter-embed .loader:before {
   background-size: 270px;
   transform: scale(0.15);
@@ -68,90 +136,10 @@
   }
 } 
 
-
-
-
-/* BEGINNNING OF PROFILE CONTAINERS */
-.social-media-embed .profile-container {
-  width: -webkit-fill-available;
-  height: 100%;
-  position: relative;
-  overflow: scroll;
-}
-
-.social-media-embed a {
-  text-decoration: none;
-}
-
 .twitter-embed .profile-container {
   background: #1b2836;
 }
 
-
-
-
-/* HEADER CONTAINER */
-.social-media-embed .header-container {
-  width: -webkit-fill-available;
-}
-
-
-
-
-/* HEADER IMAGE */
-.social-media-embed .header-image {
-  width: 100%;
-  background-size: cover;
-}
-
-
-
-
-/* HEADER CONTENT */
-.social-media-embed .header-content {
-  width: -webkit-fill-available;
-  position: relative;
-}
-
-span.user-handle:before {
-  content: "@";
-}
-
-
-
-/* ALL AVI'S */
-.social-media-embed button.avi {
-  border-radius: 50%;
-  position: relative;
-}
-
-.social-media-embed button.avi img {
-  width: inherit;
-  height: inherit;
-  border-radius: inherit;
-}
-
-.social-media-embed button.avi:active,
-.social-media-embed button.avi img:hover {
-  opacity: 0.9;
-}
-
-.social-media-embed button.avi img {
-  width: inherit;
-  height: inherit;
-  border-radius: inherit;
-}
-
-
-
-
-/* HEADER CONTAINER AVI */
-
-
-
-
-
-/* DISPLAY NAME */
 .twitter-embed .display-name.verified:after,
 .twitter-embed .private .header-container .display-name:after {
   content: "";
@@ -167,46 +155,22 @@ span.user-handle:before {
   background-size: cover;
 }
 
-
-
-
-/* RIGHT FUNCTIONS BUTTONS */
-.social-media-embed .right-function-buttons {
-  width: fit-content;
-  height: fit-content;
-  position: relative;
-  margin: auto;
-  margin-right: 0;
-  display: flex;
-  float: right;
-}
-
-
-
-
-/* DM BUTTON */
-.social-media-embed button.dm {
-  position: relative;
-}
-
-
-
-
-/* RELATION TO USER BUTTON */
-
-
-
-
-
-/* SEE MORE OF USER */
 .twitter-embed a.see-more {
   background: #00C3F3;
 } 
 
+
+
+
+/* ALL INSTAGRAM EMBED */
 .instagram-embed a.see-more {
   background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 0 -25%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 100% 0, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 100% 100%, #d9317a, rgba(0, 0, 0, 0)), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 } 
 
+
+
+
+/* ALL TUMBLR EMBED */
 .tumblr-embed a.see-more {
   background: #35465c;
 } 
