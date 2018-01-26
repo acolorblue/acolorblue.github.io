@@ -42,7 +42,7 @@ button:active {
 }
 
 .icons-a:after {
-  content: '';
+  content: ''; 
   background-size: contain; 
   background-repeat: no-repeat;
 }
