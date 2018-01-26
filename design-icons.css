@@ -41,7 +41,7 @@ button:active {
   background-size: 12px;
 }
 
-.icons-a:before {
+.icons-a:after {
   content: '';
   background-size: contain; 
   background-repeat: no-repeat;
