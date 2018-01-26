@@ -76,10 +76,13 @@ button.avi.in-comments {
   height: 26px;
   position: absolute;
   margin: auto;
-  top: 0px;
-  right: 0px;
   bottom: 0px;
   overflow: hidden;
+}
+
+.stand-alone button.avi.in-comments {
+  top: 0px;
+  right: 0px;
 }
 
 button.avi.in-comments:before {
