@@ -68,12 +68,12 @@ span.user-handle:before {
   content: "@";
 }
 
-.social-media-embed button.avi {
+.social-media-embed .avi {
   border-radius: 50%;
   position: relative;
 }
 
-.social-media-embed button.avi img {
+.social-media-embed .avi img {
   width: inherit;
   height: inherit;
   border-radius: inherit;
@@ -82,12 +82,6 @@ span.user-handle:before {
 .social-media-embed button.avi:active,
 .social-media-embed button.avi img:hover {
   opacity: 0.9;
-}
-
-.social-media-embed button.avi img {
-  width: inherit;
-  height: inherit;
-  border-radius: inherit;
 }
 
 .social-media-embed .right-function-buttons {
