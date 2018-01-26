@@ -162,7 +162,7 @@ span.user-handle:before {
   position: relative;
   display: inline-block;
   margin: auto 0px 5px 2.2px;
-  margin: auto 0px 0px 2.2px;
+  margin: auto 0px auto 2.2px;
 }
 
 .twitter-embed .verified.private .header-container span.display-name:after {
