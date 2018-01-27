@@ -149,11 +149,13 @@ button.avi.in-comments img {
 .ios-prompt * {
   width: -webkit-fill-available;
   height: 31px;
-  padding: 8px 0px;
+  max-width: 255px;
+  padding: 8px 10px;
   border-radius: 4px;
   background: rgba(255, 255, 255, .95);
   margin: auto;
   display: block;
+  overflow: hidden;
 }
 
 .user-to-unfollow {
@@ -163,6 +165,7 @@ button.avi.in-comments img {
   border-radius: 4px 4px 0 0;
   border-bottom: 0.3px solid #cecece;
   color: #b7b6b6;
+  text-overflow: ellipsis;
 }
 
 button.ios-confirm-action {
