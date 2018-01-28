@@ -100,7 +100,8 @@ button.avi.in-comments img {
 
 
 /* IOS PROMPT */
-.ios-prompt, .ios-prompt * {
+.ios-prompt, 
+.ios-prompt * {
   box-sizing: border-box;
 }
 
@@ -119,17 +120,6 @@ button.avi.in-comments img {
   padding: 6px;
 }
 
-.ios-prompt.show.delete,
-.ios-prompt.show.sign-out {
-  height: 78px;
-}
-
-.ios-prompt.show.unfollow,
-.ios-prompt.show.cancel-follow-request {
-  height: 109.3px;
-}
-
-
 .ios-prompt.show:before {
   content: "";
   width: -webkit-fill-available;
@@ -146,19 +136,43 @@ button.avi.in-comments img {
   transform: translate(0);
 }
 
+.ios-prompt.delete,
+.ios-prompt.sign-out {
+  height: 78px;
+}
+
+.ios-prompt.following-private-user {
+  height: 99.3px;
+}
+
+.ios-prompt.unfollow,
+.ios-prompt.cancel-follow-request {
+  height: 109.3px;
+}
+
+
 .ios-prompt * {
+  max-width: 255px;
+  background: rgba(255, 255, 255, .95);
+  margin: auto;
+  overflow: hidden;
+}
+
+.ios-prompt.delete *,
+.ios-prompt.sign-out *,
+.ios-prompt.unfollow *,
+.ios-prompt.cancel-follow-request * {
   width: -webkit-fill-available;
   height: 31px;
   max-width: 255px;
   padding: 8px 10px;
   border-radius: 4px;
-  background: rgba(255, 255, 255, .95);
   margin: auto;
   display: block;
   overflow: hidden;
 }
 
-.user-to-unfollow {
+.ios-prompt .user-to-unfollow {
   font-size: 10.5px;
   letter-spacing: .5px;
   text-align: center;
@@ -168,21 +182,21 @@ button.avi.in-comments img {
   text-overflow: ellipsis;
 }
 
-button.ios-confirm-action {
+.ios-prompt .ios-confirm-action {
   color: red;
 }
 
-.unfollow button.ios-confirm-action,
-.cancel-follow-request button.ios-confirm-action {
+.ios-prompt.unfollow .ios-confirm-action,
+.ios-prompt.cancel-follow-request .ios-confirm-action {
   border-radius: 0px 0px 4px 4px;
 }
 
-button.ios-cancel {
+.ios-prompt .ios-cancel {
   margin-top: 4px;
   font-weight: 600;
   color: #54a1ff;
 }
 
-button.ios-cancel:before {
+.ios-prompt .ios-cancel:before {
   content: "Cancel";
 }
