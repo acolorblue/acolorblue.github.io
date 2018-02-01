@@ -164,7 +164,6 @@ button.avi.in-comments img {
 .ios-prompt.cancel-follow-request * {
   width: -webkit-fill-available;
   height: 31px;
-  max-width: 255px;
   padding: 8px 10px;
   border-radius: 4px;
   margin: auto;
