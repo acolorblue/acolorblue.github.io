@@ -180,21 +180,21 @@ button.avi.in-comments img {
   text-overflow: ellipsis;
 }
 
-.ios-prompt .ios-confirm-action {
-  color: red;
-}
-
-.ios-prompt.unfollow .ios-confirm-action,
-.ios-prompt.cancel-follow-request .ios-confirm-action {
+.ios-prompt.unfollow .confirm-action,
+.ios-prompt.cancel-follow-request .confirm-action {
   border-radius: 0px 0px 4px 4px;
 }
 
-.ios-prompt .ios-cancel {
+.ios-prompt .confirm-action {
+  color: red;
+}
+
+.ios-prompt .cancel-action {
   margin-top: 4px;
   font-weight: 600;
   color: #54a1ff;
 }
 
-.ios-prompt .ios-cancel:before {
+.ios-prompt .cancel-action:before {
   content: "Cancel";
 }
