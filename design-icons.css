@@ -10,7 +10,7 @@ button {
 }
 
 button:active {
-  opacity: .4;
+  opacity: .7;
 }
 
 .icons:before {
