@@ -15,4 +15,5 @@
 
 .scale-down {
   transform: scale(.002);
+  transform: scale(.001);
 }
