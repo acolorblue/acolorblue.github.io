@@ -1,0 +1,18 @@
+.ab-mid {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; 
+}
+
+.hide {
+  height: 0px !important;
+  opacity: 0;
+  z-index: -1;
+}
+
+.scale-down {
+  transform: scale(.002);
+}
