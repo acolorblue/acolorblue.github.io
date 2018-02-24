@@ -1,3 +1,11 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+* img {
+  object-fit: cover;
+}
+
 .ab-mid {
   position: absolute;
   margin: auto;
