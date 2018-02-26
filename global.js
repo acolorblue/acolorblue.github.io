@@ -1,7 +1,3 @@
-
-
-
-
 // IOS PROMPT LIBRARY
 function iosPromptLibrary() {
   if ($('.ios-prompt-container').length > 0) {
