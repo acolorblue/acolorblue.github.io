@@ -195,7 +195,7 @@
 .ios-prompt.middle .notifier .title {
   margin: 0px auto 6px auto;
   font-size: 15px;
-  font-weight: bolder;
+  font-weight: bold;
   letter-spacing: -0.3px;
   transform: scale(1.02, 0.94);
 }
