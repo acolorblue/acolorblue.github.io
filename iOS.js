@@ -80,7 +80,7 @@ function iosPromptLibrary() {
       setTimeout(function() {
         $('.imessage').remove();
         location.reload();
-      }, 1000);
+      }, 500);
     });
   }
 
