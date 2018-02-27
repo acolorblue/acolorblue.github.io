@@ -130,6 +130,22 @@ button:active {
 
 
 
+/* IOS PROMPT ICONS */
+.ios-prompt-container.translucent:before {
+  background-image: url("https://acolorblueserver.com/commenting/logo-background.jpg");
+}
+
+.ios-prompt.sign-out .confirm-action:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/iOS%20Prompt/Icons/Shut%20Down/Shut%20Down%20-%20Thick%20-%205.png");
+}
+
+.ios-prompt.sign-out .cancel-action:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/iOS%20Prompt/Icons/Close/Close%20-%20White%20-%202.png");
+}
+
+
+
+
 /* INPUT BAR ICONS */
 .upload-media.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Camera%20Icons/Camera%20-%20White%202.png");
