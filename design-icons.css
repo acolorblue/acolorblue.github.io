@@ -303,7 +303,7 @@ button:active {
   background-image: url("");
 }
 
-.mute.icons:before {
+.mute-user.icons-b:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Mute/Mute%20-%20Grey%20-%202.png");
 }
 
