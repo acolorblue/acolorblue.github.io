@@ -37,7 +37,6 @@
   bottom: -14%;
   left: -14%;
   background-color: #e3e3e3;
-  background-image: url("https://acolorblueserver.com/commenting/logo-background.jpg");
   background-size: cover;
   background-position: center;
   filter: blur(20px) brightness(1);
@@ -101,7 +100,7 @@
   width: fit-content;
   height: fit-content;
   margin: auto 30.6px auto auto;
-  background-color: linear-gradient(to right, transparent 5%, #ffffff 35%, #ffffff 65%, transparent 95%) black no-repeat;
+  background: linear-gradient(to right, transparent 5%, #ffffff 35%, #ffffff 65%, transparent 95%) black no-repeat;
   font-size: 13.33px;
   font-weight: bold;
   white-space: nowrap;
