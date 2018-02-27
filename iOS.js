@@ -76,6 +76,11 @@ function iosPromptLibrary() {
       setTimeout(function() {
         iosPromptClose();
       }, 500);
+      
+      setTimeout(function() {
+        $('.imessage').remove();
+        location.reload();
+      }, 1000);
     });
   }
 
