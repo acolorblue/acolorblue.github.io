@@ -213,14 +213,36 @@
 .ios-prompt.middle .confirm-action {
   float: left;
   border-radius: 0px 0px 0px 8px;
-  color: #086def;
 }
 
 .ios-prompt.middle .cancel-action {
   float: right;
   border-radius: 0px 0px 8px 0px;
   font-weight: 600;
+}
+
+
+
+
+/* FOLLOWING PRIVATE USER */
+.ios-prompt.middle.following-private-user .confirm-action {
+  color: #086def;
+}
+
+.ios-prompt.middle.following-private-user .cancel-action { 
   color: #ff0000;
+}
+
+
+
+
+/* MUTE USER */
+.ios-prompt.middle.mute-user .confirm-action {
+  color: #ff0000;
+}
+
+.ios-prompt.middle.mute-user .cancel-action {
+  color: #086def;
 }
 
 
