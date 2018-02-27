@@ -177,6 +177,12 @@ function iosPromptLibrary() {
     $(confirm_action).click(function() {
       $(this_button).siblings('.user-handle').addClass('muted');
       $(this_button).parents('.single-message-container').remove();
+      
+      if ($('.user-handle').text() == user_handle) {
+        // $('.user-handle').parents('.single-message-container').remove();
+        // $(this_button).find('.user-handle').text()
+        $('.user-handle').remove();
+      }
     
       addScaleDownAndHide(ios_prompt);
 
