@@ -17,7 +17,7 @@
   position: fixed;
   z-index: 9999;
   overflow: hidden;
-  background: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, .3);
   padding: 8px;
   font-family: "San Francisco", sans-serif;
 }
@@ -76,7 +76,7 @@
   margin-left: 0px;
   border-radius: 30px;
   overflow: hidden;
-  background: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, .5);
   color: black;
 }
 
@@ -90,11 +90,10 @@
   bottom: 0;
   z-index: 1;
   border-radius: 50%;
-  background: white;
+  background-color: white;
 }
 
 .ios-prompt.sign-out .confirm-action:before {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/iOS%20Prompt/Icons/Shut%20Down/Shut%20Down%20-%20Thick%20-%205.png");
   background-size: 21px;
 }
 
@@ -102,7 +101,7 @@
   width: fit-content;
   height: fit-content;
   margin: auto 30.6px auto auto;
-  background: linear-gradient(to right, transparent 5%, #ffffff 35%, #ffffff 65%, transparent 95%) black no-repeat;
+  background-color: linear-gradient(to right, transparent 5%, #ffffff 35%, #ffffff 65%, transparent 95%) black no-repeat;
   font-size: 13.33px;
   font-weight: bold;
   white-space: nowrap;
@@ -128,13 +127,12 @@
   position: relative;
   margin: auto auto 34px auto;
   border-radius: 50%;
-  background: rgba(255, 255, 255, .55);
+  background-color: rgba(255, 255, 255, .55);
   font-size: 10.33px;
   color: white;
 }
 
 .ios-prompt.sign-out .cancel-action:before {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/iOS%20Prompt/Icons/Close/Close%20-%20White%20-%202.png");
   background-size: 17px;
 }
 
@@ -154,7 +152,7 @@
   width: 52px;
   margin-right: 0px;
   margin-left: auto;
-  background: unset;
+  background-color: unset;
 }
 
 .launch .ios-prompt.sign-out .action-to-do {
@@ -176,11 +174,11 @@
   height: fit-content;
   display: inline-table;
   border-radius: 8px;
-  background: #cecece;
+  background-color: #cecece;
 }
 
 .ios-prompt.middle > * {
-  background: rgba(255, 255, 255, .95);
+  background-color: rgba(255, 255, 255, .95);
 }
 
 .ios-prompt.middle .notifier {
@@ -249,7 +247,7 @@
 
 .ios-prompt.bottom .user-to-unfollow,
 .ios-prompt.bottom .confirm-action {
-  background: rgba(241, 241, 241, 0.95);
+  background-color: rgba(241, 241, 241, 0.95);
 }
 
 .ios-prompt.bottom .user-to-unfollow {
@@ -274,7 +272,7 @@
   height: 48px;
   margin-top: 7px;
   border-radius: 10px;
-  background: rgba(255, 255, 255, .95);
+  background-color: rgba(255, 255, 255, .95);
   font-weight: 600;
   color: #2c83ec;
 }
