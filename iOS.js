@@ -36,17 +36,18 @@ function iosPromptLibrary() {
    
   function iosPromptClose() {
     $(ios_prompt).addClass('hide');
-
+    
     setTimeout(function() {
       $(ios_prompt).remove();
       $(ios_prompt_container).remove();
-      $(ios_prompt_container).parent().removeClass('ios-prompt-parent-transform');
+      $('.iphone-screen').removeClass('ios-prompt-parent-transform');
     }, 200);
   }
   
   if ($(this_button).hasClass('sign-out') ||
       $(this_button).parents('.private').length || 
       $(this_button).hasClass('following')  ||
+      $(this_button).hasClass('mute-user') ||
       $(this_button).hasClass('delete')) {
     $('.iphone-screen').addClass('ios-prompt-parent-transform');
     $('.iphone-screen').append(ios_prompt_container);
@@ -152,6 +153,41 @@ function iosPromptLibrary() {
         $(cancel_action).click();
       }); 
     }
+  }
+  
+  
+  
+  if ($(this_button).hasClass('mute-user')) {
+    ios_prompt.className += ' mute-user middle scale-down hide';
+    title.innerHTML = "Muting User.";
+    description.innerHTML = "You will no longer see " + user_handle + "'s comments in the \"Everyone\" section.";
+    confirm_action.innerHTML = "Mute";
+    cancel_action.innerHTML = "Cancel";
+
+    ios_prompt.appendChild(notifier);
+    notifier.appendChild(title);
+    notifier.appendChild(description);
+    ios_prompt.appendChild(confirm_action);
+    ios_prompt.appendChild(cancel_action);
+
+    setTimeout (function() {
+      $(ios_prompt).removeClass('scale-down hide');
+    }, 10);
+
+    $(confirm_action).click(function() {
+      $(this_button).siblings('.user-handle').addClass('muted');
+      $(this_button).parents('.single-message-container').remove();
+    
+      addScaleDownAndHide(ios_prompt);
+
+      setTimeout (function() {
+        iosPromptClose();
+      }, 150);
+    });
+ 
+    $(cancel_action).click(function() {
+      addScaleDownAndHide(ios_prompt);
+    }); 
   }
   
   
