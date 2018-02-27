@@ -1,3 +1,4 @@
+// USER PROVIDER
 function userProvider(targetElement) {
   if (targetElement.parents('.twitter, .twitter-embed').length) {
     social_media_provider = "Twitter";
