@@ -15,6 +15,17 @@ $('button.sign-out').click(function() {
 
 
 
+// RELATION TO USER 
+$('.relation-to-user').click(function() {
+  this_button = $(this).closest('.relation-to-user');
+  userProvider(this_button);
+  userHandleDetermine(this_button);
+  iosPromptLibrary();
+}); 
+
+
+
+
 // MUTE USER
 $('.mute-user').click(function() {
   this_button = $(this).closest('.mute-user');
