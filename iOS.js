@@ -178,14 +178,11 @@ function iosPromptLibrary() {
       $(this_button).siblings('.user-handle').addClass('muted');
       $(this_button).parents('.single-message-container').remove();
       
-      if ($('.user-handle').text() == user_handle) {
-        // $('.user-handle').parents('.single-message-container').remove();
-        // $(this_button).find('.user-handle').text()
-        $('.user-handle').remove();
+      if ($('.user-handle').text().includes(user_handle)) {
+        $('.single-message-container').remove();
       }
     
       addScaleDownAndHide(ios_prompt);
-
       setTimeout (function() {
         iosPromptClose();
       }, 150);
