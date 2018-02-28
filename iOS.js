@@ -179,7 +179,7 @@ function iosPromptLibrary() {
       $(this_button).parents('.single-message-container').remove();
       
       if ($('.user-handle').text().includes(user_handle)) {
-        $('.single-message-container').remove();
+        $('.user-handle').parents('.single-message-container').remove();
       }
     
       addScaleDownAndHide(ios_prompt);
