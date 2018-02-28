@@ -1,4 +1,3 @@
-// IOS PROMPT LIBRARY
 function iosPromptLibrary() {
   if ($('.ios-prompt-container').length > 0) {
     $('.ios-prompt-container').remove();
@@ -160,7 +159,7 @@ function iosPromptLibrary() {
   if ($(this_button).hasClass('mute-user')) {
     ios_prompt.className += ' mute-user middle scale-down hide';
     title.innerHTML = "Muting User.";
-    description.innerHTML = "You will no longer see " + user_handle + "'s comments in the \"Everyone\" section.";
+    description.innerHTML = "You will no longer see " + user_handle + "'s comments.";
     confirm_action.innerHTML = "Mute";
     cancel_action.innerHTML = "Cancel";
 
@@ -177,11 +176,11 @@ function iosPromptLibrary() {
     $(confirm_action).click(function() {
       $(this_button).siblings('.user-handle').addClass('muted');
       $(this_button).parents('.single-message-container').remove();
-      
-      if ($('.user-handle').text().includes(user_handle)) {
-        $('.user-handle').parents('.single-message-container').remove();
-      }
-    
+
+      $('.user-handle').filter(function() {
+         return $(this).text() == user_handle;
+      }).parents('.single-message-container').remove(); 
+
       addScaleDownAndHide(ios_prompt);
       setTimeout (function() {
         iosPromptClose();
