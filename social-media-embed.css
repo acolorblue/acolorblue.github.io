@@ -12,6 +12,10 @@
   overflow: hidden;
 }
 
+.social-media-embed :after {
+  display: inline-block;
+}
+
 .stand-alone .social-media-embed {
   height: 520px;
   position: absolute;
@@ -30,6 +34,10 @@
 .iphone .show-social-media-embed .social-media-embed {
   height: 100%;
 }
+
+
+
+
 
 .social-media-embed .loader {
   width: -webkit-fill-available;
