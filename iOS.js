@@ -1,3 +1,4 @@
+// IOS PROMPT LIBRARY
 function iosPromptLibrary() {
   if ($('.ios-prompt-container').length > 0) {
     $('.ios-prompt-container').remove();
