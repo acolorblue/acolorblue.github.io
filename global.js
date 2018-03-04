@@ -2,7 +2,9 @@
 var this_button,
     comment_to_delete,
     social_media_provider,
-    user_handle;
+    user_handle,
+    same_user,
+    same_user_parent;
 
 
 
