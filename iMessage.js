@@ -6,6 +6,18 @@ function userHandleDetermine(targetElement) {
 
 
 
+// SAME USER FUNCTION
+function sameUser() {
+  same_user = $('.user-handle').filter(function() {
+    return $(this).text() == user_handle;
+  });
+
+  same_user_parent = same_user.parents('.single-message-container');
+}
+
+
+
+
 // SIGN OUT
 $('button.sign-out').click(function() {
   this_button = $(this).closest('button.sign-out');
