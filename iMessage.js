@@ -12,7 +12,7 @@ function sameUser() {
     return $(this).text() == user_handle;
   });
 
-  same_user_parent = same_user.parents('.single-message-container');
+  same_user_parent = same_user.parents('.single-message-container, .social-media-embed');
 }
 
 
