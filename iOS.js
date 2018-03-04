@@ -88,10 +88,21 @@ function iosPromptLibrary() {
   
  
   if ($(this_button).hasClass('relation-to-user')) {
+    sameUser();
+    
     if ($(this_button).hasClass('follow')) {
         $(this_button).removeClass('follow');
         $(this_button).addClass('following');
-      
+        
+      if (same_user) {
+        $(same_user_parent).find('.relation-to-user').removeClass('follow');
+        $(same_user_parent).find('.relation-to-user').addClass('following');
+        
+        if ($(same_user_parent).hasClass('private')) {
+          $(same_user_parent).find('.relation-to-user').addClass('and-pending');
+        }
+      }
+       
       if ($(this_button).parents('.private').length) {
           $(this_button).addClass('and-pending');
         
@@ -149,15 +160,33 @@ function iosPromptLibrary() {
       
       $(confirm_action).click(function() {
         $(this_button).removeClass('following');
+        
+        if ($(this_button).parents('.private')) {
+          $(this_button).removeClass('and-pending');
+        }
+        
         $(this_button).addClass('follow');
-        $(cancel_action).click();
+        
+        if (same_user) {
+          $(same_user_parent).find('.relation-to-user').removeClass('following');
+          
+          if ($(same_user_parent).hasClass('private')) {
+            $(same_user_parent).find('.relation-to-user').removeClass('and-pending');
+          }
+          
+          $(same_user_parent).find('.relation-to-user').addClass('follow');
+        }
+        
+        iosPromptClose();
       }); 
-    }
+    } 
   }
   
   
   
   if ($(this_button).hasClass('mute-user')) {
+    sameUser();
+    
     ios_prompt.className += ' mute-user middle scale-down hide';
     title.innerHTML = "Muting User.";
     description.innerHTML = "You will no longer see " + user_handle + "'s comments.";
@@ -174,15 +203,17 @@ function iosPromptLibrary() {
       $(ios_prompt).removeClass('scale-down hide');
     }, 10);
 
-    $(confirm_action).click(function() {
+    $(confirm_action).click(function() { 
       $(this_button).siblings('.user-handle').addClass('muted');
       $(this_button).parents('.single-message-container').remove();
-
-      $('.user-handle').filter(function() {
-         return $(this).text() == user_handle;
-      }).parents('.single-message-container').remove(); 
+      
+      if (same_user) {
+        $(same_user_parent).find('.user-handle').addClass('muted');
+        $(same_user_parent).remove();
+      }
 
       addScaleDownAndHide(ios_prompt);
+      
       setTimeout (function() {
         iosPromptClose();
       }, 150);
