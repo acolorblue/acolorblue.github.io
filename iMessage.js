@@ -53,3 +53,11 @@ $('button.delete').click(function() {
   comment_to_delete = $(this).closest('.single-message-container');
   iosPromptLibrary();
 });
+
+
+
+
+// WINDOW ON LOAD
+window.onload = function() {
+  sameUser();
+}
