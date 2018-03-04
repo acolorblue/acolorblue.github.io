@@ -58,6 +58,6 @@ $('button.delete').click(function() {
 
 
 // WINDOW ON LOAD
-window.addEventListener('load', function() {
+window.on('load', function() {
   sameUser();
 });
