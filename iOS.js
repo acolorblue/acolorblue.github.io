@@ -87,7 +87,7 @@ function iosPromptLibrary() {
 
   
  
-  if ($(this_button).hasClass('relation-to-user')) {
+  if ($(this_button).hasClass('user-relation')) {
     sameUser();
     
     if ($(this_button).hasClass('follow')) {
@@ -95,11 +95,11 @@ function iosPromptLibrary() {
         $(this_button).addClass('following');
         
       if (same_user) {
-        $(same_user_parent).find('.relation-to-user').removeClass('follow');
-        $(same_user_parent).find('.relation-to-user').addClass('following');
+        $(same_user_parent).find('.user-relation').removeClass('follow');
+        $(same_user_parent).find('.user-relation').addClass('following');
         
         if ($(same_user_parent).hasClass('private')) {
-          $(same_user_parent).find('.relation-to-user').addClass('and-pending');
+          $(same_user_parent).find('.user-relation').addClass('and-pending');
         }
       }
        
@@ -168,13 +168,13 @@ function iosPromptLibrary() {
         $(this_button).addClass('follow');
         
         if (same_user) {
-          $(same_user_parent).find('.relation-to-user').removeClass('following');
+          $(same_user_parent).find('.user-relation').removeClass('following');
           
           if ($(same_user_parent).hasClass('private')) {
-            $(same_user_parent).find('.relation-to-user').removeClass('and-pending');
+            $(same_user_parent).find('.user-relation').removeClass('and-pending');
           }
           
-          $(same_user_parent).find('.relation-to-user').addClass('follow');
+          $(same_user_parent).find('.user-relation').addClass('follow');
         }
         
         iosPromptClose();
