@@ -92,7 +92,7 @@ span.user-handle:before {
   opacity: 0.9;
 }
 
-.social-media-embed .right-function-buttons {
+.social-media-embed .header-functions {
   width: fit-content;
   height: fit-content;
   position: relative;
