@@ -1,6 +1,6 @@
 // USER HANDLE DETERMINE
 function userHandleDetermine(targetElement) {
-  user_handle = $(targetElement).closest('.single-message-container, .social-media-embed').find('.user-handle').first().text();
+  user_handle = $(targetElement).closest('.single-message-container, .profile-container').find('.user-handle').first().text();
 }
 
 
@@ -12,7 +12,7 @@ function sameUser() {
     return $(this).text() == user_handle;
   });
 
-  same_user_parent = same_user.parents('.single-message-container, .social-media-embed');
+  same_user_parent = same_user.parents('.single-message-container, .profile-container');
 }
 
 
