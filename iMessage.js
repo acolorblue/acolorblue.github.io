@@ -39,8 +39,8 @@ $('button.sign-out').click(function() {
 
 
 // RELATION TO USER 
-$('.relation-to-user').click(function() {
-  this_button = $(this).closest('.relation-to-user');
+$('.user-relation').click(function() {
+  this_button = $(this).closest('.user-relation');
   userProvider(this_button);
   userHandleDetermine(this_button);
   iosPromptLibrary();
