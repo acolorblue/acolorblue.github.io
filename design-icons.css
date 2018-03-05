@@ -328,7 +328,7 @@ button:active {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Twitter%20-%20White%201.png");
 }
 
-.twitter-embed .display-name.verified:after {
+.twitter-embed .verified .display-name.icons-a:after {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Verified/Verified%20-%20White%20-%201.png");
 }
 
