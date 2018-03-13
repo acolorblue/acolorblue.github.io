@@ -28,6 +28,20 @@ button:active {
   background-size: 12px;
 }
 
+.icons-b-a:before,
+.icons-b-r:before,
+.icons-a-a:after,
+.icons-a-r:after {
+  content: '';
+  opacity: 1;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 12px;
+}
+
+
+/* ICONS :BEFORE & ICONS :AFTER */
 .icons-b:before {
   content: '';
   position: absolute;
@@ -42,11 +56,29 @@ button:active {
   background-size: 12px;
 }
 
+.icons-b-a:before,
+.icons-a-a:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.icons-b-r:before,
+.icons-a-r:after {
+  display: inline-block;
+  position: relative;
+}
+
 .icons-b.relative:before {
   display: inline-block;
   position: relative;
 }
 
+
+/* ICONS :AFTER */
 .icons-a:after {
   content: ''; 
   background-size: contain; 
@@ -57,6 +89,7 @@ button:active {
   display: inline-block;
   position: relative;
 }
+
 
 
 
