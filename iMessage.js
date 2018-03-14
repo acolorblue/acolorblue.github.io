@@ -31,7 +31,7 @@ function sameUser() {
 
 // SIGN OUT
 $('button.sign-out').click(function() {
-  this_button = $(this).closest('button.sign-out');
+  this_button = $(this);
   iosPromptLibrary();
 });
 
@@ -40,7 +40,7 @@ $('button.sign-out').click(function() {
 
 // RELATION TO USER 
 $('.user-relation').click(function() {
-  this_button = $(this).closest('.user-relation');
+  this_button = $(this);
   userProvider(this_button);
   userHandleDetermine(this_button);
   iosPromptLibrary();
@@ -51,7 +51,7 @@ $('.user-relation').click(function() {
 
 // MUTE USER
 $('.mute-user').click(function() {
-  this_button = $(this).closest('.mute-user');
+  this_button = $(this);
   userHandleDetermine(this_button);
   iosPromptLibrary();
 });
@@ -60,7 +60,7 @@ $('.mute-user').click(function() {
 
 // DELETE
 $('button.delete').click(function() {
-  this_button = $(this).closest('button.delete');
+  this_button = $(this);
   comment_to_delete = $(this).closest('.single-message-container');
   iosPromptLibrary();
 });
