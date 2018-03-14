@@ -12,7 +12,7 @@ function userProvider(targetElement) {
     social_media_provider = "Tumblr";
   }
   
-  if (social_media_provider == null) {
-    social_media_provider = "Social Media";
-  }
+//   if (social_media_provider == null) {
+//     social_media_provider = "Social Media";
+//   }
 }
