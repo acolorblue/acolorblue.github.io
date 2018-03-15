@@ -117,26 +117,21 @@ span.user-handle:before {
   color: white;
 }
 
+.social-media-embed a.see-more.icons-a::after {
+  width: 12px;
+  height: 12px;
+  margin: 0px 0px -1px 5px;
+  background-size: contain;
+}
+
 .social-media-embed a.see-more span {
   line-height: 16.57px;
   margin: auto;
 }
 
-.social-media-embed a.see-more span:before {
+.social-media-embed a.see-more span::before {
   content: "See more of";
   font-weight: normal;
-}
-
-.social-media-embed a.see-more span:after {
-  content: "";
-  width: 12px;
-  height: 12px;
-  margin: 0px 0px -1px 5px;
-  position: relative;
-  display: inline-block;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 
