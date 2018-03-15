@@ -163,6 +163,40 @@ button:active {
 
 
 
+/** ICONS UPDATED - 3 **/
+.icons-b::before,
+.icons-a::after {
+  content: '';
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 12px;
+}
+
+
+/* ICONS ABSOLUTE */
+.icons-b.abs::before,
+.icons-a.abs::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* ICONS RELATIVE */
+.icons-b.rel::before,
+.icons-a.rel::after {
+  display: inline-block;
+  position: relative;
+}
+
+
+
+
+
+
 
 
 
