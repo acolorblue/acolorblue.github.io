@@ -385,7 +385,7 @@ button:active {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Like/Like%20-%20Grey%20-%207.png");
 }
 
-.twitter-embed a.see-more span:after {
+.twitter-embed a.see-more.icons-a::after {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Twitter%20-%20White%201.png");
 } 
 
