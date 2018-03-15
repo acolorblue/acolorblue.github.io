@@ -118,6 +118,7 @@ span.user-handle:before {
 
 .social-media-embed .see-more {
   width: fit-content;
+  height: fit-content;
   color: white;
   font-size: 11.6px;
   font-weight: normal;
