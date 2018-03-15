@@ -126,6 +126,10 @@ span.user-handle:before {
   display: block;
 }
 
+.social-media-embed .see-more .display-name {
+  display: inline-block;
+}
+
 .social-media-embed .see-more.icons-a::after {
   width: 12px;
   height: 12px;
