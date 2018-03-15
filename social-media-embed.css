@@ -124,8 +124,6 @@ span.user-handle:before {
   font-weight: normal;
   line-height: 16.57px;
   display: block;
-  position: absolute;
-  margin: auto;
 }
 
 .social-media-embed .see-more.icons-a::after {
