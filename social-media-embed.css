@@ -102,21 +102,28 @@ span.user-handle:before {
   float: right;
 }
 
-
 .social-media-embed button.dm {
   position: relative;
 }
 
 
-.social-media-embed .see-more {
+
+
+/* SEE MORE */
+.social-media-embed .see-more-container {
   width: -webkit-fill-available;
   height: 40px;
+}
+
+.social-media-embed .see-more {
+  width: fit-content;
   color: white;
   font-size: 11.6px;
   font-weight: normal;
   line-height: 16.57px;
-  display: flex;
+  display: block;
   align-items: center;
+  margin: auto;
 }
 
 .social-media-embed .see-more.icons-a::after {
@@ -161,15 +168,15 @@ span.user-handle:before {
   background: #1b2836;
 }
 
-.twitter-embed a.see-more {
-  background: #00C3F3;
+.twitter-embed .see-more-container {
+  background-color: #00C3F3;
 } 
 
 
 
 
 /* ALL INSTAGRAM EMBED */
-.instagram-embed a.see-more {
+.instagram-embed .see-more-container {
   background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 0 -25%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 100% 0, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 100% 100%, #d9317a, rgba(0, 0, 0, 0)), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 } 
 
@@ -177,6 +184,6 @@ span.user-handle:before {
 
 
 /* ALL TUMBLR EMBED */
-.tumblr-embed a.see-more {
+.tumblr-embed .see-more-container {
   background: #35465c;
 } 
