@@ -130,18 +130,18 @@ button:active {
 
 
 /** ICONS UPDATED - 2 **/
-.icons.bef::before,
+/* .icons.bef::before,
 .icons.aft::after {
   content: '';
   margin: auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: 12px;
-}
+} */
 
 
 /* ICONS ABSOLUTE */
-.icons.bef.abs::before,
+/* .icons.bef.abs::before,
 .icons.aft.abs::after {
   display: block;
   position: absolute;
@@ -149,14 +149,14 @@ button:active {
   right: 0;
   bottom: 0;
   left: 0;
-}
+} */
 
 /* ICONS RELATIVE */
-.icons.bef.rel::before,
+/* .icons.bef.rel::before,
 .icons.aft.rel::after {
   display: inline-block;
   position: relative;
-}
+} */
 
 
 
