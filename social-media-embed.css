@@ -126,7 +126,7 @@ span.user-handle:before {
   display: flex;
 }
 
-.social-media-embed .see-more .display-name {
+.social-media-embed .see-more .user-handle {
   display: inline-block;
   vertical-align: bottom;
   margin-left: 3px;
