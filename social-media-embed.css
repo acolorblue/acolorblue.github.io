@@ -123,12 +123,13 @@ span.user-handle:before {
   font-size: 11.6px;
   font-weight: normal;
   line-height: 16.57px;
-  display: block;
+  display: flex;
 }
 
 .social-media-embed .see-more .display-name {
   display: inline-block;
   vertical-align: bottom;
+  margin-left: 3px;
 }
 
 .social-media-embed .see-more.icons-a::after {
