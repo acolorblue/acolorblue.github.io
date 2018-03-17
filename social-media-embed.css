@@ -128,6 +128,7 @@ span.user-handle:before {
 
 .social-media-embed .see-more .display-name {
   display: inline-block;
+  vertical-align: text-bottom;
 }
 
 .social-media-embed .see-more.icons-a::after {
