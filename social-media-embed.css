@@ -135,7 +135,6 @@ span.user-handle:before {
 .social-media-embed .see-more.icons-a::after {
   width: 12px;
   height: 12px;
-  margin: 0px 0px -1px 5px;
   background-size: contain;
 }
 
