@@ -76,6 +76,10 @@
   content: "@";
 }
 
+.hashtag:before {
+  content: "#";
+}
+
 .social-media-embed .avi {
   border-radius: 50%;
   position: relative;
