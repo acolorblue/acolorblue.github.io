@@ -2,7 +2,7 @@
 var this_button,
     comment_to_delete,
     social_media_provider,
-    user_handle,
+    user_handle_text,
     same_user,
     same_user_parent;
 
@@ -11,7 +11,7 @@ var this_button,
 
 // USER HANDLE DETERMINE
 function userHandleDetermine(targetElement) {
-  user_handle = $(targetElement).closest('.single-message-container, .profile-container').find('.user-handle').first().text();
+  user_handle_text = $(targetElement).closest('.single-message-container, .profile-container').find('.user-handle').first().text();
 }
 
 
@@ -20,7 +20,7 @@ function userHandleDetermine(targetElement) {
 // SAME USER FUNCTION
 function sameUser() {
   same_user = $('.user-handle').filter(function() {
-    return $(this).text() == user_handle;
+    return $(this).text() == user_handle_text;
   });
 
   same_user_parent = same_user.parents('.single-message-container, .profile-container');
