@@ -142,7 +142,7 @@ function iosPromptLibrary() {
       
       setTimeout(function() { 
         ios_prompt.className += ' unfollow';
-        user_to_unfollow.innerHTML = user_handle;
+        user_to_unfollow.innerHTML = user_handle_text;
         confirm_action.innerHTML = "Unfollow";
         cancel_action.innerHTML = "Cancel";
         
@@ -189,7 +189,7 @@ function iosPromptLibrary() {
     
     ios_prompt.className += ' mute-user middle scale-down hide';
     title.innerHTML = "Muting User.";
-    description.innerHTML = "You will no longer see " + user_handle + "'s comments.";
+    description.innerHTML = "You will no longer see " + user_handle_text + "'s comments.";
     confirm_action.innerHTML = "Mute";
     cancel_action.innerHTML = "Cancel";
 
