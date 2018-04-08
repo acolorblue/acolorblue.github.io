@@ -32,8 +32,8 @@ function sameUser() {
 
 
 // USER RELATION DETERMINE
-function userRelationDetermine(targetElement) {
-   current_user_relation = $(targetElement).closest('.single-message-container, .profile-container').find('.user-relation');
+function userRelationDetermine() {
+   current_user_relation = $(this).closest('.single-message-container').find('.user-relation');
 }
 
 
@@ -53,7 +53,7 @@ $('button.avi.in-comments').click(function() {
   this_button = $(this);
   userProvider(this_button);
   userHandleDetermine(this);
-  userRelationDetermine(this);
+  userRelationDetermine();
   socialMediaEmbedLibrary();
 });
 
