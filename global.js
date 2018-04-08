@@ -13,3 +13,12 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
 function addScaleDownAndHide(targetElement) {
   $(targetElement).addClass('scale-down hide');
 }
+
+
+
+
+// SUBTRACT OR ADD 1
+function subractOrAdd(targetElement) {
+  subtract1 = parseInt($(targetElement).height()) - 1,
+  add1 = parseInt($(targetElement).height()) + 1;
+}
