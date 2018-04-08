@@ -4,7 +4,9 @@ var this_button,
     social_media_provider,
     user_handle_text,
     same_user,
-    same_user_parent;
+    same_user_parent,
+    user_relation,
+    current_user_relation;
 
 
 
@@ -29,12 +31,31 @@ function sameUser() {
 
 
 
+// USER RELATION DETERMINE
+function userRelationDetermine() {
+   current_user_relation = $(this).closest('.single-message-container, .profile-container').find('.user-relation');
+}
+
+
+
+
 // SIGN OUT
 $('button.sign-out').click(function() {
   this_button = $(this);
   iosPromptLibrary();
 });
 
+
+
+
+// BUTTON AVI IN COMMENTS
+$('button.avi.in-comments').click(function() {
+  this_button = $(this);
+  userProvider(this_button);
+  userHandleDetermine(this);
+  userRelationDetermine();
+  socialMediaEmbedLibrary();
+});
 
 
 
