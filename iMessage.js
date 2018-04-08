@@ -51,7 +51,7 @@ $('button.sign-out').click(function() {
 // BUTTON AVI IN COMMENTS
 $('button.avi.in-comments').click(function() {
   this_button = $(this);
-  userProvider(this);
+  userProvider(this_button);
   userHandleDetermine(this);
   userRelationDetermine(this);
   socialMediaEmbedLibrary();
