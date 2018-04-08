@@ -32,8 +32,8 @@ function sameUser() {
 
 
 // USER RELATION DETERMINE
-function userRelationDetermine() {
-   current_user_relation = $(this).closest('.single-message-container, .profile-container').find('.user-relation');
+function userRelationDetermine(targetElement) {
+   current_user_relation = $(targetElement).closest('.single-message-container, .profile-container').find('.user-relation');
 }
 
 
@@ -51,9 +51,9 @@ $('button.sign-out').click(function() {
 // BUTTON AVI IN COMMENTS
 $('button.avi.in-comments').click(function() {
   this_button = $(this);
-  userProvider(this_button);
+  userProvider(this);
   userHandleDetermine(this);
-  userRelationDetermine();
+  userRelationDetermine(this);
   socialMediaEmbedLibrary();
 });
 
