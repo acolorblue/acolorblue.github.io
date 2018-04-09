@@ -18,7 +18,7 @@ function addScaleDownAndHide(targetElement) {
 
 
 // SUBTRACT OR ADD 1
-function subractOrAdd(targetElement) {
+function arithmetic(targetElement) {
   subtract1 = parseInt($(targetElement).height()) - 1,
   add1 = parseInt($(targetElement).height()) + 1;
 }
