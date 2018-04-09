@@ -3,8 +3,10 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
           navigator.userAgent.match(/iPad/i) ||
           navigator.userAgent.match(/iPod/i),
     android = navigator.userAgent.match(/Android/i),
-    subtract1,
-    add1;
+    add,
+    subtract,
+    multiply,
+    divide;
 
 
 
@@ -18,7 +20,9 @@ function addScaleDownAndHide(targetElement) {
 
 
 // SUBTRACT OR ADD 1
-function arithmetic(targetElement) {
-  subtract1 = parseInt($(targetElement).height()) - 1,
-  add1 = parseInt($(targetElement).height()) + 1;
+function arithmetic(targetElement, integer) {
+  add = parseInt($(targetElement).height()) + integer,
+  subtract = parseInt($(targetElement).height()) - integer,
+  multiply = parseInt($(targetElement).height()) * integer,
+  divide =  parseInt($(targetElement).height()) / integer;
 }
