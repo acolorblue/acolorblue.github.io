@@ -131,6 +131,14 @@ button:active {
 
 
 
+/* MAC OS */
+.apple-logo.icons-b::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Logo%20-%201.png');
+}
+
+
+
+
 
 /* USER AVI ICONS */
 .avi.icons {
