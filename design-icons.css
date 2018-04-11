@@ -133,7 +133,7 @@ button:active {
 
 /* MAC OS */
 .apple-logo.icons-b::before {
-  background-image: url('https://github.com/acolorblue/acolorblue.github.io/blob/gh-pages/App%20Design%20References/Mac%20OS/Icons/Logo/Logo%20-%202.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Logo/Logo%20-%202.png');
 }
 
 .apple .menu-bar .search.icons-b::before {
