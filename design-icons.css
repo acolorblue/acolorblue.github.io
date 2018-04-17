@@ -136,11 +136,11 @@ button:active {
   background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Logo/Logo%20-%202.png');
 }
 
-.apple .menu-bar .search.icons-b::before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Search/Search%20-%20Black%20-%201.png');
+.mac-os .menu-bar .search.icons-b::before {
+  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Menu%20Bar%20Search/Search%20-%20Black%20-%204.png);
 }
 
-.apple .menu-bar .notification-center.icons-b::before {
+.mac-os .menu-bar .notification-center.icons-b::before {
   background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Notification%20Center/Notification%20Center%20-%201.png');
 }
 
