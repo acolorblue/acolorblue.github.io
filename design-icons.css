@@ -136,12 +136,24 @@ button:active {
   background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Logo/Logo%20-%202.png');
 }
 
+.apple-logo.selected.icons-b::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Logo/Logo%20-%202%20-%20White.png');
+}
+
 .mac-os .menu-bar .search.icons-b::before {
-  background-image: url(https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Menu%20Bar%20Search/Search%20-%20Black%20-%204.png);
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Menu%20Bar%20Search/Search%20-%20Black%20-%204.png');
+}
+
+.mac-os .menu-bar .search.selected.icons-b::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Menu%20Bar%20Search/Search%20-%20White%20-%204.png');
 }
 
 .mac-os .menu-bar .notification-center.icons-b::before {
   background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Notification%20Center/Notification%20Center%20-%201.png');
+}
+
+.mac-os .menu-bar .notification-center.selected.icons-b::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Notification%20Center/Notification%20Center%20-%201%20-%20White.png');
 }
 
 
