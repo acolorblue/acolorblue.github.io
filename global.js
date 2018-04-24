@@ -4,6 +4,7 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
           navigator.userAgent.match(/iPod/i),
     android = navigator.userAgent.match(/Android/i),
     space = " ",
+    comma = ",",
     add,
     subtract,
     multiply,
