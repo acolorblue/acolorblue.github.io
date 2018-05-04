@@ -244,41 +244,53 @@ button:active {
 
 
 /* APPLE MEDIA FILE CONTROLS ICONS */
-.amf-controls.close.icons {
+.amf-controls.close.icons,
+.apple-media-file .main-controls .close {
   background: #ff5c5c;
   border-color: #e33e41;
 }
 
-.amf-controls.close.icons:before {
+.amf-controls.close.icons:before,
+.apple-media-file .main-controls .close.icons-b::before,
+.apple-media-file .main-controls .close.icons-a::after {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Black%201.png");
 }
 
-.amf-controls.close-grey.icons {
+.amf-controls.close-grey.icons,
+.apple-media-file .main-controls .close.grey {
   background: #acabac;
   border: none;
 }
 
-.amf-controls.close-grey.icons:before {
+.amf-controls.close-grey.icons:before,
+.apple-media-file .main-controls .close-grey.icons-b::before,
+.apple-media-file .main-controls .close-grey.icons-a::after {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Grey%203.png");
   opacity: 1;
 }
 
-.amf-controls.minimize.icons {
+.amf-controls.minimize.icons,
+.apple-media-file .main-controls .minimize {
   background: #ffbd4c;
   border-color: #e09e3e;
 }
 
-.amf-controls.minimize.icons:before {
+.amf-controls.minimize.icons:before,
+.apple-media-file .main-controls .minimize.icons-b::before,
+.apple-media-file .main-controls .minimize.icons-a::after {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Minimize%20Icon/Minimize%20-%20Black%201.png");
   background-size: 8.5px;
 }
 
-.amf-controls.full-screen.icons {
+.amf-controls.full-screen.icons,
+.apple-media-file .main-controls .full-screen {
   background: #00ca56;
   border-color: #14ae46;
 }
 
-.amf-controls.full-screen.icons:before {
+.amf-controls.full-screen.icons:before,
+.apple-media-file .main-controls .full-screen.icons-b::before,
+.apple-media-file .main-controls .full-screen.icons-a::after {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Full%20Screen%20Icon/Full%20Screen%20-%20Black%201.png");
 }
 
