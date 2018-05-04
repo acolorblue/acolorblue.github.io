@@ -124,12 +124,14 @@ button.amf-controls {
   border: 1px solid;
 }
 
-button.amf-controls:before {
+button.amf-controls:before,
+.apple-media-file .main-controls button::before {
   background-size: 6.58px;
   opacity: 0;
 }
 
-.amf-controls-container:hover button.amf-controls:before {
+.amf-controls-container:hover button.amf-controls:before,
+.apple-media-file .main-controls:hover button::before {
   opacity: 0.6;
 }
  
