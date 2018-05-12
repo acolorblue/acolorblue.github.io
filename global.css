@@ -15,11 +15,11 @@
   left: 0; 
 }
 
-.hide {
+/* .hide {
   height: 0px !important;
   opacity: 0;
   z-index: -1;
-}
+} */
 
 .scale-down {
   transform: scale(.002);
