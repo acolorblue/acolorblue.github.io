@@ -255,15 +255,11 @@ button:active {
 
 
 /* APPLE MEDIA FILE CONTROLS */
-.amf-controls.close.icons:before,
-.apple-media-file .main-controls .close.icons-b::before,
-.apple-media-file .main-controls .close.icons-a::after {
+.amf-controls.close.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Black%201.png");
 }
 
-.amf-controls.close-grey.icons:before,
-.apple-media-file .main-controls .close-grey.icons-b::before,
-.apple-media-file .main-controls .close-grey.icons-a::after {
+.amf-controls.close-grey.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Grey%203.png");
   opacity: 1;
 }
