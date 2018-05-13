@@ -168,6 +168,11 @@ button:active {
   background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Souncloud%20Play%20-%20Pause%20Button/Play%20White%20-%204.png');
 }
 
+.play.icons-b::before,
+.play.icons-a::after {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Souncloud%20Play%20-%20Pause%20Button/Play%20White%20-%204.png');
+}
+
 
 
 
