@@ -63,14 +63,6 @@ button:active {
 
 
 
-
-
-
-
-
-
-
-
 /* SOCIAL MEDIA LOGO ICONS */
 .twitter-b {
   background: #00C3F3;
@@ -156,6 +148,25 @@ button:active {
   background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Notification%20Center/Notification%20Center%20-%201%20-%20White.png');
 }
 
+.mac-os .file.soundcloud .thumbnail-container .file-type-indicator::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Souncloud/Soundcloud%20-%20Orange%20-%201.png');
+}
+
+.apple-media-file .close.grey::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Grey%203.png');
+}
+
+.apple-media-file .search.white::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Menu%20Bar%20Search/Search%20-%20White%20-%204.png');
+}
+
+.apple-media-file .share.white::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Share/Share%20-%20White%20-%201.png');
+}
+
+.apple-media-file .video.icons-b:before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Souncloud%20Play%20-%20Pause%20Button/Play%20White%20-%204.png');
+}
 
 
 
