@@ -187,3 +187,11 @@ mutate_event_stack = [
     }
   });
 })(jQuery);
+
+
+
+
+// // MUTATE FUNCTION FORMULA
+// $('').mutate('height', function(el, info) {
+//   $('').text('height:' + $(el).height()); 
+// });
