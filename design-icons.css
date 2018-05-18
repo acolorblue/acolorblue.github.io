@@ -173,6 +173,11 @@ button:active {
   background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Souncloud%20Play%20-%20Pause%20Button/Play%20White%20-%204.png');
 }
 
+.pause.icons-b::before,
+.pause.icons-a::after {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Play%20-%20Pause/Pause%20White%20-%201.png');
+}
+
 
 
 
