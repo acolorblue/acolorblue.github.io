@@ -3,6 +3,10 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
           navigator.userAgent.match(/iPad/i) ||
           navigator.userAgent.match(/iPod/i),
     android = navigator.userAgent.match(/Android/i),
+    twitterInAppBrowser = navigator.userAgent.includes("Twitter"),
+    instagramInAppBrowser = navigator.userAgent.includes("Instagram"),
+    safariMobile = navigator.userAgent.includes("Safari") && navigator.userAgent.includes("iPhone"),
+    chromeDesktop = navigator.userAgent.includes("Chrome"),
     space = " ",
     comma = ",",
     add,
