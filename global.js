@@ -6,6 +6,7 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
     twitterInAppBrowser = navigator.userAgent.includes("Twitter"),
     instagramInAppBrowser = navigator.userAgent.includes("Instagram"),
     safariMobile = navigator.userAgent.includes("Safari") && navigator.userAgent.includes("iPhone"),
+    desktop = !ios || android,
     chrome = navigator.userAgent.includes("Chrome"),
     firefox = navigator.userAgent.includes("Firefox"),
     space = " ",
