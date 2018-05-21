@@ -4,6 +4,8 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
           navigator.userAgent.match(/iPod/i),
     android = navigator.userAgent.match(/Android/i),
     mobile = ios || android,
+    portrait = $('html').width() < $('html').height(),
+    landscape = $('html').width() > $('html').height(),
     twitterInAppBrowser = navigator.userAgent.includes("Twitter"),
     instagramInAppBrowser = navigator.userAgent.includes("Instagram"),
     safariMobile = navigator.userAgent.includes("Safari") && navigator.userAgent.includes("iPhone"),
