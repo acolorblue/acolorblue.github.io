@@ -23,7 +23,7 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
 
 
 // ORIENTATION CHANGE
-function orientationChange() {
+function orientationCheck() {
   portrait = $('html').width() < $('html').height();
   landscape = $('html').width() > $('html').height();
 }
