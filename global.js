@@ -238,3 +238,20 @@ function arithmetic(targetElement, integer) {
   multiply = parseInt($(targetElement).height()) * integer,
   divide =  parseInt($(targetElement).height()) / integer;
 }
+
+
+
+
+// MANUALLY CENTER ELEMENT
+function manuallyCenter(main_container, element) {
+  var main_container_width = $(main_container).width(),
+      main_container_height = $(main_container).height(),
+      element_width = $(element).width(),
+      element_height = $(element).height();
+
+  var position_top = (main_container_height - element_height) / 2;
+  var position_left = (main_container_width - element_width) / 2;
+
+  $(element).css('top', position_top);
+  $(element).css('left', position_left);
+}
