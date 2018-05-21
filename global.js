@@ -4,8 +4,8 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
           navigator.userAgent.match(/iPod/i),
     android = navigator.userAgent.match(/Android/i),
     mobile = ios || android,
-    portrait = $('html').width() < $('html').height(),
-    landscape = $('html').width() > $('html').height(),
+    portrait,
+    landscape,
     twitterInAppBrowser = navigator.userAgent.includes("Twitter"),
     instagramInAppBrowser = navigator.userAgent.includes("Instagram"),
     safariMobile = navigator.userAgent.includes("Safari") && navigator.userAgent.includes("iPhone"),
@@ -18,6 +18,15 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
     subtract,
     multiply,
     divide;
+
+
+
+
+// ORIENTATION CHANGE
+function orientationChange() {
+  portrait = $('html').width() < $('html').height();
+  landscape = $('html').width() > $('html').height();
+}
 
 
 
