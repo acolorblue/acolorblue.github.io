@@ -6,6 +6,10 @@
   object-fit: cover;
 }
 
+a {
+  color: unset;
+}
+
 .ab-mid {
   position: absolute;
   margin: auto;
