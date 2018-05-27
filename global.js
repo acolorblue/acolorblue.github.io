@@ -33,6 +33,9 @@ function orientationCheck() {
 
 // CLOCK
 function clock() {
+var clock_conversions_interval = setInterval(clockConversions, 1000);
+          
+function clockConversions() {
  var date = new Date(),
      month,
      day_of_month,
@@ -219,7 +222,7 @@ function clock() {
   }
   placements();
 }
-
+}
 
 
 
