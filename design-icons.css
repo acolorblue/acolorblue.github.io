@@ -95,6 +95,14 @@ button:active {
 
 
 
+/* YOUTUBE */
+.youtube.icons-b::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Youtube/Youtube%20Logo%20-%20White.png');
+}
+
+
+
+
 /* EMAIL */
 .email-b {
   background: -webkit-linear-gradient(top, #1a51f0 0%, #03e4fe 100%);
