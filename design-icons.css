@@ -11,7 +11,7 @@ button {
 
 button:active {
   opacity: .7;
-  transition: unset !important;
+  transition: unset;
 }
 
 .icons:before {
