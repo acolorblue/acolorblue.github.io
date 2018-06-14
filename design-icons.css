@@ -97,7 +97,7 @@ button:active {
 
 /* YOUTUBE */
 .youtube.icons-b::before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Youtube/Youtube%20Logo%20-%20White.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Youtube/Youtube%20-%20White%20-%205.png');
 }
 
 
@@ -178,12 +178,12 @@ button:active {
 
 .play.icons-b::before,
 .play.icons-a::after {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Souncloud%20Play%20-%20Pause%20Button/Play%20White%20-%204.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Play%20-%20Pause/Play%20-%20White%20-%205.png');
 }
 
 .pause.icons-b::before,
 .pause.icons-a::after {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Play%20-%20Pause/Pause%20White%20-%201.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Play%20-%20Pause/Pause%20-%20White%20-%205.png');
 }
 
 .rewind.icons-b::before,
