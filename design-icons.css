@@ -96,9 +96,14 @@ button:active {
 
 
 /* YOUTUBE */
-.youtube.icons-b::before {
+.youtube-b.white.icons-b::before {
   background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Youtube/Youtube%20-%20White%20-%205.png');
 }
+
+.youtube-b.red.icons-b::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Youtube/Youtube%20-%20Red%20-%205.png');
+}
+
 
 
 
