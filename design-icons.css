@@ -63,7 +63,7 @@ button:active {
 
 
 
-/* SOCIAL MEDIA LOGO ICONS */
+/* BRAND LOGOS */
 .twitter-b {
   background: #00C3F3;
 }
@@ -134,6 +134,17 @@ button:active {
 }
 
 
+
+
+/* ROCKSTAR GAMES */
+.rockstar-games.icons-b:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/a-kanye-west-analysis/master/Images/Loader/Gta%20Loader/Rockstar/Logo%20-%201.png");
+}
+
+/* G.O.O.D MUSIC */
+.good-music.icons-b:before {
+  background-image: url("https://raw.githubusercontent.com/acolorblue/a-kanye-west-analysis/master/Images/Loader/Gta%20Loader/Kanye/Logo%20-%201.png");
+}
 
 
 /* MAC OS */
@@ -448,6 +459,10 @@ button:active {
 .twitter-embed a.see-more.icons-a::after {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Twitter%20-%20White%201.png");
 } 
+
+.twitter.extra-options.icons-b::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Regular%20Mode%20Icons/Extra%20Options/1.png');
+}
 
 
 
