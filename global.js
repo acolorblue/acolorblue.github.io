@@ -29,6 +29,8 @@ function specifications() {
       $('body').addClass('computer');
     }
           
+            
+    // MOBILE       
     if (mobile) {
       $('body').addClass('mobile');
               
@@ -39,11 +41,29 @@ function specifications() {
        if (android) {
         $('body').addClass(' android');
        }
+              
+       function portraitOrLandscape() {
+         if (window.orientation == 0) {
+          $('body').removeClass('landscape').addClass('portrait');
+        }
+
+        else if (window.orientation == -90 || 90) {
+          $('body').removeClass('portrait').addClass('landscape');
+        }
+      }
+      portraitOrLandscape();
+    
+      window.addEventListener('orientationchange', function() {
+        portraitOrLandscape();
+      });
     }
   }
   device();
             
  
+          
+          
+  // BROWSER        
   function browser() {
     if (safari) {
       $('body').addClass(' safari');
