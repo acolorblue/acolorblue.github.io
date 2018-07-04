@@ -41,6 +41,7 @@ function specifications() {
        }
     }
   }
+  device();
             
  
   function browser() {
@@ -56,6 +57,7 @@ function specifications() {
       $('body').addClass(' firefox');
     }
   }
+  browser();
 }
 
 
