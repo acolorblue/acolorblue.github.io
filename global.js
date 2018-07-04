@@ -22,6 +22,45 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
 
 
 
+// DEVICE SPECIFICATIONS
+function specifications() {       
+  function device() {
+    if (computer) {
+      $('body').addClass('computer');
+    }
+          
+    if (mobile) {
+      $('body').addClass('mobile');
+              
+       if (ios) {
+        $('body').addClass(' ios');
+       }
+              
+       if (android) {
+        $('body').addClass(' android');
+       }
+    }
+  }
+            
+ 
+  function browser() {
+    if (safari) {
+      $('body').addClass(' safari');
+    }
+
+    if (chrome) {
+      $('body').addClass(' chrome');
+    }
+
+    if (firefox) {
+      $('body').addClass(' firefox');
+    }
+  }
+}
+
+
+
+
 // ORIENTATION CHANGE
 function orientationCheck() {
   portrait = $('html').width() < $('html').height();
