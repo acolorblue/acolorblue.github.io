@@ -91,7 +91,7 @@ function orientationCheck() {
 
 
 // CLOCK
-function clock(element) {
+function clock() {
          
 setTimeout(function() {
   clockConversions();
