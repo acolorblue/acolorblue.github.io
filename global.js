@@ -95,8 +95,6 @@ function orientationCheck() {
 // CLOCK
 function clock() {
           
-
-          
 var clock_conversions_interval = setInterval(clockConversions, 1000);
 function clockConversions() {
  var date = new Date(),
@@ -173,18 +171,21 @@ function clockConversions() {
   monthConversions();
   
   
+  // MONTH CONVERSION           
   function dayOfMonthConversions() {
     day_of_month = date.getDate();
   }
   dayOfMonthConversions();
   
   
+  // YEAR CONVERSION
   function yearConversions() {
     year = date.getFullYear();
   }
   yearConversions();
    
   
+  // WEEKDAY CONVERSION
   function weekdayConversions() {
     weekday = date.getDay();
     
@@ -219,6 +220,7 @@ function clockConversions() {
   weekdayConversions();
   
   
+  // HOUR CONVERSION
   function hourConversions() {
     hour = date.getHours();
    
@@ -233,6 +235,7 @@ function clockConversions() {
   hourConversions();
   
   
+  // MINUTE CONVERSION
   function minuteConversions() {
     minute = date.getMinutes();
     
@@ -243,6 +246,7 @@ function clockConversions() {
   minuteConversions();
   
   
+  // MERIDIEM CONVERSION
   function meridiemConversions() {
     am = date.getHours() < 12 || date.getHours() == 24,
     pm = date.getHours() >= 12 && date.getHours() < 24;
@@ -258,6 +262,7 @@ function clockConversions() {
   meridiemConversions();
   
   
+  // CHARACTER VARIATIONS
   function characterVariationsDestinction() {
     mac_os = $('.time').parents('.mac-os').length;
     
@@ -274,14 +279,13 @@ function clockConversions() {
   characterVariationsDestinction();
   
   
+  // PLACEMENTS
   function placements() {
     $('.mac-os .menu-bar .time-container .time')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
     
     if ($('.mac-os .menu-bar .time-container .full-date').length > 0) {
       $('.mac-os .menu-bar .time-container .full-date')[0].innerHTML = full_alphabetical_date;
     }
-    
-
   }
   placements();
 }
