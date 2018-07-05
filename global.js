@@ -97,7 +97,7 @@ function clock(element) {
   clockConversions();
 // }, 10);
           
-var clock_conversions_interval = setInterval(clockConversions, 60000);
+var clock_conversions_interval = setInterval(clockConversions, 10000);
 function clockConversions() {
  var date = new Date(),
      month,
