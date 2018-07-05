@@ -59,9 +59,7 @@ function specifications() {
     }
   }
   device();
-            
- 
-          
+             
           
   // BROWSER        
   function browser() {
@@ -93,9 +91,13 @@ function orientationCheck() {
 
 
 // CLOCK
-function clock() {
+function clock(element) {
+         
+// setTimeout(function() {
+  clockConversions();
+// }, 10);
           
-var clock_conversions_interval = setInterval(clockConversions, 1000);
+var clock_conversions_interval = setInterval(clockConversions, 60000);
 function clockConversions() {
  var date = new Date(),
      month,
@@ -281,7 +283,7 @@ function clockConversions() {
   
   // PLACEMENTS
   function placements() {
-    $('.mac-os .menu-bar .time-container .time')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
+    $('.mac-os .menu-bar .time')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
     
     if ($('.mac-os .menu-bar .time-container .full-date').length > 0) {
       $('.mac-os .menu-bar .time-container .full-date')[0].innerHTML = full_alphabetical_date;
@@ -289,6 +291,11 @@ function clockConversions() {
   }
   placements();
 }
+     
+          
+//   if ($(element) == '.mac-os .menu-bar .time') {
+//     $(element).innerHTML = weekday_three_letters + space + full_numeric_time;
+//   }
 }
 
 
