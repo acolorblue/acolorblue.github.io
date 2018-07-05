@@ -93,9 +93,9 @@ function orientationCheck() {
 // CLOCK
 function clock(element) {
          
-// setTimeout(function() {
+setTimeout(function() {
   clockConversions();
-// }, 10);
+}, 1000);
           
 var clock_conversions_interval = setInterval(clockConversions, 10000);
 function clockConversions() {
