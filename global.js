@@ -31,7 +31,7 @@ function specifications() {
           
             
     // MOBILE       
-    if (mobile) {
+    else if (mobile) {
       $('body').addClass('mobile');
               
        if (ios) {
