@@ -25,40 +25,41 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
 // DEVICE SPECIFICATIONS
 function specifications() {       
   function device() {
-    if (computer) {
-      $('body').addClass('computer');
-    }
-          
-            
-    // MOBILE       
-    else if (mobile) {
-      $('body').addClass('mobile');
-              
-       if (ios) {
-        $('body').addClass(' ios');
-       }
-              
-       if (android) {
-        $('body').addClass(' android');
-       }
-              
-       function portraitOrLandscape() {
-         if (window.orientation == 0) {
-          $('body').removeClass('landscape').addClass('portrait');
-        }
+  // MOBILE       
+  if (mobile) {
+    $('body').addClass('mobile');
 
-        else if (window.orientation == -90 || 90) {
-          $('body').removeClass('portrait').addClass('landscape');
-        }
-      }
-      portraitOrLandscape();
-    
-      window.addEventListener('orientationchange', function() {
-        portraitOrLandscape();
-      });
+    if (ios) {
+      $('body').addClass(' ios');
     }
+
+    if (android) {
+      $('body').addClass(' android');
+    }
+
+    function portraitOrLandscape() {
+      if (window.orientation == 0) {
+        $('body').removeClass('landscape').addClass('portrait');
+      }
+
+      else if (window.orientation == -90 || 90) {
+        $('body').removeClass('portrait').addClass('landscape');
+      }
+    }
+    portraitOrLandscape();
+
+    window.addEventListener('orientationchange', function() {
+      portraitOrLandscape();
+    });
+    return;
   }
-  device();
+  
+  // COMPUTER
+  else if (computer) {
+    $('body').addClass('computer');
+  }
+}
+device();
              
           
   // BROWSER        
