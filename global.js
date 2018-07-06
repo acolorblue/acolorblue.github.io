@@ -3,7 +3,9 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
           navigator.userAgent.match(/iPad/i) ||
           navigator.userAgent.match(/iPod/i),
     android = navigator.userAgent.match(/Android/i),
-    mobile = ios || android || navigator.userAgent.match(/webOS/i),
+    blackberry = navigator.userAgent.match(/BlackBerry/i),
+    webOS = navigator.userAgent.match(/webOS/i),
+    mobile = ios || android || blackberry || webOS,
     computer = !mobile,
     portrait = window.orientation == 0,
     landscape = window.orientation == -90 || 90,
