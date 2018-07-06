@@ -14,6 +14,8 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
     safari = navigator.userAgent.includes("Safari") && navigator.userAgent.includes("iPhone") || navigator.userAgent.includes("Macintosh"),
     chrome = navigator.userAgent.includes("Chrome"),
     firefox = navigator.userAgent.includes("Firefox"),
+    device_width_longer = $('body').width() > $('body').height(),
+    device_height_longer = $('body').height() > $('body').width(),
     space = " ",
     comma = ",",
     add,
@@ -86,8 +88,8 @@ device();
 
 // ORIENTATION CHANGE
 function orientationCheck() {
-  portrait = $('html').width() < $('html').height();
-  landscape = $('html').width() > $('html').height();
+  portrait = $('body').width() < $('body').height();
+  landscape = $('body').width() > $('body').height();
 }
 
 
