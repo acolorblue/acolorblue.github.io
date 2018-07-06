@@ -25,6 +25,11 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
 // DEVICE SPECIFICATIONS
 function specifications() {       
   function device() {
+  // COMPUTER
+  if (computer) {
+    $('body').addClass('computer');
+  }       
+            
   // MOBILE       
   if (mobile) {
     $('body').addClass('mobile');
@@ -52,11 +57,6 @@ function specifications() {
       portraitOrLandscape();
     });
     return;
-  }
-  
-  // COMPUTER
-  else if (computer) {
-    $('body').addClass('computer');
   }
 }
 device();
