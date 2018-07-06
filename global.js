@@ -4,7 +4,7 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
           navigator.userAgent.match(/iPod/i),
     android = navigator.userAgent.match(/Android/i),
     mobile = ios || android,
-    computer = !ios || android,
+    computer = !ios || !android,
     portrait = window.orientation == 0,
     landscape = window.orientation == -90 || 90,
     twitterInAppBrowser = navigator.userAgent.includes("Twitter"),
