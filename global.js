@@ -32,6 +32,14 @@ var ios = navigator.userAgent.match(/iPhone/i) ||
 
 // DEVICE SPECIFICATIONS
 function specifications() {       
+  if (device_width_longer) {
+   $('body').addClass('width-longer');
+  }        
+   
+  if (device_height_longer) {
+   $('body').addClass('height-longer');
+  }
+          
   function device() {
   // COMPUTER
   if (computer) {
