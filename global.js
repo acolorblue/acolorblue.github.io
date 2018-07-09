@@ -317,7 +317,7 @@ function clockConversions() {
   }
   placements();
 }
-     
+}    
 
 
           
