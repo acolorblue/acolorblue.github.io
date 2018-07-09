@@ -318,14 +318,9 @@ function clockConversions() {
   placements();
 }
      
+
+
           
-//   if ($(element) == '.mac-os .menu-bar .time') {
-//     $(element).innerHTML = weekday_three_letters + space + full_numeric_time;
-//   }
-}
-
-
-
 // ADD CLASSES 'scale-down hide' TO ELEMENT 
 function addScaleDownAndHide(targetElement) {
   $(targetElement).addClass('scale-down hide');
@@ -358,3 +353,16 @@ function manuallyCenter(main_container, element) {
   $(element).css('top', position_top);
   $(element).css('left', position_left);
 }
+          
+
+          
+          
+// TITLE OVERFLOW 
+function titleOverflow(title, titleScroll) {
+  setTimeout(function() {
+    if ($(titleScroll).width() > $(title).width()) {
+      $(titleScroll).clone().appendTo($(title));
+      $(titleScroll).addClass('overflow');
+    }
+  }, 1000);
+} 
