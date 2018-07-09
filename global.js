@@ -357,12 +357,12 @@ function manuallyCenter(main_container, element) {
 
           
           
-// TITLE OVERFLOW 
-function titleOverflow(title, titleScroll) {
-  setTimeout(function() {
-    if ($(titleScroll).width() > $(title).width()) {
-      $(titleScroll).clone().appendTo($(title));
-      $(titleScroll).addClass('overflow');
-    }
-  }, 1000);
-} 
+// // TITLE OVERFLOW 
+// function titleOverflow(title, titleScroll) {
+//   setTimeout(function() {
+//     if ($(titleScroll).width() > $(title).width()) {
+//       $(titleScroll).clone().appendTo($(title));
+//       $(titleScroll).addClass('overflow');
+//     }
+//   }, 1000);
+// } 
