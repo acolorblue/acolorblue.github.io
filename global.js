@@ -357,15 +357,4 @@ function manuallyCenter(main_container, element) {
 
           
           
-// TITLE OVERFLOW 
-function titleOverflow(title, titleScroll) {
-    if ($(titleScroll).width() > $(title).width()) {
-      $(titleScroll).clone().appendTo($(title));
-      $(titleScroll).addClass('overflow');
-    }
-            
-    if ($(titleScroll).width() <= $(title).width() && $(titleScroll).hasClass('overflow')) {
-      $(titleScroll)[1].remove();
-      $(titleScroll).removeClass('overflow');
-    }
-} 
+
