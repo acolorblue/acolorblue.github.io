@@ -354,7 +354,27 @@ function manuallyCenter(main_container, element) {
   $(element).css('left', position_left);
 }
           
-
           
           
 
+// TITLE OVERFLOW 
+function titleOverflow(title, titleScroll) {
+  var already_has_overflow = $(titleScroll).width() > $(title).width() &&  $(titleScroll).hasClass('overflow'),
+      remove_overflow = $(titleScroll).width() <= $(title).width() && $(titleScroll).hasClass('overflow'),
+      add_overflow = $(titleScroll).width() > $(title).width();
+  
+  
+  if (already_has_overflow) {
+    return;
+  }
+  
+  if (remove_overflow) {
+    $(titleScroll)[1].remove();
+    $(titleScroll).removeClass('overflow');
+  }
+  
+  if (add_overflow) {
+    $(titleScroll).clone().appendTo($(title));
+    $(titleScroll).addClass('overflow');
+  }
+} 
