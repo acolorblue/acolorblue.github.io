@@ -307,7 +307,7 @@ function clockConversions() {
   
   // PLACEMENTS
   function placements() {
-    $('.mac-os .menu-bar .time')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
+    $('.mac-os .menu-bar .date-and-time .time.digital')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
     
     if ($('.mac-os .menu-bar .full-date').length > 0) {
       $('.mac-os .menu-bar .full-date')[0].innerHTML = full_alphabetical_date;
