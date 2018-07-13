@@ -160,7 +160,7 @@ button:active {
   background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Checked/Checked%20-%207.png');
 }
 
-.date-and-time.selected .item.checked.icons-b:hover:before {
+.mac-os .menu-bar .container.date-and-time.selected .item.checked.icons-b:hover:before {
   background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Checked/Checked%20-%20White%20-%201.png');
 }
 
