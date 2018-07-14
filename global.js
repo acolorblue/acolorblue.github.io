@@ -140,6 +140,8 @@ function clockConversions() {
      full_alphabetical_date,
      full_numeric_date,
      full_numeric_time,
+     digital,
+     analog,
      mac_os;
   
   
