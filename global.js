@@ -309,9 +309,7 @@ function clockConversions() {
   function placements() {
     $('.mac-os .menu-bar .date-and-time .time.digital span.text')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
     
-    if ($('.mac-os .menu-bar .full-date').length > 0) {
-      $('.mac-os .menu-bar .full-date')[0].innerHTML = full_alphabetical_date;
-    }
+    $('.mac-os .menu-bar .full-date')[0].innerHTML = full_alphabetical_date;
   }
   placements();
 }
