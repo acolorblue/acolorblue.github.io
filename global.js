@@ -310,6 +310,7 @@ function clockConversions() {
     digital();
             
     if ($('.time.analog').length > 0) {
+              console.log("ANALOG");
     function analog() {
       hour = date.getHours() % 12 / 12 * 360 + (date.getMinutes() * 6 / 12);
       minute = date.getMinutes() * 6;
