@@ -309,18 +309,20 @@ function clockConversions() {
     }
     digital();
             
-    if ($('.mac-os .menu-bar .time').hasClass('analog')) {
+    
               
     function analog() {
-              console.log("ANALOG");
+       if ($('.mac-os .menu-bar .time').hasClass('analog')) {
+        console.log("ANALOG");
 //       hour = date.getHours() % 12 / 12 * 360 + (date.getMinutes() * 6 / 12);
 //       minute = date.getMinutes() * 6;
               
 //       $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
 //       $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
+       }
     }
     analog();
-    }
+    
   }
   placements();
 }
