@@ -324,8 +324,6 @@ function clockConversions() {
       console.log(hour + space + minute);
       hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
       minute = minute * 6;
-              
-//       console.log("ANALOG LENGTH = " + $('.time.analog').length);
       
       if ($('.time.analog').length == 0) {
         return;
@@ -336,8 +334,6 @@ function clockConversions() {
         $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
         $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
       } 
-      
-//       console.log("ANALOG LENGTH = " + $('.time.analog').length);
     }
     analog();
   }
