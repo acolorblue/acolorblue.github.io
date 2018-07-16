@@ -307,11 +307,11 @@ function clockConversions() {
       var digital_doesnt_exist = $('.time.digital').length == 0,
           digital_exists = $('.time.digital').length == 1;
           
-      if (digital_doesnt_exist) {
+      if ($('.time.digital').length == 0) {
         return;
       } 
       
-      if (digital_exists) {
+      if ($('.time.digital').length == 1) {
         console.log("DIGITAL");
         $('.time.digital .text')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
       }   
@@ -329,11 +329,11 @@ function clockConversions() {
           hour = hour % 12 / 12 * 360 + (minute * 6 / 12),
           minute = minute * 6;
       
-      if (analog_doesnt_exist) {
+      if ($('.time.analog').length == 0) {
         return;
       }
       
-      if (analog_exists) {
+      if ($('.time.analog').length == 1) {
         console.log("ANALOG");
         $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
         $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
