@@ -309,7 +309,7 @@ function clockConversions() {
     }
     digital();
             
-//     if ($('.mac-os .menu-bar .time').hasClass('analog')) {
+    if ($('.mac-os .menu-bar .time').hasClass('analog')) {
               
     function analog() {
               console.log("ANALOG");
@@ -320,7 +320,7 @@ function clockConversions() {
 //       $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
     }
     analog();
-//     }
+    }
   }
   placements();
 }
