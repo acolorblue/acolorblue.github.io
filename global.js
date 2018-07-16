@@ -337,7 +337,7 @@ function clockConversions() {
     
     function analog() {
       var analog_doesnt_exist = $('.time.analog').length == 0,
-          analog_exists = $('.time.analog').length > 1;
+          analog_exists = $('.time.analog').length > 0;
               
           hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
           minute = minute * 6;
