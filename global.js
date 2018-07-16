@@ -304,23 +304,21 @@ function clockConversions() {
   // PLACEMENTS
   function placements() {       
     function digital() {
-      $('.mac-os .menu-bar .date-and-time .time.digital span.text')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
+      $('.time.digital .text')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
       $('.mac-os .menu-bar .full-date')[0].innerHTML = full_alphabetical_date;
     }
     digital();
             
     
-              
     function analog() {
-        console.log("ANALOG");
-//       hour = date.getHours() % 12 / 12 * 360 + (date.getMinutes() * 6 / 12);
-//       minute = date.getMinutes() * 6;
+      console.log("ANALOG");
+      hour = date.getHours() % 12 / 12 * 360 + (date.getMinutes() * 6 / 12);
+      minute = date.getMinutes() * 6;
               
-//       $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
-//       $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
+      $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
+      $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
     }
     analog();
-    
   }
   placements();
 }
