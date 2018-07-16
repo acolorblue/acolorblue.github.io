@@ -311,9 +311,9 @@ function clockConversions() {
             
     
     function analog() {
-      console.log("ANALOG");
-      hour = date.getHours() % 12 / 12 * 360 + (date.getMinutes() * 6 / 12);
-      minute = date.getMinutes() * 6;
+      console.log(hour + space + minute);
+      hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
+      minute = minute * 6;
               
 //       $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
 //       $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
