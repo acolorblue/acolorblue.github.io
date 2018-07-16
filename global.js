@@ -126,6 +126,7 @@ function clockConversions() {
      weekday,
      hour, 
      minute,
+     second,
      meridiem,
      am,
      pm,
@@ -268,6 +269,17 @@ function clockConversions() {
   minuteConversions();
   
   
+  // SECOND CONVERSION
+  function secondConversions() {
+    second = date.getSeconds();
+    
+    if (second < 10) {
+      second = '0' + second;
+    } 
+  }
+  secondConversions();
+  
+  
   // MERIDIEM CONVERSION
   function meridiemConversions() {
     am = date.getHours() < 12 || date.getHours() == 24,
@@ -329,6 +341,7 @@ function clockConversions() {
               
           hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
           minute = minute * 6;
+          second = second * 6;
       
       if (analog_doesnt_exist) {
         return;
@@ -338,6 +351,10 @@ function clockConversions() {
         console.log("ANALOG");
         $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
         $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
+        
+        if ($('.time.analog .second').length > 0) {
+          $('.time.analog .second').css('transform', 'rotate(' + second + 'deg)');
+        }
       } 
     }
     analog();
