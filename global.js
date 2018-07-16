@@ -312,7 +312,7 @@ function clockConversions() {
     
               
     function analog() {
-       if ($('.mac-os .menu-bar .time').hasClass('analog')) {
+       if ($('.analog .clock-border').length == 0) {
         console.log("ANALOG");
 //       hour = date.getHours() % 12 / 12 * 360 + (date.getMinutes() * 6 / 12);
 //       minute = date.getMinutes() * 6;
