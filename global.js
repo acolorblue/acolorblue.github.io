@@ -309,6 +309,7 @@ function clockConversions() {
       } 
       
       if ($('.time.digital').length == 1) {
+        console.log("DIGITAL");
         $('.time.digital .text')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
       }   
       
@@ -324,18 +325,19 @@ function clockConversions() {
       hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
       minute = minute * 6;
               
-      console.log("ANALOG LENGTH = " + $('.time.analog').length);
+//       console.log("ANALOG LENGTH = " + $('.time.analog').length);
       
       if ($('.time.analog').length == 0) {
         return;
       }
       
       if ($('.time.analog').length == 1) {
+        console.log("ANALOG");
         $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
         $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
       } 
       
-      console.log("ANALOG LENGTH = " + $('.time.analog').length);
+//       console.log("ANALOG LENGTH = " + $('.time.analog').length);
     }
     analog();
   }
