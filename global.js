@@ -312,14 +312,12 @@ function clockConversions() {
     
               
     function analog() {
-       if ($('.analog .clock-border').length == 0) {
         console.log("ANALOG");
 //       hour = date.getHours() % 12 / 12 * 360 + (date.getMinutes() * 6 / 12);
 //       minute = date.getMinutes() * 6;
               
 //       $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
 //       $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
-       }
     }
     analog();
     
