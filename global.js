@@ -140,8 +140,6 @@ function clockConversions() {
      full_alphabetical_date,
      full_numeric_date,
      full_numeric_time,
-     digital,
-     analog,
      mac_os;
   
   
@@ -308,10 +306,18 @@ function clockConversions() {
   
   
   // PLACEMENTS
-  function placements() {
-    $('.mac-os .menu-bar .date-and-time .time.digital span.text')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
-    
-    $('.mac-os .menu-bar .full-date')[0].innerHTML = full_alphabetical_date;
+  function placements() {       
+    function digital() {
+      $('.mac-os .menu-bar .date-and-time .time.digital span.text')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
+      $('.mac-os .menu-bar .full-date')[0].innerHTML = full_alphabetical_date;
+    }
+    digital();
+            
+    function analog() {
+      $('.time.analog .hour').css('transform', 'rotate(' + hour % 12 / 12 * 360 + (date.getMinutes() * 6 / 12) + 'deg)');
+      $('.time.analog .minute').css('transform', 'rotate(' + minute * 6 + 'deg)');
+    }
+    analog();
   }
   placements();
 }
