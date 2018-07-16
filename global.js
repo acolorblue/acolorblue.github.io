@@ -316,6 +316,7 @@ function clockConversions() {
       minute = minute * 6;
       console.log("NEW = " + hour + space + minute);
               
+      console.log("ANALOG LENGTH = " + $('.time.analog .hour').length);
 //       $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
 //       $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
     }
