@@ -116,12 +116,8 @@ function orientationCheck() {
 
 // CLOCK
 function clock() {
-         
-setTimeout(function() {
-  clockConversions();
-}, 1000);
           
-var clock_conversions_interval = setInterval(clockConversions, 10000);
+var clock_conversions_interval = setInterval(clockConversions, 1000);
 function clockConversions() {
  var date = new Date(),
      month,
@@ -314,8 +310,11 @@ function clockConversions() {
     digital();
             
     function analog() {
-      $('.time.analog .hour').css('transform', 'rotate(' + hour % 12 / 12 * 360 + (date.getMinutes() * 6 / 12) + 'deg)');
-      $('.time.analog .minute').css('transform', 'rotate(' + minute * 6 + 'deg)');
+      hour = hour % 12 / 12 * 360 + (date.getMinutes() * 6 / 12);
+      minute = minute * 6;
+              
+      $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
+      $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
     }
     analog();
   }
