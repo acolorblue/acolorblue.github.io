@@ -304,11 +304,14 @@ function clockConversions() {
   // PLACEMENTS
   function placements() {       
     function digital() {  
-      if ($('.time.digital').length == 0) {
+      var digital_doesnt_exist = $('.time.digital').length == 0,
+          digital_exists = $('.time.digital').length == 1;
+          
+      if (digital_doesnt_exist) {
         return;
       } 
       
-      if ($('.time.digital').length == 1) {
+      if (digital_exists) {
         console.log("DIGITAL");
         $('.time.digital .text')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
       }   
@@ -321,15 +324,16 @@ function clockConversions() {
             
     
     function analog() {
-      console.log(hour + space + minute);
-      hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
-      minute = minute * 6;
+      var analog_doesnt_exist = $('.time.analog').length == 0,
+          analog_exists = $('.time.analog').length == 1,
+          hour = hour % 12 / 12 * 360 + (minute * 6 / 12),
+          minute = minute * 6;
       
-      if ($('.time.analog').length == 0) {
+      if (analog_doesnt_exist) {
         return;
       }
       
-      if ($('.time.analog').length == 1) {
+      if (analog_exists) {
         console.log("ANALOG");
         $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
         $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
