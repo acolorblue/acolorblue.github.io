@@ -309,6 +309,7 @@ function clockConversions() {
     }
     digital();
             
+    if ($('.time.analog').length > 0) {
     function analog() {
       hour = date.getHours() % 12 / 12 * 360 + (date.getMinutes() * 6 / 12);
       minute = date.getMinutes() * 6;
@@ -317,6 +318,7 @@ function clockConversions() {
       $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
     }
     analog();
+    }
   }
   placements();
 }
