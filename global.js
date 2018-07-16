@@ -303,8 +303,12 @@ function clockConversions() {
   
   // PLACEMENTS
   function placements() {       
-    function digital() {       
-      if ($('.time.digital .text').length == 1) {
+    function digital() {  
+      if ($('.time.digital').length == 0) {
+        return;
+      } 
+      
+      if ($('.time.digital').length == 1) {
         $('.time.digital .text')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
       }   
       
@@ -319,11 +323,19 @@ function clockConversions() {
       console.log(hour + space + minute);
       hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
       minute = minute * 6;
-      console.log("NEW = " + hour + space + minute);
               
-      console.log("ANALOG LENGTH = " + $('.time.analog .hour').length);
-//       $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
-//       $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
+      console.log("ANALOG LENGTH = " + $('.time.analog').length);
+      
+      if ($('.time.analog').length == 0) {
+        return;
+      }
+      
+      if ($('.time.analog').length == 1) {
+        $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
+        $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
+      } 
+      
+      console.log("ANALOG LENGTH = " + $('.time.analog').length);
     }
     analog();
   }
