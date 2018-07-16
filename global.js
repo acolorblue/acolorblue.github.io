@@ -303,9 +303,14 @@ function clockConversions() {
   
   // PLACEMENTS
   function placements() {       
-    function digital() {
-      $('.time.digital .text')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
-      $('.mac-os .menu-bar .full-date')[0].innerHTML = full_alphabetical_date;
+    function digital() {       
+      if ($('.time.digital .text').length == 1) {
+        $('.time.digital .text')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
+      }   
+      
+      if ($('.mac-os .menu-bar .full-date').length == 1) {
+        $('.mac-os .menu-bar .full-date')[0].innerHTML = full_alphabetical_date;
+      }  
     }
     digital();
             
