@@ -125,8 +125,12 @@ function clockConversions() {
      year,
      weekday,
      hour, 
+     hour_hand,
+     timezone_offset,
      minute,
+     minute_hand,
      second,
+     second_hand,
      meridiem,
      am,
      pm,
@@ -343,19 +347,53 @@ function clockConversions() {
           minute = minute * 6;
           second = second * 6;
       
-      if (analog_doesnt_exist) {
-        return;
-      }
+//       if (analog_doesnt_exist) {
+//         return;
+//       }
       
-      if (analog_exists) {
-        console.log("ANALOG");
-        $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
-        $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
+//       if (analog_exists) {
+//         console.log("ANALOG");
+//         $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
+//         $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
         
-        if ($('.time.analog .second').length > 0) {
-          $('.time.analog .second').css('transform', 'rotate(' + second + 'deg)');
-        }
-      } 
+//         if ($('.time.analog .second').length > 0) {
+//           $('.time.analog .second').css('transform', 'rotate(' + second + 'deg)');
+//         }
+//       } 
+              
+      
+
+      
+      $('.menu-bar .clock-border').each(function() {
+        hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
+        hour_hand = $(this).find('.hour');
+        minute = minute * 6;
+        minute_hand = $(this).find('.minute');
+        second = second * 6;
+        second_hand = $(this).find('.second');
+        
+        hour_hand.css('transform', 'rotate(' + hour + 'deg)');
+        minute_hand.css('transform', 'rotate(' + minute + 'deg)');
+        second_hand.css('transform', 'rotate(' + second + 'deg)');
+      });
+      
+      
+      $('.world-clock clock').each(function() {
+        hour = date.getUTCHours();
+        
+        timezone_offset = $(this).attr('timezone-offset');
+        hour = hour + parseInt(timezone_offset);
+        hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
+        hour_hand = $(this).find('.hour');
+        minute = minute * 6;
+        minute_hand = $(this).find('.minute');
+        second = second * 6;
+        second_hand = $(this).find('.second');
+
+        hour_hand.css('transform', 'rotate(' + hour + 'deg)');
+        minute_hand.css('transform', 'rotate(' + minute + 'deg)');
+        second_hand.css('transform', 'rotate(' + second + 'deg)');
+      });
     }
     analog();
   }
