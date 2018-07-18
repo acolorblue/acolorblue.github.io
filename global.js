@@ -381,6 +381,33 @@ function clockConversions() {
         timezone_offset = $(this).attr('timezone-offset');
         hour = hour + parseInt(timezone_offset);
                 
+        // TWENTY FOUR HOUR
+        if (hour == 25) {
+          hour = 0;
+        }
+    
+        if (hour == 26) {
+          hour = 1;
+        }
+    
+        if (hour == 27) {
+          hour = 2;
+        }
+    
+        if (hour == 28) {
+          hour = 3;
+        }
+    
+        if (hour == 29) {
+          hour = 4;
+        }
+    
+        if (hour == 30) {
+          hour = 5;
+        }
+        
+        
+        // TWELVE HOUR                 
         if (hour >= 12) {
           hour -= 12;
         }
