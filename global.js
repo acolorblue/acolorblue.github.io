@@ -377,7 +377,12 @@ function clockConversions() {
       
       
       $('.world-clock clock').each(function() {  
-        hour = date.getUTCHours() + parseInt($(this).attr('timezone-offset'));
+//         hour = date.getUTCHours() + parseInt($(this).attr('timezone-offset'));
+                
+        hour = date.getUTCHours();
+        timezone_offset = $(this).attr('timezone-offset');
+        hour = hour + parseInt(timezone_offset);
+                
         
         if (hour >= 12) {
           hour -= 12;
