@@ -251,13 +251,16 @@ function clockConversions() {
   function hourConversions() {
     hour = date.getHours();
    
-    if (hour >= 12) {
-      hour -= 12;
+    function twelveHour() {
+     if (hour >= 12) {
+       hour -= 12;
+     }
+
+     if (hour == 0) {
+       hour = 12;
+     }
     }
-    
-    if (hour == 0) {
-      hour = 12;
-    }
+    twelveHour();
   }
   hourConversions();
   
@@ -379,7 +382,7 @@ function clockConversions() {
         hour = date.getUTCHours();
         timezone_offset = $(this).attr('timezone-offset');
         
-        function twelveHour() {
+//         function twelveHour() {
           if (hour >= 12) {
             hour -= 12;
           }
@@ -387,8 +390,8 @@ function clockConversions() {
           if (hour == 0) {
             hour = 12;
           }
-        }
-        twelveHour();
+//         }
+//         twelveHour();
                 
         hour = hour + parseInt(timezone_offset);
         hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
