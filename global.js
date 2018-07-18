@@ -343,9 +343,9 @@ function clockConversions() {
       var analog_doesnt_exist = $('.time.analog').length == 0,
           analog_exists = $('.time.analog').length > 0;
               
-          hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
-          minute = minute * 6;
-          second = second * 6;
+//           hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
+//           minute = minute * 6;
+//           second = second * 6;
       
 //       if (analog_doesnt_exist) {
 //         return;
@@ -363,7 +363,7 @@ function clockConversions() {
               
       
 
-      
+      if (analog_exists) {
       $('.menu-bar .clock-border').each(function() {
         hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
         hour_hand = $(this).find('.hour');
@@ -391,6 +391,7 @@ function clockConversions() {
         minute_hand.css('transform', 'rotate(' + minute + 'deg)');
         second_hand.css('transform', 'rotate(' + second + 'deg)');
       });
+      }
     }
     analog();
   }
