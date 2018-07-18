@@ -369,12 +369,9 @@ function clockConversions() {
         hour_hand = $(this).find('.hour');
         minute = minute * 6;
         minute_hand = $(this).find('.minute');
-        second = second * 6;
-        second_hand = $(this).find('.second');
         
         hour_hand.css('transform', 'rotate(' + hour + 'deg)');
         minute_hand.css('transform', 'rotate(' + minute + 'deg)');
-        second_hand.css('transform', 'rotate(' + second + 'deg)');
       });
       
       
