@@ -347,8 +347,8 @@ function clockConversions() {
           analog_exists = $('.time.analog').length > 0;
               
 //           hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
-//           minute = minute * 6;
-//           second = second * 6;
+          minute = minute * 6;
+          second = second * 6;
       
 //       if (analog_doesnt_exist) {
 //         return;
@@ -370,18 +370,16 @@ function clockConversions() {
       $('.menu-bar .clock-border').each(function() {
         hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
         hour_hand = $(this).find('.hour');
-        minute = minute * 6;
+//         minute = minute * 6;
         minute_hand = $(this).find('.minute');
         
         hour_hand.css('transform', 'rotate(' + hour + 'deg)');
-        minute_hand.css('transform', 'rotate(' + minute + 'deg)');
+//         minute_hand.css('transform', 'rotate(' + minute + 'deg)');
       });
       
       
-      $('.world-clock clock').each(function() {
-        hour = date.getUTCHours();
-        timezone_offset = $(this).attr('timezone-offset');
-        hour = hour + parseInt(timezone_offset);
+      $('.world-clock clock').each(function() {  
+        hour = date.getUTCHours() + parseInt($(this).attr('timezone-offset'));
         
 //         function twelveHour() {
           if (hour >= 12) {
@@ -398,13 +396,16 @@ function clockConversions() {
         hour_hand = $(this).find('.hour');
         minute = minute * 6;
         minute_hand = $(this).find('.minute');
-        second = second * 6;
+//         second = second * 6;
         second_hand = $(this).find('.second');
 
         hour_hand.css('transform', 'rotate(' + hour + 'deg)');
-        minute_hand.css('transform', 'rotate(' + minute + 'deg)');
+//         minute_hand.css('transform', 'rotate(' + minute + 'deg)');
         second_hand.css('transform', 'rotate(' + second + 'deg)');
       });
+        
+        $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
+//         $('.time.analog .second').css('transform', 'rotate(' + second + 'deg)');
       }
     }
     analog();
