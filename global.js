@@ -377,37 +377,36 @@ function clockConversions() {
       
       
       $('.world-clock clock').each(function() {  
-        hour = date.getUTCHours();
-        timezone_offset = $(this).attr('timezone-offset');
-        hour = hour + parseInt(timezone_offset);
-                
-        // TWENTY FOUR HOUR
+        hour = date.getUTCHours() + parseInt($(this).attr('timezone-offset'));
+
+      function timezoneOverflow() {
         if (hour == 25) {
-          hour = 0;
-        }
-    
-        if (hour == 26) {
           hour = 1;
         }
-    
-        if (hour == 27) {
+
+        if (hour == 26) {
           hour = 2;
         }
-    
-        if (hour == 28) {
+
+        if (hour == 27) {
           hour = 3;
         }
-    
-        if (hour == 29) {
+
+        if (hour == 28) {
           hour = 4;
         }
-    
-        if (hour == 30) {
+
+        if (hour == 29) {
           hour = 5;
         }
-        
-        
-        // TWELVE HOUR                 
+
+        if (hour == 30) {
+          hour = 6;
+        }
+      }
+      timezoneOverflow();
+
+      function twelveHour() {
         if (hour >= 12) {
           hour -= 12;
         }
@@ -415,6 +414,8 @@ function clockConversions() {
         if (hour == 0) {
           hour = 12;
         }
+      }
+      twelveHour();
         
         hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
         hour_hand = $(this).find('.hour');
