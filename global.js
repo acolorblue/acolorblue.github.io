@@ -367,13 +367,13 @@ function clockConversions() {
       
 
       if (analog_exists) {
-      $('.menu-bar .clock-border').each(function() {
-        hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
-        hour_hand = $(this).find('.hour');
-        minute_hand = $(this).find('.minute');
+//       $('.menu-bar .clock-border').each(function() {
+//         hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
+//         hour_hand = $(this).find('.hour');
+//         minute_hand = $(this).find('.minute');
         
-        hour_hand.css('transform', 'rotate(' + hour + 'deg)');
-      });
+//         hour_hand.css('transform', 'rotate(' + hour + 'deg)');
+//       });
       
       
       $('.world-clock clock').each(function() {  
