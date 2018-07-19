@@ -365,8 +365,8 @@ function clockConversions() {
       
       
       if (analog_exists) {
-        $('.menu-bar .time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
-        $('.menu-bar .time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
+        $('.menu-bar .time.analog .clock-border .hour').css('transform', 'rotate(' + hour + 'deg)');
+        $('.menu-bar .time.analog .clock-border .minute').css('transform', 'rotate(' + minute + 'deg)');
       } 
     }
     analog();
