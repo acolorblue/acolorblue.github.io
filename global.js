@@ -366,6 +366,93 @@ function clockConversions() {
     analog();
   }
   placements();
+          
+          
+          
+  // WORLD CLOCK
+function worldClock() {
+  var date = new Date(),
+      timezone_offset,
+      hour,
+      hour_hand;
+
+
+  // HOUR CONVERSIONS   
+  $('clock').each(function() {
+    hour = date.getUTCHours() + parseInt($(this).attr('timezone-offset'));
+
+    function timezoneOverflow() {
+      if (hour == -1) {
+        hour = 23;
+      }
+
+      if (hour == -2) {
+        hour = 22;
+      }
+
+      if (hour == -3) {
+        hour = 21;
+      }
+
+      if (hour == -4) {
+        hour = 20;
+      }
+
+      if (hour == -5) {
+        hour = 19;
+      }
+
+      if (hour == -6) {
+        hour = 18;
+      }
+
+
+
+      if (hour == 25) {
+        hour = 1;
+      }
+
+      if (hour == 26) {
+        hour = 2;
+      }
+
+      if (hour == 27) {
+        hour = 3;
+      }
+
+      if (hour == 28) {
+        hour = 4;
+      }
+
+      if (hour == 29) {
+        hour = 5;
+      }
+
+      if (hour == 30) {
+        hour = 6;
+      }
+    }
+    timezoneOverflow();
+
+    function twelveHour() {
+      if (hour >= 12) {
+        hour -= 12;
+      }
+
+      if (hour == 0) {
+        hour = 12;
+      }
+    }
+    twelveHour();
+
+    hour = hour % 12 / 12 * 360 + (date.getMinutes() * 6 / 12);
+    hour_hand = $(this).find('.hour');
+    hour_hand.css('transform', 'rotate(' + hour + 'deg)');
+
+    $(this).find('.hour').text(" " + hour);
+  });
+}
+
 }
 }   
 
