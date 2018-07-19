@@ -354,13 +354,19 @@ function clockConversions() {
         return;
       }
       
+//       if (analog_exists) {
+//         $('.menu-bar .time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
+//         $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
+        
+//         if ($('.time.analog .second').length > 0) {
+//           $('.time.analog .second').css('transform', 'rotate(' + second + 'deg)');
+//         }
+//       } 
+      
+      
       if (analog_exists) {
         $('.menu-bar .time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
-        $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
-        
-        if ($('.time.analog .second').length > 0) {
-          $('.time.analog .second').css('transform', 'rotate(' + second + 'deg)');
-        }
+        $('.menu-bar .time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
       } 
     }
     analog();
@@ -376,12 +382,16 @@ function worldClock() {
   var date = new Date(),
       timezone_offset,
       hour,
-      hour_hand;
+      hour_hand
+      minute,
+      minute_hand
+      second,
+      second_hand;
 
-
-  // HOUR CONVERSIONS   
+  // TIMEZONE OFFSET   
   $('clock').each(function() {
     hour = date.getUTCHours() + parseInt($(this).attr('timezone-offset'));
+            
 
     function timezoneOverflow() {
       if (hour == -1) {
@@ -450,8 +460,14 @@ function worldClock() {
     hour = hour % 12 / 12 * 360 + (date.getMinutes() * 6 / 12);
     hour_hand = $(this).find('.hour');
     hour_hand.css('transform', 'rotate(' + hour + 'deg)');
-
-//     $(this).find('.hour').text(" " + hour);
+    
+    minute = date.getMinutes() * 6;
+    minute_hand = $(this).find('.minute');
+    minute_hand.css('transform', 'rotate(' + minute + 'deg)');
+    
+    second = date.getSeconds() * 6;
+    second_hand = $(this).find('.second');
+    second_hand.css('transform', 'rotate(' + second + 'deg)');
   });
 }
   worldClock();
