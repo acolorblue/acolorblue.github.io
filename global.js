@@ -346,94 +346,31 @@ function clockConversions() {
       var analog_doesnt_exist = $('.time.analog').length == 0,
           analog_exists = $('.time.analog').length > 0;
               
-//           hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
+          hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
           minute = minute * 6;
           second = second * 6;
       
-//       if (analog_doesnt_exist) {
-//         return;
-//       }
+      if (analog_doesnt_exist) {
+        return;
+      }
       
-//       if (analog_exists) {
-//         console.log("ANALOG");
-//         $('.time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
-//         $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
-        
-//         if ($('.time.analog .second').length > 0) {
-//           $('.time.analog .second').css('transform', 'rotate(' + second + 'deg)');
-//         }
-//       } 
-              
-      
-
       if (analog_exists) {
-//       $('.menu-bar .clock-border').each(function() {
-//         hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
-//         hour_hand = $(this).find('.hour');
-//         minute_hand = $(this).find('.minute');
-        
-//         hour_hand.css('transform', 'rotate(' + hour + 'deg)');
-//       });
-      
-      
-      $('.world-clock clock').each(function() {  
-        hour = date.getUTCHours() + parseInt($(this).attr('timezone-offset'));
-
-      function timezoneOverflow() {
-        if (hour == 25) {
-          hour = 1;
-        }
-
-        if (hour == 26) {
-          hour = 2;
-        }
-
-        if (hour == 27) {
-          hour = 3;
-        }
-
-        if (hour == 28) {
-          hour = 4;
-        }
-
-        if (hour == 29) {
-          hour = 5;
-        }
-
-        if (hour == 30) {
-          hour = 6;
-        }
-      }
-      timezoneOverflow();
-
-      function twelveHour() {
-        if (hour >= 12) {
-          hour -= 12;
-        }
-
-        if (hour == 0) {
-          hour = 12;
-        }
-      }
-      twelveHour();
-        
-        hour = hour % 12 / 12 * 360 + (minute * 6 / 12);
-        hour_hand = $(this).find('.hour');
-        minute_hand = $(this).find('.minute');
-        second_hand = $(this).find('.second');
-
-        hour_hand.css('transform', 'rotate(' + hour + 'deg)');
-        second_hand.css('transform', 'rotate(' + second + 'deg)');
-      });
-        
+        $('.menu-bar .time.analog .hour').css('transform', 'rotate(' + hour + 'deg)');
         $('.time.analog .minute').css('transform', 'rotate(' + minute + 'deg)');
-      }
+        
+        if ($('.time.analog .second').length > 0) {
+          $('.time.analog .second').css('transform', 'rotate(' + second + 'deg)');
+        }
+      } 
     }
     analog();
   }
   placements();
 }
-}    
+}   
+
+
+
 
 
           
