@@ -368,8 +368,10 @@ function clockConversions() {
   placements();
           
           
-          
+     
+  
   // WORLD CLOCK
+//   var world_clock_interval = setInterval(worldClock, 1000);
 function worldClock() {
   var date = new Date(),
       timezone_offset,
@@ -452,6 +454,7 @@ function worldClock() {
     $(this).find('.hour').text(" " + hour);
   });
 }
+  worldClock();
 
 }
 }   
