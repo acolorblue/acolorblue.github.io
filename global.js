@@ -451,7 +451,7 @@ function worldClock() {
     hour_hand = $(this).find('.hour');
     hour_hand.css('transform', 'rotate(' + hour + 'deg)');
 
-    $(this).find('.hour').text(" " + hour);
+//     $(this).find('.hour').text(" " + hour);
   });
 }
   worldClock();
