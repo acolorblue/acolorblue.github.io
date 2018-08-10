@@ -63,7 +63,8 @@ button:active {
 
 
 
-/* BRAND LOGOS */
+/* BRAND */
+/* TWITTER */
 .twitter-b {
   background: #00C3F3;
 }
@@ -74,6 +75,11 @@ button:active {
 
 .twitter-black.icons:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Twitter%20Icons/Logo/Twitter%20-%20Black%20-%201.png");
+}
+
+.twitter .extra-options.icons-b::before,
+.twitter .extra-options.icons-b::after {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Medias/Twitter/Extra%20Options/Blue%20-%201%20-%20Comp.png');
 }
 
 
@@ -206,6 +212,11 @@ button:active {
   background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Souncloud%20Play%20-%20Pause%20Button/Play%20White%20-%204.png');
 }
 
+.extra-options.icons-b::before,
+.extra-options.icons-a::after {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Medias/Twitter/Extra%20Options/Blue%20-%201%20-%20Comp.png');
+}
+
 .play.icons-b::before,
 .play.icons-a::after {
   background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Media%20Controls/Play/White%20-%201%20-%20Comp.png');
@@ -240,6 +251,11 @@ button:active {
 
 
 
+/* IOS  */
+.battery.low-power-mode.icons-b::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/iOS/Battery/Low%20Power%20Mode/Yellow%20-%20%20Rect%20-%20%201%20-%20Comp.png');
+}
+
 
 /* IOS PROMPT ICONS */
 .ios-prompt-container.translucent:before {
@@ -252,6 +268,28 @@ button:active {
 
 .ios-prompt.sign-out .cancel-action:before {
   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/iOS%20Prompt/Icons/Close/Close%20-%20White%20-%202.png");
+}
+
+
+
+
+/* GTA */
+.gta .info.icons-b::before,
+.gta .info.icons-a::after {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Information/White%20-%201%20-%20Comp.png');
+}
+
+.gta .loading-circle.icons-b::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Loading%20Indicator/Fading%20Circle%20-%201.gif');
+}
+
+
+
+
+/* PLAYSTATION */
+.playstation .x.icons-b::before,
+.playstation .x.icons-a::after {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/PlayStation/Controls/X/Black%20-%201%20-%20Comp.png');
 }
 
 
