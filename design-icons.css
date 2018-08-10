@@ -69,7 +69,7 @@ button:active {
 }
 
 .twitter-b.icons-b:before {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Twitter%20-%20White%201.png");
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Medias/Twitter/White%20-%201%20-%20Comp.png");
 }
 
 .twitter-black.icons:before {
@@ -85,7 +85,7 @@ button:active {
 }
 
 .instagram-b.icons-b:before {
-   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Media%20Icons/Instagram.png");
+   background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Medias/Instagram/White%20-%201%20-%20Comp.png");
 }
 
 .instagram-black.icons:before {
@@ -97,7 +97,7 @@ button:active {
 
 /* YOUTUBE */
 .youtube-b.white.icons-b::before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Youtube/Youtube%20-%20White%20-%205.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Medias/Youtube/White%20-%201%20-%20Comp.png');
 }
 
 .youtube-b.red.icons-b::before {
@@ -126,7 +126,7 @@ button:active {
 }
 
 .tumblr-b.icons-b:before {
-  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Tumblr%20Icons/Logo/Tumblr%20-%20White%20-%201.png");
+  background-image: url("https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Medias/Tumblr/White%20-%201%20-%20Comp.png");
 }
 
 .tumblr-black.icons:before {
@@ -149,19 +149,19 @@ button:active {
 
 /* MAC OS */
 .apple-logo.icons-b::before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Logo/Logo%20-%202.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Logo/Black%20-%201%20-%20Comp.png');
 }
 
 .selected .apple-logo.icons-b::before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Logo/Logo%20-%202%20-%20White.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Logo/White%20-%201%20-%20Comp.png');
 }
 
 .date-and-time.selected .item.checked.icons-b::before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Checked/Checked%20-%207.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Checked/Black%20-%201%20-%20Comp.png');
 }
 
 .mac-os .menu-bar .section-container.date-and-time.selected .item.checked.icons-b:hover:before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Checked/Checked%20-%20White%20-%201.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Checked/White%20-%201%20-%20Comp.png');
 }
 
 
@@ -175,27 +175,31 @@ button:active {
 }
 
 .mac-os .menu-bar .notification-center.icons-b::before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Notification%20Center/Notification%20Center%20-%201.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Notification%20Center/Black%20-%201%20-%20Comp.png');
 }
 
 .mac-os .menu-bar .selected .notification-center.icons-b::before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Notification%20Center/Notification%20Center%20-%201%20-%20White.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Notification%20Center/White%20-%201%20-%20Comp.png');
 }
 
 .mac-os .file.soundcloud .thumbnail-container .file-type-indicator::before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Souncloud/Soundcloud%20-%20Orange%20-%201.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Social%20Medias/Souncloud/Orange%20-%201%20-%20Comp.png');
 }
 
 .apple-media-file .close.grey::before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Apple%20Media%20File%20Controls/AMF%20-%20Close%20Icon/Close%20-%20Grey%203.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Close/Grey%20-%201%20-%20Comp.png');
+}
+
+.apple-media-file .close.white::before {
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Close/White%20-%201%20-%20Comp.png');
 }
 
 .apple-media-file .search.white::before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Menu%20Bar%20Search/Search%20-%20White%20-%204.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Search/White%20-%201%20-%20Comp.png');
 }
 
 .apple-media-file .share.white::before {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Share/Share%20-%20White%20-%201.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Share/White%20-%201%20-%20Comp.png');
 }
 
 .apple-media-file .video.icons-b:before {
@@ -204,22 +208,22 @@ button:active {
 
 .play.icons-b::before,
 .play.icons-a::after {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Play%20-%20Pause/Play%20-%20White%20-%205.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Media%20Controls/Play/White%20-%201%20-%20Comp.png');
 }
 
 .pause.icons-b::before,
 .pause.icons-a::after {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Play%20-%20Pause/Pause%20-%20White%20-%205.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Media%20Controls/Pause/White%20-%201%20-%20Comp.png');
 }
 
 .rewind.icons-b::before,
 .rewind.icons-a::after {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Rewind/Rewind%20-%20White%20-%201.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Media%20Controls/Rewind/White%20-%201%20-%20Comp.png');
 }
 
 .forward.icons-b::before,
 .forward.icons-a::after {
-  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/App%20Design%20References/Mac%20OS/Icons/Forward/Forward%20-%20White%20-%201.png');
+  background-image: url('https://raw.githubusercontent.com/acolorblue/acolorblue.github.io/gh-pages/Design%20Icons/Media%20Controls/Forward/White%20-%201%20-%20Comp.png');
 }
 
 
