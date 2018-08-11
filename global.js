@@ -331,7 +331,6 @@ function clockConversions() {
       } 
       
       if (digital_exists) {
-        console.log("DIGITAL");
         $('.time.digital .text')[0].innerHTML = weekday_three_letters + space + full_numeric_time;
       }   
       
