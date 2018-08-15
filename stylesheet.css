@@ -102,7 +102,7 @@ div#load_screen > div#loading {
   width: 120px;
   height: 24px;
   margin: 0;
-  font-famly: ahamonomonospaced;
+  font-famly: Ahamono Monospaced;
   font-size: 15px;
 }
 
@@ -124,7 +124,7 @@ div#load_screen > div#loading {
 body {
   background: #e0e0e0;
   padding: 0px 0;
-/*   font-family: "ahamonomonospaced", "Courier New";
+/*   font-family: "Ahamono Monospaced", "Courier New";
   font-size: 14px;
   @include font-smoothing;
   text-transform: uppercase;
@@ -990,7 +990,7 @@ button.jpg {
   border: none;
   border-radius: 3px;
   padding: 10px;
-  font-family: ahamonomonospaced, 'Open Sans', sans-serif;
+  font-family: Ahamono Monospaced, 'Open Sans', sans-serif;
   color: #fff;
   text-shadow: 1px 1px #333;
   outline: 0;
@@ -1018,7 +1018,7 @@ button.jpg.secondbutton {
   border: none;
   border-radius: 3px;
   padding: 10px;
-  font-family: ahamonomonospaced, 'Open Sans', sans-serif;
+  font-family: Ahamono Monospaced, 'Open Sans', sans-serif;
   color: #fff;
   text-shadow: 1px 1px #333;
   outline: 0;
@@ -1066,7 +1066,7 @@ a:hover {
 
 .bodyiphone {
   width: 100%;
-  font-family: ahamonomonospaced;
+  font-family: Ahamono Monospaced;
 /*   font-size: 0px; */
   /*height: 780px;*/
   height: 100%;
